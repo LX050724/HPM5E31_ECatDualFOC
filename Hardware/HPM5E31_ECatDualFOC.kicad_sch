@@ -1,0 +1,2544 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a07e9810-3899-4327-ba8f-f24142a7c70e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "HPM6280Foc:M3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M3_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "M3_1_0"
+				(pin unspecified line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_alias "ESC_MII"
+		(members "TXC" "TXEN" "TXD[0..3]" "RXC" "RX_DV" "RX_ER" "RXD[0..3]" "MDIO"
+			"MDC" "REFCLK" "LINK" "RST"
+		)
+	)
+	(text "PHY2_ADDR=11b"
+		(exclude_from_sim no)
+		(at 141.224 186.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "459a39d5-c7b8-4d16-a8d1-6ae3c02e33ae")
+	)
+	(text "PHY0_ADDR=01b"
+		(exclude_from_sim no)
+		(at 141.478 149.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8806a828-fcc9-45e9-9515-638beb81798d")
+	)
+	(bus
+		(pts
+			(xy 93.98 99.06) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01987668-1bf4-44fd-997f-8fcc8865b2e6")
+	)
+	(bus
+		(pts
+			(xy 87.63 55.88) (xy 87.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088c61e2-40a3-4e14-a667-e5fa64710c59")
+	)
+	(bus
+		(pts
+			(xy 93.98 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca04ccf-f31b-4e04-b98c-cb311a5ef0ed")
+	)
+	(bus
+		(pts
+			(xy 125.73 125.73) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c61490-6393-48c0-a0e0-4459d811392a")
+	)
+	(bus
+		(pts
+			(xy 121.92 162.56) (xy 129.54 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1629711a-b6e6-418d-8f27-e997dfa02eb4")
+	)
+	(bus
+		(pts
+			(xy 87.63 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16590acd-de19-4fb6-a54d-36d377b09da1")
+	)
+	(bus
+		(pts
+			(xy 74.93 111.76) (xy 99.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d2b7e3-ea66-4bf2-b56a-6854ca422931")
+	)
+	(bus
+		(pts
+			(xy 104.14 92.71) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2546c48f-bd77-494c-9735-8caf291a4307")
+	)
+	(bus
+		(pts
+			(xy 129.54 110.49) (xy 121.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d54a6ca-e190-48a3-8a8e-a180c6c27528")
+	)
+	(bus
+		(pts
+			(xy 129.54 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa0c81a-cf36-478d-84fc-d2a8f76e89ee")
+	)
+	(wire
+		(pts
+			(xy 154.94 172.72) (xy 152.4 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320db41c-a021-4007-b10e-a1bec3158d10")
+	)
+	(bus
+		(pts
+			(xy 125.73 113.03) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386bb1af-1771-46d1-975f-971e323491e2")
+	)
+	(bus
+		(pts
+			(xy 74.93 66.04) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a40702-afc9-4f28-a88e-20fed77a811e")
+	)
+	(bus
+		(pts
+			(xy 104.14 92.71) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438e703f-1977-47af-a0e2-74b3ebb2067a")
+	)
+	(bus
+		(pts
+			(xy 129.54 101.6) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5367f129-ff38-4e34-9b5b-ebb3da81990f")
+	)
+	(bus
+		(pts
+			(xy 74.93 121.92) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d120aba-c640-4480-abba-d9fa267719e3")
+	)
+	(wire
+		(pts
+			(xy 152.4 179.07) (xy 154.94 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64816808-b10a-49bf-ae7e-87523f6b7972")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6fabd3-f0c5-40e7-bfca-d598275fb451")
+	)
+	(bus
+		(pts
+			(xy 121.92 110.49) (xy 121.92 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e17567c-7119-4924-90b2-777205e3c022")
+	)
+	(bus
+		(pts
+			(xy 74.93 99.06) (xy 93.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f21043b-b5ea-4415-a0f3-f17d7bed2d4a")
+	)
+	(wire
+		(pts
+			(xy 154.94 133.35) (xy 152.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e4860d-a92f-449a-8a31-657f7c8313fc")
+	)
+	(wire
+		(pts
+			(xy 152.4 170.18) (xy 154.94 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f223abd-eed6-4040-a067-cdbe138d4b80")
+	)
+	(wire
+		(pts
+			(xy 152.4 146.05) (xy 154.94 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8745db90-c204-452c-9845-08bf2fd38b85")
+	)
+	(wire
+		(pts
+			(xy 154.94 170.18) (xy 154.94 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f7df82-020f-464a-9108-a9cfb83f2d0e")
+	)
+	(bus
+		(pts
+			(xy 90.17 60.96) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f38f538-2aef-4d54-b890-ffa9031c78d2")
+	)
+	(bus
+		(pts
+			(xy 74.93 132.08) (xy 106.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e75543-51da-4470-bdf6-7cabc4463726")
+	)
+	(bus
+		(pts
+			(xy 87.63 63.5) (xy 129.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9616632a-f3d0-47fd-bdb5-c7e781a7c73b")
+	)
+	(wire
+		(pts
+			(xy 152.4 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01e012c-d48a-4668-86cb-ddbf7f44f851")
+	)
+	(wire
+		(pts
+			(xy 229.87 97.79) (xy 241.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a521062a-d7ea-42df-8e8d-56428a9a78d8")
+	)
+	(bus
+		(pts
+			(xy 74.93 55.88) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54833f6-f4aa-40ee-b299-fdffdf38d7e8")
+	)
+	(bus
+		(pts
+			(xy 111.76 101.6) (xy 111.76 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fa5ae9-626f-49a5-bd23-58f42bec023a")
+	)
+	(bus
+		(pts
+			(xy 111.76 142.24) (xy 74.93 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b243ceea-1778-4234-8daf-c80e5d77a4d8")
+	)
+	(bus
+		(pts
+			(xy 106.68 132.08) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e5acc1-1456-44fe-93f4-5e0916edac4a")
+	)
+	(bus
+		(pts
+			(xy 99.06 90.17) (xy 129.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e77ed1-cd0b-4f3b-b016-c49bac9fd527")
+	)
+	(wire
+		(pts
+			(xy 154.94 130.81) (xy 154.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b785a544-6e6c-4c09-a5db-d3ac4130e75f")
+	)
+	(bus
+		(pts
+			(xy 74.93 86.36) (xy 90.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc725882-fcd5-4225-ab4e-1ee0020efce2")
+	)
+	(bus
+		(pts
+			(xy 90.17 86.36) (xy 90.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3805041-4c21-457c-b789-748eef229d6c")
+	)
+	(bus
+		(pts
+			(xy 90.17 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce90a32b-ef92-4a4e-b8ae-9e245205091f")
+	)
+	(bus
+		(pts
+			(xy 106.68 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff19cda-768f-46a3-9941-83611189278a")
+	)
+	(wire
+		(pts
+			(xy 154.94 181.61) (xy 152.4 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4abff80-01f4-4bd5-888f-d0b4564b10a5")
+	)
+	(bus
+		(pts
+			(xy 74.93 45.72) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94c22eb-b4db-4bc1-8d2c-a6c069d94eab")
+	)
+	(wire
+		(pts
+			(xy 152.4 143.51) (xy 154.94 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac20d18-5d8e-4d58-925b-08fa7742f06e")
+	)
+	(wire
+		(pts
+			(xy 229.87 95.25) (xy 241.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db42fffb-dcf2-4e13-aeee-a0cbe3ce76b7")
+	)
+	(bus
+		(pts
+			(xy 87.63 71.12) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e588359f-d0b6-419f-90ec-c0f365fe53ab")
+	)
+	(wire
+		(pts
+			(xy 154.94 143.51) (xy 154.94 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb2e773-27b9-46cc-8646-03950a583fe3")
+	)
+	(bus
+		(pts
+			(xy 99.06 111.76) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc9f4c1-58b4-4caa-a905-0b34be9c4afd")
+	)
+	(bus
+		(pts
+			(xy 87.63 71.12) (xy 87.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f382d2ef-2c89-4872-90c8-0103f22eb5b7")
+	)
+	(wire
+		(pts
+			(xy 154.94 179.07) (xy 154.94 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a150d8-c300-471a-96eb-66e8d1df8b67")
+	)
+	(bus
+		(pts
+			(xy 129.54 60.96) (xy 90.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7cc16e-168a-4605-abf2-ca516cf323a5")
+	)
+	(wire
+		(pts
+			(xy 74.93 101.6) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe092aba-aabd-4c3c-824f-9beb74f3393a")
+	)
+	(label "MB_TEMP"
+		(at 77.47 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "083e17b3-106c-45c9-9d1b-19761a584e3c")
+	)
+	(label "MA_TEMP"
+		(at 229.87 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "365370d4-e70c-4406-a663-2e6ccee6f218")
+	)
+	(label "MB_TEMP"
+		(at 229.87 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4ec1110-ab50-410d-8064-e0b1822f54be")
+	)
+	(label "MA_TEMP"
+		(at 77.47 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e59f8de9-680f-4183-8acf-df060f0574ef")
+	)
+	(symbol
+		(lib_id "HPM6280Foc:M3")
+		(at 198.12 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10c2c9da-e935-485e-ae9b-3190164d1637")
+		(property "Reference" "U34"
+			(at 200.66 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 200.66 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 198.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a0a62d-f013-4103-8253-fa21e1cbaa29")
+		)
+		(instances
+			(project ""
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:M3")
+		(at 226.06 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34ebdaa4-7af3-4db0-aa6e-45cec9c1866e")
+		(property "Reference" "U47"
+			(at 228.6 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 228.6 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 226.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32d6d28c-54e0-47a9-a318-d34f40b96081")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "U47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39fc38c0-0c0c-479c-a610-bafb3a112778")
+		(property "Reference" "#PWR01"
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "810bbe81-709f-4654-9ebc-39a18bd66f69")
+		)
+		(instances
+			(project ""
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bae3527-2c73-483f-a391-e8ae9d990382")
+		(property "Reference" "#PWR0219"
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 156.21 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8b80c58-14b9-42af-b9ee-9cb95a3927ac")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "995f837c-9620-4c73-a9cb-a223936f716e")
+		(property "Reference" "#PWR02"
+			(at 148.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 156.21 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd4649b0-71a7-48a2-8aab-658ebf8bb00d")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:M3")
+		(at 208.28 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a837491e-c46c-426c-ba0f-1a5debed9b26")
+		(property "Reference" "U38"
+			(at 210.82 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 210.82 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c65128-84d3-4a9c-99a4-a71b9ced3e3b")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "U38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7a9dd36-5cda-4f88-a7f6-c12f14fa4271")
+		(property "Reference" "#PWR0218"
+			(at 148.59 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 156.21 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cd08f9f-0c10-43d2-9ed0-8e46feb5d18c")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:M3")
+		(at 217.17 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd568a22-0520-4057-9761-5eb7cb7f3e7e")
+		(property "Reference" "U46"
+			(at 219.71 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 219.71 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeb3949e-bf2e-47c5-9848-cc50352ba474")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "U46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 123.19)
+		(size 22.86 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0321628d-519c-4478-8b39-042ee558b182")
+		(property "Sheetname" "ETHERNET_PHY_P0"
+			(at 129.54 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETHERNET_PHY.kicad_sch"
+			(at 129.54 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "G_LED_N" input
+			(at 152.4 135.89 0)
+			(uuid "860ffc20-a9b3-431a-bc38-a37cdd4ccb52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G_LED_P" input
+			(at 152.4 133.35 0)
+			(uuid "72e716b2-23ce-4c29-80a5-46235d319b90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MII{ESC_MII}" input
+			(at 129.54 125.73 180)
+			(uuid "38a8ba31-4125-43d9-a29c-3622d6882cf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y_LED_N" input
+			(at 152.4 143.51 0)
+			(uuid "20c31716-d1a7-448e-966e-e04e6c545421")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y_LED_P" input
+			(at 152.4 140.97 0)
+			(uuid "d5bc6361-ba0c-4763-81bb-cfdf010416f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED0" input
+			(at 152.4 146.05 0)
+			(uuid "7b70449b-1666-44b1-b197-cef4fab904a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED1" input
+			(at 152.4 130.81 0)
+			(uuid "b734591e-e10e-4dcc-93ef-bba679f7ea6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 63.5)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a303857-7f6b-4ab0-b417-2c02e85984ea")
+		(property "Sheetname" "SP485_GROUP_3"
+			(at 25.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SP485.kicad_sch"
+			(at 25.4 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485{RO DE DI}" input
+			(at 74.93 66.04 0)
+			(uuid "67f0f5fc-9b1a-4f57-9e89-aaeeb8fa33e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 119.38)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0dcd211e-0cd3-4a5b-8381-64e2d1ceb9a5")
+		(property "Sheetname" "INVERTER_BRIDGE_B"
+			(at 25.4 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INVERTER_BRIDGE.kicad_sch"
+			(at 25.4 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DRIVER{EN HI[0..2] LI[0..2] CUR[0..3]}" input
+			(at 74.93 121.92 0)
+			(uuid "f05b5737-8e7a-499b-9af4-0b1d4792445d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 160.02)
+		(size 22.86 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21bb5168-fdc5-4a4e-92ab-bbdb517264a7")
+		(property "Sheetname" "ETHERNET_PHY_P2"
+			(at 129.54 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETHERNET_PHY.kicad_sch"
+			(at 129.54 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "G_LED_N" input
+			(at 152.4 172.72 0)
+			(uuid "0f2f1f1f-139d-4205-88e4-32ba4372b4c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G_LED_P" input
+			(at 152.4 167.64 0)
+			(uuid "d2a7cd02-5b16-4e72-bd78-409f3acca237")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MII{ESC_MII}" input
+			(at 129.54 162.56 180)
+			(uuid "8a2c29a2-e3bc-4631-b99d-811859cb62e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y_LED_N" input
+			(at 152.4 181.61 0)
+			(uuid "2f7f55a2-5711-4de0-94d8-e5e959becacb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Y_LED_P" input
+			(at 152.4 176.53 0)
+			(uuid "dd736e58-9e8b-4e82-9220-78b4132a0fae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED0" input
+			(at 152.4 179.07 0)
+			(uuid "cf5a642c-b203-4d41-8853-840bb692ff83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED1" input
+			(at 152.4 170.18 0)
+			(uuid "7ddc8627-e9de-4166-9f03-91bd6f94f0c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 83.82)
+		(size 49.53 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2cb50c61-c8ae-42b9-b508-861bf0b40a9f")
+		(property "Sheetname" "ENCODER_CONN_A"
+			(at 25.4 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ENCODER_CONN.kicad_sch"
+			(at 25.4 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ENC{ENCODER}" output
+			(at 74.93 86.36 0)
+			(uuid "55a56980-2e2c-40f1-8843-16599deb6d5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP" output
+			(at 74.93 88.9 0)
+			(uuid "71ce58bd-83ee-4360-a224-eb08a3c32548")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 43.18)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "327c5a00-ae50-48b3-afbf-1a1bb3f19155")
+		(property "Sheetname" "SP485_GROUP_1"
+			(at 25.4 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SP485.kicad_sch"
+			(at 25.4 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485{RO DE DI}" input
+			(at 74.93 45.72 0)
+			(uuid "710acf6b-8da6-4c77-bf62-51dba75ef6ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 109.22)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "395dcadf-6728-482a-9c72-95a7205ca2d1")
+		(property "Sheetname" "INVERTER_BRIDGE_A"
+			(at 25.4 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INVERTER_BRIDGE.kicad_sch"
+			(at 25.4 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DRIVER{EN HI[0..2] LI[0..2] CUR[0..3]}" input
+			(at 74.93 111.76 0)
+			(uuid "ddd9f4a3-4753-40f8-8db8-7e3b60035a51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 73.66)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39a16e10-36d8-4350-ab15-a79d4d0254e0")
+		(property "Sheetname" "SPI_Flash"
+			(at 25.4 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPI_Flash.kicad_sch"
+			(at 25.4 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "QSPI_FLASH{CS0 SCLK D[0..3]}" input
+			(at 74.93 76.2 0)
+			(uuid "0573aa6c-d46f-4ee5-959a-9ebb85090a3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 74.93)
+		(size 21.59 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49abfb4f-bbe9-4cae-af2b-11ed3cc12571")
+		(property "Sheetname" "BREAK_MCU"
+			(at 241.3 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BREAK_MCU.kicad_sch"
+			(at 241.3 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PY32_INT0" output
+			(at 241.3 81.28 180)
+			(uuid "3d0a7093-7668-4bbd-98bd-f65b230eabd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_INT1" output
+			(at 241.3 83.82 180)
+			(uuid "e3951210-a60f-4998-ade1-6a40e116d5ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_RST" input
+			(at 241.3 78.74 180)
+			(uuid "6d1e806d-b672-4df5-9864-99d5add1e819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_RX" input
+			(at 241.3 86.36 180)
+			(uuid "ce355785-1bb8-42ed-b3fb-2359066d3dd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_TX" output
+			(at 241.3 88.9 180)
+			(uuid "deed5417-aa9d-4caa-bc79-fdfaabd23103")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_EXADC1" input
+			(at 241.3 95.25 180)
+			(uuid "17d38b7e-3152-487b-ab17-182da2823606")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_EXADC3" input
+			(at 241.3 102.87 180)
+			(uuid "b421546a-5181-42f5-98fb-e0723918557f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_EXADC4" input
+			(at 241.3 100.33 180)
+			(uuid "88e5a9cf-ba18-4ca2-ad53-ea61e2c98b78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_EXADC2" input
+			(at 241.3 97.79 180)
+			(uuid "7b197961-b383-4092-b38e-7eeca9098a50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PY32_BRK" input
+			(at 241.3 91.44 180)
+			(uuid "12b04c59-34bf-4932-8473-99eb54b3dcd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 129.54)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53f5766c-ec8f-4b40-a51f-916b133ba359")
+		(property "Sheetname" "TJA1042_1"
+			(at 25.4 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TJA1042.kicad_sch"
+			(at 25.4 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN{TXD RXD}" input
+			(at 74.93 132.08 0)
+			(uuid "d14ed1c1-27df-41e0-92a7-c50d84978fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 53.34)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57eb4dc0-5591-401c-9f34-9dedbfbe09cb")
+		(property "Sheetname" "SP485_GROUP_2"
+			(at 25.4 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SP485.kicad_sch"
+			(at 25.4 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485{RO DE DI}" input
+			(at 74.93 55.88 0)
+			(uuid "03eaf384-4e5b-43bc-a4fc-25d43fecf64a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 96.52)
+		(size 49.53 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ccd6862-1c4b-463d-8600-75edca9a3412")
+		(property "Sheetname" "ENCODER_CONN_B"
+			(at 25.4 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ENCODER_CONN.kicad_sch"
+			(at 25.4 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ENC{ENCODER}" output
+			(at 74.93 99.06 0)
+			(uuid "e42faff6-40f1-4d1a-85b9-6c5d074d3c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP" output
+			(at 74.93 101.6 0)
+			(uuid "e0c1b260-b174-49de-b8ae-398cfc9bd5bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 33.02)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aab52010-7bdc-49b3-a03b-980a0054d2d8")
+		(property "Sheetname" "POWER_SUPPLY"
+			(at 25.4 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_SUPPLY.kicad_sch"
+			(at 25.4 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 57.15)
+		(size 53.34 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 245 255 23 1.0000)
+		)
+		(uuid "b9a8d5a3-7d25-4818-87f6-adc719379948")
+		(property "Sheetname" "HPM5E31_TOP"
+			(at 129.54 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HPM5E31_TOP.kicad_sch"
+			(at 129.54 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PHY_2{ESC_MII}" output
+			(at 129.54 110.49 180)
+			(uuid "08464c1f-28a7-4c0b-b747-9f4f5b7b700f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PHY_0{ESC_MII}" output
+			(at 129.54 113.03 180)
+			(uuid "5e87e374-52b1-4d36-b836-18357a1c3eb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_4{RO DE DI}" output
+			(at 129.54 60.96 180)
+			(uuid "e2a9aa2c-9565-4d10-afd3-7dd89d558397")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_6{RO DE DI}" output
+			(at 129.54 63.5 180)
+			(uuid "803b8fef-7271-4e0f-bf9a-3fa932617a21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_7{RO DE DI}" output
+			(at 129.54 66.04 180)
+			(uuid "4c738ab4-1618-486a-91f0-b5df1e5b30f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" output
+			(at 182.88 102.87 0)
+			(uuid "6c651708-7c4c-431b-9a9b-8e1f0f293d1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLASH{CS0 SCLK D[0..3]}" output
+			(at 129.54 71.12 180)
+			(uuid "37b7e030-cf92-416a-a81f-007a80ffc658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENC_A{ENCODER}" input
+			(at 129.54 76.2 180)
+			(uuid "53857092-bcef-4a33-b464-7a53e1d667b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENC_B{ENCODER}" input
+			(at 129.54 78.74 180)
+			(uuid "156af3bc-1f87-4caa-8be7-c98779f62aa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRIVER_B{EN HI[0..2] LI[0..2] CUR[0..3]}" output
+			(at 129.54 92.71 180)
+			(uuid "5a43e6e5-35a3-45c7-b937-8b68af9f1c6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRIVER_A{EN HI[0..2] LI[0..2] CUR[0..3]}" output
+			(at 129.54 90.17 180)
+			(uuid "1e15c1de-1cf1-4e40-b529-91e85ae64fef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN0{TXD RXD}" output
+			(at 129.54 99.06 180)
+			(uuid "cc3223a4-83e6-4671-83b1-2711611ee654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN3{TXD RXD}" output
+			(at 129.54 101.6 180)
+			(uuid "9518611a-c22a-42a0-ab35-8fdd064cd36f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 139.7)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c78eab24-5a2b-43f8-b2ca-bd8788f7483b")
+		(property "Sheetname" "TJA1042_2"
+			(at 25.4 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TJA1042.kicad_sch"
+			(at 25.4 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN{TXD RXD}" input
+			(at 74.93 142.24 0)
+			(uuid "227df320-3bf2-4526-bb2a-43e719e75ff4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

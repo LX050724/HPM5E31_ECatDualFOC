@@ -1,0 +1,109 @@
+(footprint "风扇散热片"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -39.06 -19.26 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e11d5202-45b4-4f38-878d-87771c4d89e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "风扇散热片"
+		(at -39.06 -17.76 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e916b400-b50e-4c2f-bef2-e5fd7f14773a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -39.06 -18.76 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a975e2c4-e9e6-4b66-acb7-558cb0a9e53f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -39.06 -18.76 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f73736fd-e18a-44cc-b34f-b8864d19979e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -30 -27.5)
+		(end 30 27.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ca16ef8c-26c7-4d3e-ac78-a7b98e5a1a06")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -39.06 -16.26 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1dc44ab0-e1dc-4a55-9e8a-297ad2f764f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -26 -24)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "1e983516-c6ac-4df7-b4b7-dbccdbf94d05")
+	)
+	(pad "" np_thru_hole circle
+		(at -26 24)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "98c57b40-99b5-429e-bd08-a7a348dfb7cc")
+	)
+	(pad "" np_thru_hole circle
+		(at 26 -24)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "043fc660-0a79-4482-a7eb-a68b46235cd0")
+	)
+	(pad "" np_thru_hole circle
+		(at 26 24)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "5d7423dc-5d7c-40db-9a74-e6ab023209ea")
+	)
+	(embedded_fonts no)
+)
