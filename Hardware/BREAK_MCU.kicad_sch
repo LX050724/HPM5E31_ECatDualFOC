@@ -3265,6 +3265,281 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPM6280Foc:RCLAMP3324P"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.002)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RCLAMP3324P"
+				(at 2.54 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230621/A0BC909E15E283D81E0D2103568A681C.pdf"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Vrwm3.3V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "华秋编号" "G6551663"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C7379959"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "静电和浪涌保护(TVS/ESD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RCLAMP3324P_1_1"
+				(rectangle
+					(start 0 0)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "IO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -8.89 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -11.43 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HPM6280Foc:RE1206F1R100"
 			(pin_numbers
 				(hide yes)
@@ -5877,6 +6152,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a08b51-a1cf-4b28-a9ae-4faddea5456a")
+	)
+	(wire
+		(pts
 			(xy 172.72 92.71) (xy 177.8 92.71)
 		)
 		(stroke
@@ -6054,6 +6339,16 @@
 			(type default)
 		)
 		(uuid "b4677850-01ca-4d72-95eb-fb5555bef4c1")
+	)
+	(wire
+		(pts
+			(xy 45.72 76.2) (xy 60.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f84196-91b9-46a5-8e3c-2f5875292665")
 	)
 	(wire
 		(pts
@@ -7431,6 +7726,17 @@
 		)
 		(uuid "06bcabe7-c595-4453-9537-4dc4510f9301")
 	)
+	(hierarchical_label "PY32_EXADC2"
+		(shape input)
+		(at 60.96 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "138fe167-7664-4d36-a155-096cff4ddb08")
+	)
 	(hierarchical_label "PY32_EXADC3"
 		(shape input)
 		(at 96.52 33.02 0)
@@ -7441,6 +7747,28 @@
 			(justify left)
 		)
 		(uuid "3019f96d-b749-45b0-aeef-7987ad1ba575")
+	)
+	(hierarchical_label "PY32_EXADC4"
+		(shape input)
+		(at 73.66 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37299e20-80bb-4b05-82f7-6f06aa1730fc")
+	)
+	(hierarchical_label "PY32_EXADC4"
+		(shape input)
+		(at 60.96 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46c63a82-0b24-48c2-bc94-d23aad48713d")
 	)
 	(hierarchical_label "PY32_INT0"
 		(shape output)
@@ -7464,6 +7792,17 @@
 		)
 		(uuid "6dea3232-070f-4f90-b16f-b6020b33911c")
 	)
+	(hierarchical_label "PY32_EXADC1"
+		(shape input)
+		(at 60.96 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "736828ec-7e6a-4c50-b939-33919785e35c")
+	)
 	(hierarchical_label "PY32_INT1"
 		(shape output)
 		(at 53.34 54.61 180)
@@ -7486,6 +7825,17 @@
 		)
 		(uuid "804b0ab4-88c9-4048-b952-0808c5de693d")
 	)
+	(hierarchical_label "PY32_EXADC3"
+		(shape input)
+		(at 60.96 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b2ea04e-492b-4b28-9438-33bed244e48c")
+	)
 	(hierarchical_label "PY32_BRK"
 		(shape input)
 		(at 96.52 35.56 0)
@@ -7497,6 +7847,17 @@
 		)
 		(uuid "9e6ba6e9-b97e-463a-9557-4d93d78cf6c8")
 	)
+	(hierarchical_label "PY32_EXADC3"
+		(shape input)
+		(at 73.66 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a58ffb06-ca88-417d-a14d-0c859a2cba09")
+	)
 	(hierarchical_label "PY32_RST"
 		(shape input)
 		(at 40.64 30.48 180)
@@ -7507,6 +7868,17 @@
 			(justify right)
 		)
 		(uuid "a69780b4-3990-4fac-aa25-c290457a7c82")
+	)
+	(hierarchical_label "PY32_EXADC1"
+		(shape input)
+		(at 73.66 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b38f0215-dd9f-4d9e-9d04-7abe14232ce4")
 	)
 	(hierarchical_label "PY32_EXADC2"
 		(shape input)
@@ -7530,20 +7902,16 @@
 		)
 		(uuid "cfc86791-8f1d-4cc3-a5a5-64eb41f2c668")
 	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 120.65 77.47) (xy 120.65 130.81) (xy 240.03 130.81) (xy 240.03 77.47)
+	(hierarchical_label "PY32_EXADC2"
+		(shape input)
+		(at 73.66 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid d2930b36-60b9-44c5-9156-a08813814666)
+			(justify left)
 		)
+		(uuid "fa33ac01-0ef6-4a85-b7b3-aa1e1479c98d")
 	)
 	(rule_area
 		(polyline
@@ -7557,7 +7925,22 @@
 			(fill
 				(type none)
 			)
-			(uuid d9cfe638-17bd-4318-ab80-2c76e3736a1c)
+			(uuid cf40defd-fe32-4e46-9d1f-1dbbc7111553)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 120.65 77.47) (xy 120.65 130.81) (xy 240.03 130.81) (xy 240.03 77.47)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f69b1208-ce8e-43a8-bece-82c298ed3b9f)
 		)
 	)
 	(netclass_flag ""
@@ -10352,6 +10735,72 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
 					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cafb631-67a1-469f-a772-b34cd0f64b45")
+		(property "Reference" "#PWR0312"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.386 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a35dd27f-693d-48e5-bb45-e6f12a9b990d")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -13769,6 +14218,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdb40132-6aa8-4fd8-ade3-d92a5958e369")
+		(property "Reference" "#PWR0311"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 94.234 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39c8b2e5-6a71-445c-b297-cb37b2a0afc0")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:0402WGF1001TCE")
 		(at 165.1 152.4 0)
 		(unit 1)
@@ -14374,6 +14888,116 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
 					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:RCLAMP3324P")
+		(at 63.5 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5dadf29-1e7d-4d43-bdc4-9c3e19d2ab2b")
+		(property "Reference" "D40"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RCLAMP3324P"
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+			(at 63.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230621/A0BC909E15E283D81E0D2103568A681C.pdf"
+			(at 63.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vrwm3.3V"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G6551663"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C7379959"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "11dcbbbe-daed-4b00-854e-0353c5afa9f9")
+		)
+		(pin "2"
+			(uuid "77a99b83-9b69-4466-8d26-d2c03b6ceccf")
+		)
+		(pin "7"
+			(uuid "ba10505f-5955-47fe-b5e0-87a9ff0dd2ee")
+		)
+		(pin "4"
+			(uuid "90c57afb-cae0-4aed-89c3-398fdcb7d0f4")
+		)
+		(pin "10"
+			(uuid "f9162cdf-4b0e-4f45-bf07-eba8be2fe2f4")
+		)
+		(pin "9"
+			(uuid "4bccad75-16b4-4407-82bf-07d45da3703b")
+		)
+		(pin "5"
+			(uuid "af8fa18a-1b61-4934-b797-1c297db7ac3d")
+		)
+		(pin "1"
+			(uuid "584ebcf2-44c9-418b-88e6-ff80dbc61200")
+		)
+		(pin "8"
+			(uuid "7fe6488f-8215-403a-bda9-27afa412bfb1")
+		)
+		(pin "3"
+			(uuid "57176f5a-7e16-4707-b5f9-c72776d60a95")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "D40")
 					(unit 1)
 				)
 			)

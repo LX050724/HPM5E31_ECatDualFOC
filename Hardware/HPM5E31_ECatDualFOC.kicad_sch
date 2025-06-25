@@ -2375,26 +2375,6 @@
 				(justify left)
 			)
 		)
-		(pin "RS485_6{RO DE DI}" output
-			(at 129.54 63.5 180)
-			(uuid "803b8fef-7271-4e0f-bf9a-3fa932617a21")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RS485_7{RO DE DI}" output
-			(at 129.54 66.04 180)
-			(uuid "4c738ab4-1618-486a-91f0-b5df1e5b30f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "~{RESET}" output
 			(at 182.88 102.87 0)
 			(uuid "6c651708-7c4c-431b-9a9b-8e1f0f293d1d")
@@ -2468,6 +2448,26 @@
 		(pin "CAN3{TXD RXD}" output
 			(at 129.54 101.6 180)
 			(uuid "9518611a-c22a-42a0-ab35-8fdd064cd36f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_3{RO DE DI}" output
+			(at 129.54 63.5 180)
+			(uuid "15870ae3-e5e9-470b-89fe-506ecbeb7b51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485_6{RO DE DI}" output
+			(at 129.54 66.04 180)
+			(uuid "38ddf2b8-e102-4ad7-9cc9-91705dc818b6")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5230,16 +5230,27 @@
 		)
 		(uuid "fed8f43e-61fb-4eb6-891a-624cc41bf3e7")
 	)
-	(hierarchical_label "PC[0..31]"
+	(global_label "PC[0..31]"
 		(shape input)
 		(at 40.64 41.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "cf0b30c3-961b-4619-ac3b-a16be0e1944a")
+		(uuid "74f415bb-9b6c-4550-86f3-27abf0c63d54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.5833 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM5E00_Library:HPM5E31IGN1")
