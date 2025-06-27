@@ -7952,7 +7952,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 73ab7f78-7c5b-41a2-add2-9c9fc07e951a)
+			(uuid 2e744717-2e2e-41ec-b97b-cd2f0d5a4471)
 		)
 	)
 	(netclass_flag ""
@@ -12473,7 +12473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal"
+		(property "Footprint" "Library:USB_B_OST_USB-B1HSxx_Horizontal"
 			(at 146.05 172.72 0)
 			(effects
 				(font
@@ -12492,6 +12492,24 @@
 			)
 		)
 		(property "Description" "USB Type B connector"
+			(at 142.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" ""
+			(at 142.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" ""
 			(at 142.24 171.45 0)
 			(effects
 				(font

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -1101,6 +1101,10 @@
     [
       "6734c7c5-c927-492b-a5ca-68015457caeb",
       "HPM5E31_PINMAP_1"
+    ],
+    [
+      "8055b3df-7232-4c5b-9b4d-43eaffc802b1",
+      "HPM5E31_PINMAP_2"
     ]
   ],
   "text_variables": {}

@@ -429,6 +429,16 @@
 		)
 		(uuid "2d54a6ca-e190-48a3-8a8e-a180c6c27528")
 	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 224.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d57e7d2-0771-40fe-bce3-d6912881dd83")
+	)
 	(bus
 		(pts
 			(xy 129.54 113.03) (xy 125.73 113.03)
@@ -459,6 +469,16 @@
 		)
 		(uuid "386bb1af-1771-46d1-975f-971e323491e2")
 	)
+	(wire
+		(pts
+			(xy 182.88 66.04) (xy 224.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1f607d-bd8b-47c0-b4ad-00df127c07a1")
+	)
 	(bus
 		(pts
 			(xy 74.93 66.04) (xy 129.54 66.04)
@@ -488,6 +508,16 @@
 			(type default)
 		)
 		(uuid "5367f129-ff38-4e34-9b5b-ebb3da81990f")
+	)
+	(wire
+		(pts
+			(xy 182.88 63.5) (xy 224.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b091f0b-d279-401d-a2d2-89e4bccb5f93")
 	)
 	(bus
 		(pts
@@ -621,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 97.79) (xy 241.3 97.79)
+			(xy 213.36 82.55) (xy 224.79 82.55)
 		)
 		(stroke
 			(width 0)
@@ -739,6 +769,16 @@
 		)
 		(uuid "d4abff80-01f4-4bd5-888f-d0b4564b10a5")
 	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 224.79 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74ace62-186c-484a-a0da-232e26c29130")
+	)
 	(bus
 		(pts
 			(xy 74.93 45.72) (xy 90.17 45.72)
@@ -761,13 +801,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 95.25) (xy 241.3 95.25)
+			(xy 213.36 80.01) (xy 224.79 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db42fffb-dcf2-4e13-aeee-a0cbe3ce76b7")
+	)
+	(wire
+		(pts
+			(xy 182.88 71.12) (xy 224.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4dd6475-d3a5-4e6f-b31d-f8abfcd7818e")
 	)
 	(bus
 		(pts
@@ -850,7 +900,7 @@
 		(uuid "083e17b3-106c-45c9-9d1b-19761a584e3c")
 	)
 	(label "MA_TEMP"
-		(at 229.87 95.25 0)
+		(at 213.36 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -860,7 +910,7 @@
 		(uuid "365370d4-e70c-4406-a663-2e6ccee6f218")
 	)
 	(label "MB_TEMP"
-		(at 229.87 97.79 0)
+		(at 213.36 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1962,7 +2012,7 @@
 		)
 	)
 	(sheet
-		(at 241.3 74.93)
+		(at 224.79 59.69)
 		(size 21.59 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1978,7 +2028,7 @@
 		)
 		(uuid "49abfb4f-bbe9-4cae-af2b-11ed3cc12571")
 		(property "Sheetname" "BREAK_MCU"
-			(at 241.3 74.2184 0)
+			(at 224.79 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +2037,7 @@
 			)
 		)
 		(property "Sheetfile" "BREAK_MCU.kicad_sch"
-			(at 241.3 107.2646 0)
+			(at 224.79 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2046,7 @@
 			)
 		)
 		(pin "PY32_INT0" output
-			(at 241.3 81.28 180)
+			(at 224.79 66.04 180)
 			(uuid "3d0a7093-7668-4bbd-98bd-f65b230eabd4")
 			(effects
 				(font
@@ -2006,7 +2056,7 @@
 			)
 		)
 		(pin "PY32_INT1" output
-			(at 241.3 83.82 180)
+			(at 224.79 68.58 180)
 			(uuid "e3951210-a60f-4998-ade1-6a40e116d5ca")
 			(effects
 				(font
@@ -2016,7 +2066,7 @@
 			)
 		)
 		(pin "PY32_RST" input
-			(at 241.3 78.74 180)
+			(at 224.79 63.5 180)
 			(uuid "6d1e806d-b672-4df5-9864-99d5add1e819")
 			(effects
 				(font
@@ -2026,7 +2076,7 @@
 			)
 		)
 		(pin "PY32_RX" input
-			(at 241.3 86.36 180)
+			(at 224.79 71.12 180)
 			(uuid "ce355785-1bb8-42ed-b3fb-2359066d3dd9")
 			(effects
 				(font
@@ -2036,7 +2086,7 @@
 			)
 		)
 		(pin "PY32_TX" output
-			(at 241.3 88.9 180)
+			(at 224.79 73.66 180)
 			(uuid "deed5417-aa9d-4caa-bc79-fdfaabd23103")
 			(effects
 				(font
@@ -2046,7 +2096,7 @@
 			)
 		)
 		(pin "PY32_EXADC1" input
-			(at 241.3 95.25 180)
+			(at 224.79 80.01 180)
 			(uuid "17d38b7e-3152-487b-ab17-182da2823606")
 			(effects
 				(font
@@ -2056,7 +2106,7 @@
 			)
 		)
 		(pin "PY32_EXADC3" input
-			(at 241.3 102.87 180)
+			(at 224.79 87.63 180)
 			(uuid "b421546a-5181-42f5-98fb-e0723918557f")
 			(effects
 				(font
@@ -2066,7 +2116,7 @@
 			)
 		)
 		(pin "PY32_EXADC4" input
-			(at 241.3 100.33 180)
+			(at 224.79 85.09 180)
 			(uuid "88e5a9cf-ba18-4ca2-ad53-ea61e2c98b78")
 			(effects
 				(font
@@ -2076,7 +2126,7 @@
 			)
 		)
 		(pin "PY32_EXADC2" input
-			(at 241.3 97.79 180)
+			(at 224.79 82.55 180)
 			(uuid "7b197961-b383-4092-b38e-7eeca9098a50")
 			(effects
 				(font
@@ -2086,7 +2136,7 @@
 			)
 		)
 		(pin "PY32_BRK" input
-			(at 241.3 91.44 180)
+			(at 224.79 76.2 180)
 			(uuid "12b04c59-34bf-4932-8473-99eb54b3dcd4")
 			(effects
 				(font
@@ -2473,6 +2523,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PY32_INT0" input
+			(at 182.88 66.04 0)
+			(uuid "1dab3576-a32d-462e-9e36-babcc2903324")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PY32_INT1" input
+			(at 182.88 68.58 0)
+			(uuid "bfa48808-47c1-4700-af03-4aa81dd8477b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PY32_RST" output
+			(at 182.88 63.5 0)
+			(uuid "ffcd54df-5cdb-4fe7-bfaa-33772d73f88b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART2_RXD" input
+			(at 182.88 73.66 0)
+			(uuid "d3f627d0-5618-419b-8a83-4c5fae897a26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART2_TXD" output
+			(at 182.88 71.12 0)
+			(uuid "94ae9e84-9f9d-44c0-9356-220be18b574c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
