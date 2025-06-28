@@ -1,7 +1,7 @@
 (footprint "ZH_SM04_1.50mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 5.408542 -2.133402 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "294230e2-4c31-47f1-acb8-71bf5fb77dad")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ce1f46cd-44c8-45dd-9e38-ac05b8773c7c")
 		(effects
 			(font
 				(size 1 1)
@@ -154,7 +141,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c22dc267-b7e1-4405-b591-913c2be9890d")
 	)
@@ -173,7 +160,7 @@
 	(pad "1" smd roundrect
 		(at -2.25 -2.05)
 		(size 1 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "dc2d4d61-2ebc-46c1-9ba2-9169c224573e")
@@ -181,7 +168,7 @@
 	(pad "2" smd roundrect
 		(at -0.75 -2.05)
 		(size 1 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "8775ca8c-ddc0-4780-a7dc-ce3992bb893f")
@@ -189,7 +176,7 @@
 	(pad "3" smd roundrect
 		(at 0.75 -2.05)
 		(size 1 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "feec842c-1ca8-4d74-a604-bf586088b6bd")
@@ -197,7 +184,7 @@
 	(pad "4" smd roundrect
 		(at 2.25 -2.05)
 		(size 1 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "10fb9905-4100-42d2-93db-98af749e69e6")
@@ -205,7 +192,7 @@
 	(pad "MP" smd roundrect
 		(at -4.25 1.95)
 		(size 1 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "2ddbe1de-86fa-4dbf-8ce6-5abc52db42e8")
@@ -213,12 +200,13 @@
 	(pad "MP" smd roundrect
 		(at 4.25 1.95)
 		(size 1 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "3719ffa2-6a15-4155-aab9-d7690923437f")
 	)
-	(model "${KIPRJMOD}/lib/3D/WAFER-ZH1.5-4PWB.STEP"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3D/WAFER-ZH1.5-4PWB.STEP"
 		(offset
 			(xyz 0 2.1 0.15)
 		)

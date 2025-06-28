@@ -3786,16 +3786,6 @@
 		)
 		(uuid "f8f1279a-e61c-4c7a-8072-3ea39696634e")
 	)
-	(label "EUI_DO"
-		(at 214.63 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03df4e78-c328-407c-8b6d-08d922c65ed4")
-	)
 	(label "ESC_GPIO_3"
 		(at 50.8 124.46 0)
 		(effects
@@ -3866,16 +3856,6 @@
 		)
 		(uuid "217fbdd2-7d6c-4aab-bace-5b69b89fc464")
 	)
-	(label "EUI_DI"
-		(at 214.63 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24820d6e-98ab-4c49-97bc-5c756e4cab22")
-	)
 	(label "ESC_GPIO_1"
 		(at 83.82 157.48 0)
 		(effects
@@ -3885,16 +3865,6 @@
 			(justify left bottom)
 		)
 		(uuid "2605798f-0315-45f3-8a33-29729ba45779")
-	)
-	(label "EUI_CK"
-		(at 186.69 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a6b3144-711f-41c8-9d7c-8e03a6e81a36")
 	)
 	(label "PD9"
 		(at 57.15 41.91 0)
@@ -3906,6 +3876,16 @@
 		)
 		(uuid "2d16e601-57a9-4df7-88f4-42f1921c6d53")
 	)
+	(label "PB26"
+		(at 181.61 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e166cf4-9512-4ec6-855e-d3fda7ade3f1")
+	)
 	(label "ESC_GPIO_5"
 		(at 50.8 132.08 0)
 		(effects
@@ -3915,6 +3895,16 @@
 			(justify left bottom)
 		)
 		(uuid "2f5cfcae-5c01-4f81-915f-25d2aa886062")
+	)
+	(label "EUI_DO"
+		(at 213.36 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32141147-9c94-42f0-849b-977d905aa1c0")
 	)
 	(label "ESC_GPIO_0"
 		(at 83.82 104.14 0)
@@ -3926,6 +3916,16 @@
 		)
 		(uuid "344d1767-f51d-4ba0-af7e-1ad32ec9f77c")
 	)
+	(label "PB27"
+		(at 181.61 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3629fb4d-7d0f-4e60-a9b7-e2ac0721d842")
+	)
 	(label "PC17"
 		(at 57.15 54.61 0)
 		(effects
@@ -3935,16 +3935,6 @@
 			(justify left bottom)
 		)
 		(uuid "365bc1f3-e61e-483c-8a4d-8466b885fcd3")
-	)
-	(label "EUI_DO"
-		(at 186.69 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "373a063c-1d3b-42ee-83d8-deb875986bb0")
 	)
 	(label "PB30"
 		(at 198.12 114.3 0)
@@ -3966,6 +3956,36 @@
 		)
 		(uuid "406345e0-ca34-4fe2-90b1-6f3d73c4130b")
 	)
+	(label "EUI_DI"
+		(at 213.36 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44c39a06-a5d8-4cde-bb15-90329b11cadf")
+	)
+	(label "EUI_DO"
+		(at 186.69 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "461e233b-70da-4e3f-b8d1-9e557d4a2abd")
+	)
+	(label "EUI_DO"
+		(at 214.63 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "475f13fb-b018-4831-9c47-9661b44fa7b6")
+	)
 	(label "PD3"
 		(at 57.15 46.99 0)
 		(effects
@@ -3975,6 +3995,16 @@
 			(justify left bottom)
 		)
 		(uuid "4be8a3c2-1b5b-4bc9-9d44-cc88024599ed")
+	)
+	(label "EUI_SH"
+		(at 241.3 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d0b773d-bd89-4bfc-9752-ec25fb60efdf")
 	)
 	(label "ESC_GPIO_4"
 		(at 52.07 157.48 0)
@@ -3996,56 +4026,6 @@
 		)
 		(uuid "51f228fd-943f-4cc0-80af-47a8d8b60d84")
 	)
-	(label "EUI_SH"
-		(at 186.69 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d0956b3-07b6-47a0-ba0e-1cf7b0ad8386")
-	)
-	(label "PB28"
-		(at 181.61 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62b6a856-c1df-466e-a3ef-af47b1f68c46")
-	)
-	(label "EUI_SH"
-		(at 214.63 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a08de67-dc7c-4231-b3c5-be8eed7cd75f")
-	)
-	(label "PB27"
-		(at 181.61 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e27f0b6-315e-4c3e-8581-e10a0ba0224a")
-	)
-	(label "EUI_DI"
-		(at 186.69 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ed797ed-b9e9-43b9-b95f-9581e0e122b7")
-	)
 	(label "ESC_GPIO_1"
 		(at 83.82 106.68 0)
 		(effects
@@ -4056,45 +4036,25 @@
 		)
 		(uuid "6f6b3f01-2aac-4a2b-beea-55e4da5d03ed")
 	)
-	(label "EUI_SH"
-		(at 213.36 41.91 0)
+	(label "EUI_CK"
+		(at 214.63 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8328028f-5040-478b-a6d3-b651a6ea1254")
+		(uuid "7d433bd4-a9fd-45ba-947f-5c2981dacea2")
 	)
 	(label "EUI_DI"
-		(at 213.36 44.45 0)
+		(at 186.69 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "87e78b27-cf9c-4bcc-8220-9a124bdbd443")
-	)
-	(label "PB29"
-		(at 181.61 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d8932d1-dbb0-4058-b32b-8d26b941e6af")
-	)
-	(label "EUI_DO"
-		(at 213.36 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f099911-571f-4827-aecb-bea28259b9e5")
+		(uuid "845cb9c0-0bca-4acf-aba5-0bdfc963c428")
 	)
 	(label "ESC_GPIO_2"
 		(at 83.82 154.94 0)
@@ -4126,15 +4086,15 @@
 		)
 		(uuid "946bf8e7-4c76-4e86-a440-94a12dbf5209")
 	)
-	(label "PB26"
-		(at 181.61 39.37 0)
+	(label "EUI_CK"
+		(at 186.69 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a48c9e42-be5f-4042-a32b-6222b52af161")
+		(uuid "a151982a-cd02-4126-91a3-bb2f90fc3c3e")
 	)
 	(label "ESC_GPIO_3"
 		(at 83.82 124.46 0)
@@ -4156,7 +4116,7 @@
 		)
 		(uuid "a893073e-e735-47bf-8e19-d4e14933d6eb")
 	)
-	(label "EUI_CK"
+	(label "EUI_DI"
 		(at 214.63 66.04 180)
 		(effects
 			(font
@@ -4164,7 +4124,37 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b55dde38-2426-4390-9293-4a555b2bdc1e")
+		(uuid "a93d6527-2853-40d0-9b81-b7a327f647f6")
+	)
+	(label "EUI_SH"
+		(at 186.69 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaf109f8-3aa0-4649-8fed-b109a12fbaed")
+	)
+	(label "PB29"
+		(at 181.61 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad20e8a5-fed9-4a5f-a382-9f25acc4ac80")
+	)
+	(label "EUI_SH"
+		(at 214.63 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1efa878-7a42-477d-8e81-a837977ba5bf")
 	)
 	(label "ESC_GPIO_3"
 		(at 52.07 160.02 0)
@@ -4206,16 +4196,6 @@
 		)
 		(uuid "c954d679-b8d3-405f-bd06-86c4dc231999")
 	)
-	(label "EUI_CK"
-		(at 213.36 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce1b2ec8-d5cc-4cdd-b707-c328c3176e64")
-	)
 	(label "ESC_GPIO_0"
 		(at 83.82 160.02 0)
 		(effects
@@ -4256,6 +4236,16 @@
 		)
 		(uuid "dee66b5f-bc77-451e-9bf4-2e17be4f98f6")
 	)
+	(label "PB28"
+		(at 181.61 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6ebeae6-0317-45a8-aeea-1841dd0933a9")
+	)
 	(label "ESC_GPIO_2"
 		(at 83.82 111.76 0)
 		(effects
@@ -4275,6 +4265,16 @@
 			(justify left bottom)
 		)
 		(uuid "eb650fc8-8c9a-4f89-ad8c-5cab062f73aa")
+	)
+	(label "EUI_CK"
+		(at 241.3 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed16f854-ce03-4f20-931f-12ef425efa14")
 	)
 	(label "PB31"
 		(at 198.12 123.19 0)
