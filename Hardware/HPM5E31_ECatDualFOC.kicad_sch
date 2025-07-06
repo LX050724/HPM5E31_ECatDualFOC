@@ -5,6 +5,130 @@
 	(uuid "a07e9810-3899-4327-ba8f-f24142a7c70e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "HPM6280Foc:0402WGF0000TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0R,1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF0000TCE/17853.html?spm=sc.it.xds.a___sc.cidn.xh18.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTldbUVNeRVNbXjtW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0Ω ±1% 62.5mW 厚膜电阻"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "华秋编号" "G0063276"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C17168"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF0000TCE_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF0000TCE_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HPM6280Foc:M3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -471,6 +595,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 106.68) (xy 186.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a48f04-ab09-46cf-a127-ddce2f7e631d")
+	)
+	(wire
+		(pts
 			(xy 182.88 66.04) (xy 224.79 66.04)
 		)
 		(stroke
@@ -489,6 +623,16 @@
 		)
 		(uuid "41a40702-afc9-4f28-a88e-20fed77a811e")
 	)
+	(wire
+		(pts
+			(xy 17.78 111.76) (xy 25.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ca1f1a-72a0-4116-a029-e52971febd02")
+	)
 	(bus
 		(pts
 			(xy 104.14 92.71) (xy 104.14 121.92)
@@ -498,6 +642,16 @@
 			(type default)
 		)
 		(uuid "438e703f-1977-47af-a0e2-74b3ebb2067a")
+	)
+	(wire
+		(pts
+			(xy 194.31 106.68) (xy 204.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a2902d-983d-4a26-b4e0-b207f3c71ef6")
 	)
 	(bus
 		(pts
@@ -568,6 +722,16 @@
 			(type default)
 		)
 		(uuid "6f21043b-b5ea-4415-a0f3-f17d7bed2d4a")
+	)
+	(wire
+		(pts
+			(xy 17.78 121.92) (xy 25.4 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6febe845-0665-4b8a-87c7-8713f68f58b5")
 	)
 	(wire
 		(pts
@@ -719,6 +883,16 @@
 		)
 		(uuid "b785a544-6e6c-4c09-a5db-d3ac4130e75f")
 	)
+	(wire
+		(pts
+			(xy 213.36 76.2) (xy 224.79 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8075bab-4bd4-471d-badf-e910e3ef3611")
+	)
 	(bus
 		(pts
 			(xy 74.93 86.36) (xy 90.17 86.36)
@@ -738,6 +912,16 @@
 			(type default)
 		)
 		(uuid "c3805041-4c21-457c-b789-748eef229d6c")
+	)
+	(wire
+		(pts
+			(xy 74.93 152.4) (xy 77.47 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6515e0-8659-4d65-be2c-c6c9964bf382")
 	)
 	(bus
 		(pts
@@ -889,6 +1073,26 @@
 		)
 		(uuid "fe092aba-aabd-4c3c-824f-9beb74f3393a")
 	)
+	(label "nBREAK"
+		(at 213.36 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02b36e32-059b-41ea-bae6-f2792a85e56c")
+	)
+	(label "nBREAK"
+		(at 198.12 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "047327b1-3b1c-43a7-b18d-b2c518c0d39f")
+	)
 	(label "MB_TEMP"
 		(at 77.47 101.6 0)
 		(effects
@@ -918,6 +1122,36 @@
 			(justify left bottom)
 		)
 		(uuid "a4ec1110-ab50-410d-8064-e0b1822f54be")
+	)
+	(label "nBREAK"
+		(at 17.78 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b24ad927-07f0-4980-b45a-002212497c09")
+	)
+	(label "nBREAK"
+		(at 77.47 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c98a2378-6b1d-4278-be76-7c561fec1458")
+	)
+	(label "nBREAK"
+		(at 17.78 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2df5545-baa5-478d-838a-7aec06dcdd1c")
 	)
 	(label "MA_TEMP"
 		(at 77.47 88.9 0)
@@ -1399,6 +1633,92 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:0402WGF0000TCE")
+		(at 190.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9af57ef-6f7f-4d31-875a-d702760ee683")
+		(property "Reference" "R21"
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R,1%"
+			(at 190.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF0000TCE/17853.html?spm=sc.it.xds.a___sc.cidn.xh18.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTldbUVNeRVNbXjtW"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0Ω ±1% 62.5mW 厚膜电阻"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G0063276"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C17168"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d9058b4-024f-47f0-b9e1-a04dacc6efa1")
+		)
+		(pin "2"
+			(uuid "c8653560-7050-45af-b521-16f00554b1a6")
+		)
+		(instances
+			(project ""
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:M3")
 		(at 217.17 152.4 0)
 		(unit 1)
@@ -1671,6 +1991,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BREAK" input
+			(at 25.4 121.92 180)
+			(uuid "ae1a3ede-ef05-42bf-8bbf-7181fcfd548d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1951,6 +2281,16 @@
 				(justify right)
 			)
 		)
+		(pin "BREAK" input
+			(at 25.4 111.76 180)
+			(uuid "ed2bee3b-f9df-40b4-9343-d360abaa1beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
@@ -2065,16 +2405,6 @@
 				(justify left)
 			)
 		)
-		(pin "PY32_RST" input
-			(at 224.79 63.5 180)
-			(uuid "6d1e806d-b672-4df5-9864-99d5add1e819")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PY32_RX" input
 			(at 224.79 71.12 180)
 			(uuid "ce355785-1bb8-42ed-b3fb-2359066d3dd9")
@@ -2135,9 +2465,19 @@
 				(justify left)
 			)
 		)
+		(pin "~{PY32_RST}" input
+			(at 224.79 63.5 180)
+			(uuid "f52c1886-2197-4b89-ab63-20514d66042f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "PY32_BRK" input
 			(at 224.79 76.2 180)
-			(uuid "12b04c59-34bf-4932-8473-99eb54b3dcd4")
+			(uuid "76db31e2-a8a0-4f9b-8b2f-41081151bc45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,6 +2915,16 @@
 				(justify right)
 			)
 		)
+		(pin "nBREAK" input
+			(at 182.88 106.68 0)
+			(uuid "a86308e0-b054-4e8c-93ea-1fac01bb38be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
@@ -2631,6 +2981,58 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
 					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 149.86)
+		(size 49.53 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d84e09e4-bcea-42f8-8f76-803deb05d7b4")
+		(property "Sheetname" "EMS_BUTTON"
+			(at 25.4 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EMS_BUTTON.kicad_sch"
+			(at 25.4 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nBREAK" output
+			(at 74.93 152.4 0)
+			(uuid "e4e0611c-d2e9-4205-8180-5f89b2e69bd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "26")
 				)
 			)
 		)

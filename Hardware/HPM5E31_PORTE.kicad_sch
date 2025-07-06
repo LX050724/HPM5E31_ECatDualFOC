@@ -4241,7 +4241,7 @@
 	(symbol
 		(lib_id "HPM5E00_Library:HPM5E31IGN1")
 		(at 74.93 71.12 0)
-		(unit 8)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4631,7 +4631,7 @@
 			(uuid "a85bb09a-7257-40f5-a022-82f2f1d555c4")
 		)
 		(pin "M12"
-			(uuid "8405cb2a-8f5e-4b4e-b3d0-34ed2fe1e848")
+			(uuid "0b6fc3f7-dbef-4dbd-b8af-041d5f5ab2a6")
 		)
 		(pin "M8"
 			(uuid "5af204a8-4c9e-4b69-a4b4-2ac7a1aa1ff6")
@@ -4664,7 +4664,7 @@
 			(uuid "702edba2-cac0-41d8-99eb-ae2ebe374af1")
 		)
 		(pin "N13"
-			(uuid "99fed9c6-7347-4f87-b011-d9d41aa30f2a")
+			(uuid "7b80dae7-5f2d-43e8-8c5c-dee6223b5440")
 		)
 		(pin "L8"
 			(uuid "25702c0f-6090-4911-b449-d7b4a0da37f4")
@@ -4739,7 +4739,7 @@
 			(uuid "27ca831a-c30d-4fc1-b45d-05caf163c88d")
 		)
 		(pin "M14"
-			(uuid "bedfeeb7-c0b8-40a6-934a-061afa4e8ecd")
+			(uuid "e4ef5a51-c776-4472-b11b-e8ca43971e90")
 		)
 		(pin "H14"
 			(uuid "4c8699fe-e8d6-45a9-845f-b2b328c65710")
@@ -4760,16 +4760,16 @@
 			(uuid "1a6cec52-cd41-497d-a897-a3c13dbee6d2")
 		)
 		(pin "M13"
-			(uuid "5e2de9a3-65bf-40d5-a313-a63de17b1281")
+			(uuid "448505eb-43b6-478c-b67f-3a742eb6a5ec")
 		)
 		(pin "G14"
 			(uuid "e37dd5a3-09cd-4acc-b17d-290363924d53")
 		)
 		(pin "N14"
-			(uuid "a9da95d7-08f9-4875-bd15-f67a79bc6006")
+			(uuid "7cda2679-db8b-4ccc-9f3c-badabb91fa5c")
 		)
 		(pin "P13"
-			(uuid "dbb2b544-4b0a-4a67-93ed-a4cff4a4f447")
+			(uuid "b606b434-55b0-471e-ab96-d47ae308d616")
 		)
 		(pin "N10"
 			(uuid "4ec8ce51-1f2b-43ba-b079-dc3dd8d5c64d")
@@ -4878,14 +4878,6 @@
 		)
 		(pin "L6"
 			(uuid "5b707718-876b-4f17-813a-08eb7d57031d")
-		)
-		(instances
-			(project "HPM5E31_ECatDualFOC"
-				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/2d4a5fa8-008b-4423-85d3-728409cae44f"
-					(reference "U1")
-					(unit 8)
-				)
-			)
 		)
 	)
 )
