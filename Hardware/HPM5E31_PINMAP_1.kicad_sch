@@ -7970,7 +7970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b73e001-28eb-4fe8-87ec-4741f8469927")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR019"
 			(at 45.72 127 0)
 			(effects
 				(font
@@ -8017,6 +8017,14 @@
 		(pin "1"
 			(uuid "2475ee92-2e1f-46b9-845e-b18aef2f2d25")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/6734c7c5-c927-492b-a5ca-68015457caeb"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF4701TCE")
@@ -8027,7 +8035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54292180-1a67-4aaf-9b1e-421dc8ccaf93")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 49.53 128.27 0)
 			(effects
 				(font
@@ -8103,6 +8111,14 @@
 		(pin "2"
 			(uuid "105c5295-ebc9-4819-8d3a-ddcbd94fd2bd")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/6734c7c5-c927-492b-a5ca-68015457caeb"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF4701TCE")
@@ -8113,7 +8129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4d03a16-3238-46f2-994d-33647cba18b1")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -8189,6 +8205,14 @@
 		(pin "2"
 			(uuid "bea2ee5b-a039-40a6-aef8-3b44fc5ab077")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/6734c7c5-c927-492b-a5ca-68015457caeb"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF330JTCE")
@@ -8199,7 +8223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5a659a0-865c-4351-b3e5-2a7cd85c041c")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 60.96 62.23 0)
 			(effects
 				(font
@@ -8265,6 +8289,14 @@
 		)
 		(pin "2"
 			(uuid "d9662da6-52b2-4425-8b4b-e534c2258806")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/6734c7c5-c927-492b-a5ca-68015457caeb"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

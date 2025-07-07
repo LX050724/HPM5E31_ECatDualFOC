@@ -1104,7 +1104,7 @@
 		(uuid "083e17b3-106c-45c9-9d1b-19761a584e3c")
 	)
 	(label "MA_TEMP"
-		(at 213.36 80.01 0)
+		(at 213.36 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1114,7 +1114,7 @@
 		(uuid "365370d4-e70c-4406-a663-2e6ccee6f218")
 	)
 	(label "MB_TEMP"
-		(at 213.36 82.55 0)
+		(at 213.36 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)

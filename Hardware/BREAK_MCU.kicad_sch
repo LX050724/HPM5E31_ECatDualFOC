@@ -5,191 +5,6 @@
 	(uuid "6b4b7a56-7a68-403f-8459-d58541763fbc")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xGxx:74LVC1G08"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LVC1G08"
-				(at 7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single AND Gate, Low-Voltage CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Gate AND LVC CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LVC1G08_0_1"
-				(arc
-					(start 0 5.08)
-					(mid 5.0579 0)
-					(end 0 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC1G08_1_1"
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -4303,6 +4118,252 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPM6280Foc:WAFER-SH1.0-4PLB"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WAFER-GH1.25-4PLB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/WAFER-SH1.0-4PLB/3561346.html?spm=sc.it.xds.a___sc.gbn.xh3.zy.t&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNTRlheVFBfTldYUTsOAxUeFF5JWA0HFBBIBBsCBBcFWQIBCks%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GH1.25 4P 立贴"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C3029334"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "华秋编号" "G14550773"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "GH1.25"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WAFER-SH1.0-4PLB_1_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 1.27 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 3.937)
+					(end 0 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.397)
+					(end 0 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.143)
+					(end 0 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.683)
+					(end 0 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -5.842) (xy 1.016 -5.842)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -5.461 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HPM6280Foc:ZX-HY2.0-2PWT"
 			(pin_names
 				(hide yes)
@@ -5108,7 +5169,7 @@
 		(uuid "00de1fef-7d43-47d9-bb0e-4ba9632ea879")
 	)
 	(junction
-		(at 50.8 109.22)
+		(at 30.48 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0414107a-4a1a-4d87-983c-1c2267c581d3")
@@ -5120,13 +5181,7 @@
 		(uuid "05263c09-764c-4412-909b-e2b3df71ed49")
 	)
 	(junction
-		(at 217.17 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05bfe51f-624d-4b64-9363-5bc435a4f407")
-	)
-	(junction
-		(at 45.72 99.06)
+		(at 25.4 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06aa3ccc-e621-4c6b-a6a9-e5db9073935a")
@@ -5186,19 +5241,13 @@
 		(uuid "3c53bf96-98ad-4a2c-a171-e4097a4b9c5e")
 	)
 	(junction
-		(at 214.63 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46c3fc55-8e6b-4993-9b3b-4edd6df4a815")
-	)
-	(junction
 		(at 201.93 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52b832a0-7093-41d7-9916-1e734c36bd21")
 	)
 	(junction
-		(at 80.01 93.98)
+		(at 59.69 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53a9eceb-ccb5-449e-93f8-ce6631696f8d")
@@ -5213,7 +5262,7 @@
 		(at 217.17 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a690257-db51-4089-8843-6e58802d6357")
+		(uuid "5f3cf2e8-dfae-49e5-a261-32568db3aa96")
 	)
 	(junction
 		(at 204.47 39.37)
@@ -5238,6 +5287,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "722edf26-d962-444e-b989-829a050cdbd7")
+	)
+	(junction
+		(at 217.17 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "770c0007-7301-4a38-90ee-cceca296ddc0")
+	)
+	(junction
+		(at 214.63 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7782d8cf-7045-4fc7-9cdd-a475aca3af92")
 	)
 	(junction
 		(at 236.22 113.03)
@@ -5294,13 +5355,19 @@
 		(uuid "9d87cba0-a334-44bd-ad05-689ac36c0957")
 	)
 	(junction
+		(at 214.63 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5a35b8-709c-47de-9b19-ebdf74c56349")
+	)
+	(junction
 		(at 146.05 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fadfb40-d431-4d8b-b29e-187541872a7b")
 	)
 	(junction
-		(at 71.12 109.22)
+		(at 50.8 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a30c7e10-edfe-4f4c-89df-cdbaff3c7d14")
@@ -5310,12 +5377,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8a0b739-5071-4a22-869b-33fb24b37a15")
-	)
-	(junction
-		(at 214.63 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa2d0d1b-4e9b-445e-8f1b-ec9b2c44315b")
 	)
 	(junction
 		(at 236.22 152.4)
@@ -5360,16 +5421,10 @@
 		(uuid "d61d3a00-7bd0-4549-9aac-8dcd5a70663e")
 	)
 	(junction
-		(at 45.72 93.98)
+		(at 25.4 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e173f364-32d6-4141-b42c-6b0c739b0142")
-	)
-	(junction
-		(at 217.17 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4051a42-8fdb-4331-82bf-76704a5750fa")
 	)
 	(junction
 		(at 157.48 147.32)
@@ -5384,10 +5439,22 @@
 		(uuid "f32ed13b-b777-4e93-988b-6530bd2b5bd0")
 	)
 	(junction
+		(at 95.25 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f523e729-bb59-4fc0-8069-73d385b5bed8")
+	)
+	(junction
 		(at 214.63 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9d8ee06-50cd-4981-9ee9-69ca63f9a19c")
+	)
+	(junction
+		(at 217.17 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fda83d15-4706-4c80-8ba2-1feb9a6589bb")
 	)
 	(junction
 		(at 236.22 123.19)
@@ -5817,7 +5884,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 99.06) (xy 45.72 93.98)
+			(xy 25.4 99.06) (xy 25.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5897,13 +5964,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 93.98) (xy 80.01 99.06)
+			(xy 59.69 93.98) (xy 59.69 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45a5b405-19a6-4538-9bdf-ef696f7fa4d2")
+	)
+	(wire
+		(pts
+			(xy 76.2 93.98) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d7acf5-1a79-4b70-a120-29048db70c77")
 	)
 	(wire
 		(pts
@@ -5957,7 +6034,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 99.06) (xy 45.72 99.06)
+			(xy 33.02 99.06) (xy 25.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5987,7 +6064,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 93.98) (xy 53.34 93.98)
+			(xy 90.17 106.68) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58857522-a279-4ea1-bbb0-b94503826177")
+	)
+	(wire
+		(pts
+			(xy 25.4 93.98) (xy 33.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6177,6 +6264,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 96.52) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6d002b-2bac-492d-a3d1-0b1e943431bc")
+	)
+	(wire
+		(pts
 			(xy 240.03 137.16) (xy 236.22 137.16)
 		)
 		(stroke
@@ -6237,7 +6334,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 96.52) (xy 50.8 96.52)
+			(xy 33.02 96.52) (xy 30.48 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6247,7 +6344,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 96.52) (xy 50.8 109.22)
+			(xy 76.2 99.06) (xy 90.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e4c5d4-b42a-46a1-851c-5d7d4302fe59")
+	)
+	(wire
+		(pts
+			(xy 30.48 96.52) (xy 30.48 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6377,7 +6484,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 109.22) (xy 80.01 109.22)
+			(xy 50.8 109.22) (xy 59.69 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6577,7 +6684,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 109.22) (xy 71.12 109.22)
+			(xy 30.48 109.22) (xy 50.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6747,7 +6854,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 93.98) (xy 80.01 93.98)
+			(xy 50.8 93.98) (xy 59.69 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6797,6 +6904,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 101.6) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23022ae-bb89-4c89-8182-59deadcaec03")
+	)
+	(wire
+		(pts
 			(xy 161.29 137.16) (xy 157.48 137.16)
 		)
 		(stroke
@@ -6837,7 +6954,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 109.22) (xy 50.8 109.22)
+			(xy 25.4 109.22) (xy 30.48 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7700,6 +7817,16 @@
 		)
 		(uuid "2fba00d5-7189-4871-9312-5f42a350d1e7")
 	)
+	(label "PY32_SWCLK"
+		(at 76.2 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eb30fd1-c68b-431c-a663-43cf2311d77d")
+	)
 	(label "PY32_PWM0"
 		(at 85.09 49.53 0)
 		(effects
@@ -7819,6 +7946,16 @@
 			(justify left bottom)
 		)
 		(uuid "949c56a6-8333-47b2-8740-b00a62796d4a")
+	)
+	(label "PY32_SWDIO"
+		(at 76.2 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a74df1a-b48c-40ca-bde5-a879db264673")
 	)
 	(label "BREAKB_CUR_P"
 		(at 247.65 147.32 0)
@@ -8101,21 +8238,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 120.65 16.51) (xy 120.65 69.85) (xy 240.03 69.85) (xy 240.03 16.51)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 8613ba98-020d-404e-b0c1-87b0c47525a9)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 120.65 77.47) (xy 120.65 130.81) (xy 240.03 130.81) (xy 240.03 77.47)
 			)
 			(stroke
@@ -8125,7 +8247,22 @@
 			(fill
 				(type none)
 			)
-			(uuid d483cd53-4a9a-484d-be1c-97dd0f54bcb9)
+			(uuid 7afa021e-fb20-40d3-91c5-307dfaa15532)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 120.65 16.51) (xy 120.65 69.85) (xy 240.03 69.85) (xy 240.03 16.51)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 90d3cc9d-ee7f-4174-a7e5-34ea4a778d2a)
 		)
 	)
 	(netclass_flag ""
@@ -8184,7 +8321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "069cd671-5a47-4f9d-9195-d5f9513efdc2")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0188"
 			(at 128.27 101.6 0)
 			(effects
 				(font
@@ -8232,6 +8369,14 @@
 		(pin "1"
 			(uuid "2d404b87-dd16-469e-96a4-6617741d7aed")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RC0402FR-075KL")
@@ -8242,7 +8387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07d3ed00-621d-4a4a-9b3d-3439368f0000")
-		(property "Reference" "R68"
+		(property "Reference" "R70"
 			(at 243.84 142.24 0)
 			(effects
 				(font
@@ -8309,6 +8454,14 @@
 		(pin "1"
 			(uuid "a04db83a-d659-4aff-9c09-83591627626b")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402B222K500NT")
@@ -8320,7 +8473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08d1811c-5fed-4593-9b2b-1519f0ff4ac3")
-		(property "Reference" "C97"
+		(property "Reference" "C76"
 			(at 127 153.6699 90)
 			(effects
 				(font
@@ -8407,6 +8560,14 @@
 		(pin "2"
 			(uuid "907e85e9-f8e1-4c3a-8f45-d84067276481")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL05A105KA5NQNC")
@@ -8418,7 +8579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b38f99d-a61f-44fe-bb0a-687f506d3341")
-		(property "Reference" "C91"
+		(property "Reference" "C71"
 			(at 181.61 96.5199 90)
 			(effects
 				(font
@@ -8505,6 +8666,121 @@
 		(pin "1"
 			(uuid "b26ff670-633b-4e9c-a111-5a33a72b2895")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:RS622XTDE8")
+		(at 219.71 149.86 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14373fa6-ed6d-430b-86a5-cf80f528576c")
+		(property "Reference" "U35"
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS622XTDE8"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/RS622XTDE8/249394.html?spm=sc.it.xds.a___sc.gbn.xh3.zy.t&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUF1WQ1hYXjsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "超低噪声11nV/√Hz,7MHz,2通道运放"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G4251408"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C255452"
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55ca63b-9958-4fcc-bd17-edf053f89bee")
+		)
+		(pin "4"
+			(uuid "4d33908e-db9b-4c32-bfb5-5daf188496d3")
+		)
+		(pin "5"
+			(uuid "d061841b-bfa8-45c5-ba79-0c15e826034e")
+		)
+		(pin "7"
+			(uuid "e522dd44-045c-4b1d-a56c-e2abd1ae2d01")
+		)
+		(pin "3"
+			(uuid "038aa446-4888-448c-b41f-ea5834175472")
+		)
+		(pin "8"
+			(uuid "051e5963-0574-4b21-9aa4-7352162538f3")
+		)
+		(pin "9"
+			(uuid "a6cd7707-d44b-42fd-9cb6-b6eb5f4da6f1")
+		)
+		(pin "6"
+			(uuid "e1dd1378-dec7-4ecc-9396-5748e0f35b05")
+		)
+		(pin "2"
+			(uuid "e8957e41-53e7-4759-bb8c-4395c8e9ec17")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U35")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RS622XTDE8")
@@ -8515,7 +8791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14373fa6-ed6d-430b-86a5-cf80f528576c")
-		(property "Reference" "U30"
+		(property "Reference" "U35"
 			(at 132.842 142.24 0)
 			(effects
 				(font
@@ -8605,6 +8881,14 @@
 		(pin "2"
 			(uuid "e8957e41-53e7-4759-bb8c-4395c8e9ec17")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U35")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8615,7 +8899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "165f117c-75a5-4bac-af67-182ecb9968bb")
-		(property "Reference" "#PWR0179"
+		(property "Reference" "#PWR0200"
 			(at 139.7 156.21 0)
 			(effects
 				(font
@@ -8662,6 +8946,14 @@
 		(pin "1"
 			(uuid "885de61c-31e4-40d7-ac97-30e20e95fc9d")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -8673,7 +8965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b72e05a-a25e-4c50-83f1-fb32c779c762")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0181"
 			(at 236.22 67.31 0)
 			(effects
 				(font
@@ -8720,6 +9012,14 @@
 		(pin "1"
 			(uuid "147d9c00-9aff-4200-be64-1f137b43c7e6")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -8731,7 +9031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dad650c-4b81-49b5-9ef9-7f3af2ebb83f")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0194"
 			(at 236.22 128.27 0)
 			(effects
 				(font
@@ -8778,6 +9078,14 @@
 		(pin "1"
 			(uuid "344913ba-b88e-4aa5-87ff-65c7f5c5a339")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF1001TCE")
@@ -8788,7 +9096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2881180d-7aaa-46bd-9ab2-d3fd5cafb3fd")
-		(property "Reference" "R70"
+		(property "Reference" "R72"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -8855,6 +9163,14 @@
 		(pin "2"
 			(uuid "c42648b0-3348-49be-a0cc-f1aaeb6980f2")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -8866,7 +9182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c49d82a-fa37-41a0-98a8-376244d5b781")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0193"
 			(at 214.63 118.11 0)
 			(effects
 				(font
@@ -8913,6 +9229,14 @@
 		(pin "1"
 			(uuid "33422e3d-cf05-44a4-88b3-b19ac2cb447b")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:PY32F002BF15U")
@@ -8924,7 +9248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c65cb35-c6e2-4867-98f4-bde81d110e3c")
-		(property "Reference" "U24"
+		(property "Reference" "U28"
 			(at 68.58 21.59 0)
 			(effects
 				(font
@@ -9030,6 +9354,14 @@
 		(pin "21"
 			(uuid "84d8eeb2-32e4-477d-ad1b-e234acbe4b22")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RC0402FR-075KL")
@@ -9040,7 +9372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2edbfa96-8d7c-4731-83ae-8b222010d42a")
-		(property "Reference" "R67"
+		(property "Reference" "R69"
 			(at 165.1 142.24 0)
 			(effects
 				(font
@@ -9107,6 +9439,14 @@
 		(pin "1"
 			(uuid "7b49a97a-14ab-4730-92a8-f658e8be3670")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9117,7 +9457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "346d0105-d204-4e4a-9824-58d83e9d396b")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0180"
 			(at 90.17 58.42 0)
 			(effects
 				(font
@@ -9164,18 +9504,26 @@
 		(pin "1"
 			(uuid "c6203bc3-2345-44b5-8bdf-ca4bfdcc67c9")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402B223K500NT")
-		(at 71.12 104.14 90)
+		(at 50.8 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "36f61463-a564-4946-a4aa-58d11307a5a3")
-		(property "Reference" "C94"
-			(at 72.644 105.156 0)
+		(property "Reference" "C74"
+			(at 52.324 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9532,7 @@
 			)
 		)
 		(property "Value" "22nF,50V"
-			(at 75.184 99.822 0)
+			(at 54.864 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9541,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 71.12 104.14 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9550,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402B223K500NT/1884.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJZV1ZUQllYUzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 71.12 104.14 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9559,7 @@
 			)
 		)
 		(property "Description" "22nF ±10% 50V"
-			(at 71.12 104.14 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +9568,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 71.12 104.14 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +9577,7 @@
 			)
 		)
 		(property "制造商" ""
-			(at 71.12 104.14 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,7 +9586,7 @@
 			)
 		)
 		(property "华秋编号" "G0065583"
-			(at 71.12 104.14 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9595,7 @@
 			)
 		)
 		(property "立创编号" "C1532"
-			(at 71.12 104.14 0)
+			(at 50.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9261,6 +9609,14 @@
 		(pin "2"
 			(uuid "d0f54b07-cacd-4619-a1ca-064b4474a62d")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:+3.3_2")
@@ -9271,7 +9627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3748f90f-bb85-4b08-9b56-ded4803e5185")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0195"
 			(at 172.72 138.43 0)
 			(effects
 				(font
@@ -9318,6 +9674,80 @@
 		(pin ""
 			(uuid "ce2cbcad-50a3-437f-a2a7-13e70549db00")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b04e1f9-8e21-4f29-9786-99f446031a6c")
+		(property "Reference" "#PWR065"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b069824-cfde-48dc-ba2d-d7295a9db1e9")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -9329,7 +9759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40794328-c593-4646-baba-094eb51b4bff")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0171"
 			(at 232.41 27.94 0)
 			(effects
 				(font
@@ -9377,6 +9807,14 @@
 		(pin "1"
 			(uuid "4549855b-7b7e-422a-9670-a9c7aa43e052")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:NCE01ND03S")
@@ -9388,7 +9826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44a16271-9be8-45ce-8a63-45a54ed6a99c")
-		(property "Reference" "Q14"
+		(property "Reference" "Q16"
 			(at 218.44 106.6799 0)
 			(effects
 				(font
@@ -9475,6 +9913,120 @@
 		(pin "5"
 			(uuid "a9ff554d-e1f4-46b1-8308-5640c0929702")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:NCE01ND03S")
+		(at 207.01 93.98 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44a16271-9be8-45ce-8a63-45a54ed6a99c")
+		(property "Reference" "Q16"
+			(at 218.44 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCE01ND03S"
+			(at 218.44 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/NCE01ND03S/515366.html?spm=sc.it.xds.a___sc.gbn.xh1.zy.t&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYVl1fRFFdUjsOAxUeFF5JWA0HFBBIBBsCBBcFWQIBCks%3D"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2个N沟道 耐压:100V 电流:3A"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G6603933"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C502845"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "6641a6d1-3683-4536-9275-c001da770af0")
+		)
+		(pin "1"
+			(uuid "e56192e1-9c94-4e7a-8391-555daaf1914e")
+		)
+		(pin "4"
+			(uuid "8bed4430-3e7a-4eb2-bcb6-1d7182617482")
+		)
+		(pin "3"
+			(uuid "6cfd66c8-b217-441f-816a-f692ca346e98")
+		)
+		(pin "2"
+			(uuid "64aed189-a6c7-4024-b22d-606085d6ad37")
+		)
+		(pin "7"
+			(uuid "9d62154c-c665-4c83-b65a-dd22c2c98a38")
+		)
+		(pin "6"
+			(uuid "4e87822c-81ed-46db-923c-cb8eca2d40a4")
+		)
+		(pin "5"
+			(uuid "a9ff554d-e1f4-46b1-8308-5640c0929702")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "Q16")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
@@ -9486,7 +10038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45fd910a-f70e-40b9-b6c9-c70e6436d625")
-		(property "Reference" "NT15"
+		(property "Reference" "NT19"
 			(at 200.66 114.3 0)
 			(effects
 				(font
@@ -9537,6 +10089,14 @@
 		(pin "2"
 			(uuid "c58e4697-9ec9-418e-85d0-b509fdb0bcea")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "NT19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9547,7 +10107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "476f1e73-6d3a-46a0-8d93-6e78e37e71b2")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0204"
 			(at 114.3 180.34 0)
 			(effects
 				(font
@@ -9594,6 +10154,14 @@
 		(pin "1"
 			(uuid "be23eee1-1882-4af6-aa25-e966af95e4e5")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -9605,7 +10173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "481532d4-eed8-412e-a82c-a1b9afe2a97b")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0184"
 			(at 214.63 88.9 0)
 			(effects
 				(font
@@ -9652,92 +10220,13 @@
 		(pin "1"
 			(uuid "df9a9bb3-ff3f-417c-a903-55018d66e71a")
 		)
-	)
-	(symbol
-		(lib_id "74xGxx:74LVC1G08")
-		(at 62.23 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a988a33-e6c0-42eb-ac16-ea4ae2b2280b")
-		(property "Reference" "U53"
-			(at 73.66 173.9198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0184")
+					(unit 1)
 				)
 			)
-		)
-		(property "Value" "74LVC1G08"
-			(at 73.66 176.4598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 62.23 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
-			(at 62.23 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single AND Gate, Low-Voltage CMOS"
-			(at 62.23 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "立创编号" ""
-			(at 62.23 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "华秋编号" ""
-			(at 62.23 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e44e5794-b381-4ce6-8f7a-4a5a231d02cb")
-		)
-		(pin "4"
-			(uuid "3568b3b8-f897-416b-b815-1f8e646173a5")
-		)
-		(pin "1"
-			(uuid "ba26fac0-3eb2-4538-b34f-81698e174ad4")
-		)
-		(pin "5"
-			(uuid "73b4daca-6623-4b23-a9cd-d48f1a0d9e42")
-		)
-		(pin "2"
-			(uuid "6a8ec39d-0702-41a9-89fe-01bb6bb9eb77")
 		)
 	)
 	(symbol
@@ -9750,7 +10239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4acfd025-8806-4522-bf0a-6ddfeb042686")
-		(property "Reference" "C85"
+		(property "Reference" "C66"
 			(at 181.61 35.5599 90)
 			(effects
 				(font
@@ -9837,6 +10326,14 @@
 		(pin "1"
 			(uuid "409d9010-ce4e-4b53-b05e-80d460c48e73")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF200KTCE")
@@ -9847,7 +10344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4bda8013-a031-4ddc-b58d-bd93200e9349")
-		(property "Reference" "R63"
+		(property "Reference" "R65"
 			(at 200.914 105.41 0)
 			(effects
 				(font
@@ -9914,10 +10411,18 @@
 		(pin "2"
 			(uuid "3c275b1a-dff5-4232-9e00-b0c1c299fd6b")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 109.22 0)
+		(at 30.48 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9925,8 +10430,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cd3b391-9d5a-4ca2-9dff-e133f90d084b")
-		(property "Reference" "#PWR0171"
-			(at 50.8 115.57 0)
+		(property "Reference" "#PWR0191"
+			(at 30.48 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +10440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 114.3 0)
+			(at 30.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9943,7 +10448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 109.22 0)
+			(at 30.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +10457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 109.22 0)
+			(at 30.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +10466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 109.22 0)
+			(at 30.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,6 +10476,14 @@
 		)
 		(pin "1"
 			(uuid "442221fa-6a4c-4a80-b999-c18502a47c77")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9982,7 +10495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e9f32a9-4265-41bd-9b41-4810e0100573")
-		(property "Reference" "R66"
+		(property "Reference" "R68"
 			(at 243.84 137.16 0)
 			(effects
 				(font
@@ -10049,18 +10562,26 @@
 		(pin "1"
 			(uuid "6cb20409-963c-4b88-946b-ce6c90fdf3ac")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL05A105KA5NQNC")
-		(at 45.72 104.14 90)
+		(at 25.4 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4fba4b5a-ad6a-436c-b859-a2a50be06f8f")
-		(property "Reference" "C93"
-			(at 47.244 104.902 0)
+		(property "Reference" "C73"
+			(at 26.924 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,7 +10590,7 @@
 			)
 		)
 		(property "Value" "1uF,25V"
-			(at 49.53 100.838 0)
+			(at 29.21 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +10599,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.72 104.14 0)
+			(at 25.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,7 +10608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 104.14 0)
+			(at 25.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 104.14 0)
+			(at 25.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10626,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 45.72 104.14 0)
+			(at 25.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10635,7 @@
 			)
 		)
 		(property "制造商" "SAMSUNG(三星)"
-			(at 45.72 104.14 0)
+			(at 25.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +10644,7 @@
 			)
 		)
 		(property "华秋编号" "G0023341"
-			(at 45.72 104.14 0)
+			(at 25.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10653,7 @@
 			)
 		)
 		(property "立创编号" "C52923"
-			(at 49.53 107.95 0)
+			(at 29.21 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,6 +10667,79 @@
 		(pin "1"
 			(uuid "4783d070-eb19-4463-a6e6-694f580c3fb8")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:+3.3_2")
+		(at 76.2 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51e9e35c-0a52-4956-bb8e-0e80f4f19a5e")
+		(property "Reference" "#PWR0328"
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3_2"
+			(at 76.2 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 '+3.3_2' 的全局标签"
+			(at 76.2 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "208d5b9e-c759-44ad-99e0-3d511d528a7c")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0328")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10157,7 +10751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5213eb72-06b6-401f-9440-2b8861fb53f5")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0179"
 			(at 36.83 60.96 0)
 			(effects
 				(font
@@ -10204,6 +10798,14 @@
 		(pin "1"
 			(uuid "b55b1c30-8cb4-4306-8f13-6b9117bb7694")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:1N5819WS")
@@ -10214,7 +10816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55db653c-a161-44e2-bb90-daef2257df3e")
-		(property "Reference" "D26"
+		(property "Reference" "D34"
 			(at 197.104 52.324 0)
 			(effects
 				(font
@@ -10281,6 +10883,14 @@
 		(pin "1"
 			(uuid "2139049e-aaaf-454b-91d7-59c41d428fe1")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL05A105KA5NQNC")
@@ -10292,7 +10902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5869b534-fb46-4c23-8a23-53ffb29c309f")
-		(property "Reference" "C92"
+		(property "Reference" "C72"
 			(at 132.08 101.5999 90)
 			(effects
 				(font
@@ -10379,6 +10989,14 @@
 		(pin "1"
 			(uuid "b63ff9c5-c68b-40d6-bb7f-240e4972b93e")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF200KTCE")
@@ -10389,7 +11007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5934b8ae-7bb6-4da4-b7d8-b0d1e40eb08a")
-		(property "Reference" "R60"
+		(property "Reference" "R62"
 			(at 200.914 44.45 0)
 			(effects
 				(font
@@ -10456,6 +11074,14 @@
 		(pin "2"
 			(uuid "8afdc4f4-2a1b-414c-8781-bc302ebb671a")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -10467,7 +11093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62de99c2-77b9-409d-bc3d-d3c6050ab93d")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0177"
 			(at 248.92 54.61 0)
 			(effects
 				(font
@@ -10514,6 +11140,14 @@
 		(pin "1"
 			(uuid "9b18f0b6-29c1-4cd2-b491-20daf443bb97")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:1N5819WS")
@@ -10525,7 +11159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "673c6491-0b4c-4de9-b52e-866f2683823c")
-		(property "Reference" "D28"
+		(property "Reference" "D37"
 			(at 200.66 87.63 0)
 			(effects
 				(font
@@ -10592,6 +11226,14 @@
 		(pin "1"
 			(uuid "e930657b-9ed8-44a4-8cd2-fc2b4414cfb3")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CC0603KRX7R9BB104")
@@ -10602,7 +11244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a713761-ee2b-4267-91d8-15749b039220")
-		(property "Reference" "C88"
+		(property "Reference" "C69"
 			(at 35.306 50.8 0)
 			(effects
 				(font
@@ -10689,6 +11331,14 @@
 		(pin "1"
 			(uuid "440fbbfd-ce95-41a2-a0f3-977e25294226")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -10700,7 +11350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c88d895-d6de-4e62-9c6f-ba24634b199d")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0178"
 			(at 214.63 57.15 0)
 			(effects
 				(font
@@ -10747,6 +11397,14 @@
 		(pin "1"
 			(uuid "e209502e-deed-45a1-a1b0-a126694c9939")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10758,7 +11416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cafb631-67a1-469f-a772-b34cd0f64b45")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0182"
 			(at 39.37 76.2 0)
 			(effects
 				(font
@@ -10805,6 +11463,14 @@
 		(pin "1"
 			(uuid "734f706e-13aa-4169-be93-bc98f79dc7fc")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:+3.3_2")
@@ -10815,7 +11481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d8c979f-401f-4402-afd7-1fd018ca1df5")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0196"
 			(at 251.46 138.43 0)
 			(effects
 				(font
@@ -10862,6 +11528,14 @@
 		(pin ""
 			(uuid "b8aaa52d-2e54-41a4-9a10-a6d3b750fa76")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:ZX-HY2.0-2PWT")
@@ -10873,7 +11547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f3006df-3061-41a1-8885-df3a107abed4")
-		(property "Reference" "U26"
+		(property "Reference" "U30"
 			(at 251.46 41.9099 0)
 			(effects
 				(font
@@ -10939,6 +11613,14 @@
 		(pin "2"
 			(uuid "f7304522-a59f-4964-adc6-5e162cebfc61")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U30")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
@@ -10950,7 +11632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7312fc76-a2ec-4e83-9db0-654ab0357de0")
-		(property "Reference" "NT14"
+		(property "Reference" "NT18"
 			(at 200.66 57.15 0)
 			(effects
 				(font
@@ -11001,6 +11683,14 @@
 		(pin "2"
 			(uuid "3eb48b3a-4983-439a-80c2-379b8c10cbc4")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "NT18")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:+3.3_2")
@@ -11011,7 +11701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74138d71-b8b7-43e6-8861-2a3891fcaf53")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0175"
 			(at 20.32 43.18 0)
 			(effects
 				(font
@@ -11058,6 +11748,14 @@
 		(pin ""
 			(uuid "8db1793d-32a3-4d07-8a8a-94681bcc447d")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:NCE01ND03S")
@@ -11069,7 +11767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745529b1-8305-437e-8a27-84b6ee58155e")
-		(property "Reference" "Q13"
+		(property "Reference" "Q14"
 			(at 218.44 45.7199 0)
 			(effects
 				(font
@@ -11156,18 +11854,26 @@
 		(pin "5"
 			(uuid "6b14f33b-6a31-492e-817f-a6590972756f")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:NCE01ND03S")
 		(at 207.01 33.02 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "745529b1-8305-437e-8a27-84b6ee58155f")
-		(property "Reference" "Q13"
+		(uuid "745529b1-8305-437e-8a27-84b6ee58155e")
+		(property "Reference" "Q14"
 			(at 218.44 31.7499 0)
 			(effects
 				(font
@@ -11231,28 +11937,36 @@
 			)
 		)
 		(pin "8"
-			(uuid "95b7e73e-76af-445a-a7b9-758b9d9c70f5")
+			(uuid "fe01a9c5-b49a-49fa-aed9-3849450a2553")
 		)
 		(pin "1"
-			(uuid "9735f2be-a4c7-4577-af08-ac4a1144f2a3")
+			(uuid "701f87bc-c2c0-44cf-8f78-75ca437e7167")
 		)
 		(pin "4"
-			(uuid "fb515569-f3c6-4169-86b6-e1ab46a5fe0e")
+			(uuid "07fda616-8bf8-4ab3-831c-d5593a060a3f")
 		)
 		(pin "3"
-			(uuid "78678011-bb06-4ffb-a2d9-a66bce937f3e")
+			(uuid "d3a68c43-72d2-41a1-ba2b-99876959cd28")
 		)
 		(pin "2"
-			(uuid "005601ba-932d-4666-9b79-a87ff540f772")
+			(uuid "ef4676e2-906f-4bd6-9afd-0bbe3edb813c")
 		)
 		(pin "7"
-			(uuid "664737cb-c151-40c1-9b7d-ade9e795bee8")
+			(uuid "90e66971-4602-432e-9559-776221e8c991")
 		)
 		(pin "6"
-			(uuid "bbaacd3f-35e9-4d17-a40b-948ad5f0f89e")
+			(uuid "4e9b7cea-2e3e-44b6-90e3-f2d0e6508603")
 		)
 		(pin "5"
-			(uuid "dcb18df1-fcbe-4248-8ece-4ee159e9ec75")
+			(uuid "6b14f33b-6a31-492e-817f-a6590972756f")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "Q14")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11265,7 +11979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "746073b9-7652-4845-b376-65c0ed03b06a")
-		(property "Reference" "C98"
+		(property "Reference" "C77"
 			(at 205.74 153.6699 90)
 			(effects
 				(font
@@ -11352,6 +12066,14 @@
 		(pin "2"
 			(uuid "0146642e-6851-487b-b78d-54f7e9aa054d")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL05A105KA5NQNC")
@@ -11363,7 +12085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "755661ba-8798-46b4-8563-106b05a8ae57")
-		(property "Reference" "C86"
+		(property "Reference" "C67"
 			(at 132.08 40.6399 90)
 			(effects
 				(font
@@ -11450,6 +12172,14 @@
 		(pin "1"
 			(uuid "9821617f-830e-4af7-9f8f-c50cb866189b")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11460,7 +12190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a22d9ac-9be0-419a-bf11-ed73090ca4a6")
-		(property "Reference" "#PWR0177"
+		(property "Reference" "#PWR0198"
 			(at 254 142.24 0)
 			(effects
 				(font
@@ -11507,6 +12237,14 @@
 		(pin "1"
 			(uuid "004b90c6-51cd-4f2f-b8b5-6a9964e4efcc")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
@@ -11518,7 +12256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a5d8ec1-d04a-468b-8ad9-60ab2ff1ef4f")
-		(property "Reference" "NT16"
+		(property "Reference" "NT20"
 			(at 200.66 118.11 0)
 			(effects
 				(font
@@ -11569,6 +12307,14 @@
 		(pin "2"
 			(uuid "c316ce10-c2c5-4e56-8936-3e87b361150f")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "NT20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF1001TCE")
@@ -11579,7 +12325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bb02369-da78-4092-96cf-f4298c85e293")
-		(property "Reference" "R69"
+		(property "Reference" "R71"
 			(at 165.1 147.32 0)
 			(effects
 				(font
@@ -11646,6 +12392,14 @@
 		(pin "2"
 			(uuid "3410bcd0-ff25-491c-9ec9-d01da922fd58")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF330JTCE")
@@ -11657,7 +12411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0f4ec5-8518-46bc-8c4c-49bb92915f1c")
-		(property "Reference" "R72"
+		(property "Reference" "R74"
 			(at 209.55 143.51 0)
 			(effects
 				(font
@@ -11733,6 +12487,14 @@
 		(pin "2"
 			(uuid "b30fee18-2459-4ec7-842a-721d1150f36d")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL31B105KCHNNNE")
@@ -11744,7 +12506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f881466-bd6b-4cfd-9ca9-50cb59f88270")
-		(property "Reference" "C84"
+		(property "Reference" "C65"
 			(at 222.25 20.32 0)
 			(effects
 				(font
@@ -11829,6 +12591,14 @@
 		(pin "1"
 			(uuid "4a8f5110-595f-426b-9d7d-2887799fecd5")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF200KTCE")
@@ -11839,7 +12609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80771a23-ad1b-4863-9b0e-44214d35c0ea")
-		(property "Reference" "R62"
+		(property "Reference" "R64"
 			(at 200.66 100.33 0)
 			(effects
 				(font
@@ -11906,6 +12676,111 @@
 		(pin "2"
 			(uuid "6e1c930e-3dca-48bc-a678-f3e1c528a88b")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:WAFER-SH1.0-4PLB")
+		(at 95.25 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83ae32d8-6e94-4334-b5e0-cd83d912a3d2")
+		(property "Reference" "J24"
+			(at 97.79 96.8755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WAFER-GH1.25-4PLB"
+			(at 97.79 99.4155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/WAFER-SH1.0-4PLB/3561346.html?spm=sc.it.xds.a___sc.gbn.xh3.zy.t&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNTRlheVFBfTldYUTsOAxUeFF5JWA0HFBBIBBsCBBcFWQIBCks%3D"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GH1.25 4P 立贴"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C3029334"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G14550773"
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eab00385-c8f8-47f9-82c0-2b8ec31593db")
+		)
+		(pin "1"
+			(uuid "690b435b-8491-4a3b-be6e-221ab787afd0")
+		)
+		(pin "MP"
+			(uuid "65418775-4cac-4c79-9de6-c5e783266b65")
+		)
+		(pin "4"
+			(uuid "4fccfab1-1f1c-42cf-a5ca-0c229c6a6d6e")
+		)
+		(pin "2"
+			(uuid "a7e2bd9a-bb47-4eb2-8973-00a94863e938")
+		)
+		(instances
+			(project ""
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL05A106MP5NUNC")
@@ -11916,7 +12791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8641061d-dcf9-4090-9b01-170e5f34e529")
-		(property "Reference" "C99"
+		(property "Reference" "C78"
 			(at 112.776 170.18 0)
 			(effects
 				(font
@@ -12003,6 +12878,14 @@
 		(pin "2"
 			(uuid "89da23c8-db07-49e9-952e-5da541a5d85d")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -12014,7 +12897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86a2eee0-954d-4bc8-ba9b-41ca2eb350a7")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0170"
 			(at 214.63 27.94 0)
 			(effects
 				(font
@@ -12061,6 +12944,14 @@
 		(pin "1"
 			(uuid "5b93affc-0494-4b0f-8eee-331a5ff03bff")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -12072,7 +12963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87514005-235c-4631-8b1e-5070ad39f929")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0176"
 			(at 128.27 52.07 0)
 			(effects
 				(font
@@ -12119,6 +13010,14 @@
 		(pin "1"
 			(uuid "73b15d3e-edf3-4fc6-82dc-b47b5fa1a687")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF1002TCE")
@@ -12129,7 +13028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a2a7858-993f-49fb-b179-83698019681b")
-		(property "Reference" "R76"
+		(property "Reference" "R78"
 			(at 146.05 161.29 0)
 			(effects
 				(font
@@ -12196,6 +13095,14 @@
 		(pin "2"
 			(uuid "5829174e-56fb-4b31-97a3-ee87b0e52146")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -12207,7 +13114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca7adf8-0688-4a68-a505-6d1ba81dff90")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0192"
 			(at 248.92 115.57 0)
 			(effects
 				(font
@@ -12254,18 +13161,26 @@
 		(pin "1"
 			(uuid "c405fad2-4476-4750-8598-49ff7a8c4f6e")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:+3.3_2")
-		(at 80.01 92.71 180)
+		(at 59.69 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8f752542-7ac7-46b9-82f7-8860620f8287")
-		(property "Reference" "#PWR0166"
-			(at 81.28 90.17 0)
+		(property "Reference" "#PWR0186"
+			(at 60.96 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12274,7 +13189,7 @@
 			)
 		)
 		(property "Value" "+3.3_2"
-			(at 80.01 89.408 0)
+			(at 59.69 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,7 +13197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 92.71 0)
+			(at 59.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12291,7 +13206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 92.71 0)
+			(at 59.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,7 +13215,7 @@
 			)
 		)
 		(property "Description" "电源符号创建名为 '+3.3_2' 的全局标签"
-			(at 80.01 92.71 0)
+			(at 59.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12311,103 +13226,13 @@
 		(pin ""
 			(uuid "c938e6a1-605a-4ac6-a68b-9c5d78672eba")
 		)
-	)
-	(symbol
-		(lib_id "HPM6280Foc:RS622XTDE8")
-		(at 219.71 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96c9acfd-861d-4c5c-820a-2ca4c15a12b8")
-		(property "Reference" "U30"
-			(at 224.79 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0186")
+					(unit 1)
 				)
 			)
-		)
-		(property "Value" "RS622XTDE8"
-			(at 224.79 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm"
-			(at 219.71 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/RS622XTDE8/249394.html?spm=sc.it.xds.a___sc.gbn.xh3.zy.t&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUF1WQ1hYXjsOAxUeFF5JWAgaAglIBBsCBBcFWQIBCks%3D"
-			(at 219.71 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "超低噪声11nV/√Hz,7MHz,2通道运放"
-			(at 219.71 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "华秋编号" "G4251408"
-			(at 219.71 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "立创编号" "C255452"
-			(at 219.71 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "08b2794d-02f9-4550-b6a2-5df90b8d4af0")
-		)
-		(pin "4"
-			(uuid "b820c066-0ea0-4a58-b014-01b569111842")
-		)
-		(pin "5"
-			(uuid "c97be501-37a4-45e3-ad02-4001690e0931")
-		)
-		(pin "7"
-			(uuid "87929d21-fb0c-4608-932a-a48599137968")
-		)
-		(pin "6"
-			(uuid "45660a02-ce4e-44f7-9ed4-91457242cfd6")
-		)
-		(pin "8"
-			(uuid "52b1f2c4-767a-49d5-ae61-449c5821dca5")
-		)
-		(pin "3"
-			(uuid "e2629afa-ea8d-4aba-9704-5deb2eec9734")
-		)
-		(pin "9"
-			(uuid "31a5ade6-b1c9-4427-bd52-9346da6f72de")
-		)
-		(pin "2"
-			(uuid "8b4666c6-72e4-4de0-bb0d-7caf338896c9")
 		)
 	)
 	(symbol
@@ -12419,7 +13244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "988fe717-c845-4e29-99b4-5cdac95a8c48")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0203"
 			(at 115.57 160.02 0)
 			(effects
 				(font
@@ -12466,6 +13291,14 @@
 		(pin ""
 			(uuid "2e108a0d-31a6-4017-bc90-affec3494d03")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12476,7 +13309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b090f17-9a99-4fd5-8f69-094b439f762e")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0201"
 			(at 123.19 166.37 0)
 			(effects
 				(font
@@ -12523,6 +13356,14 @@
 		(pin "1"
 			(uuid "9005dee2-2740-4d2a-8386-672f203039b8")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RC0402FR-075KL")
@@ -12533,7 +13374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b5fb3c8-4d34-4652-a296-9bbdd71ff32e")
-		(property "Reference" "R65"
+		(property "Reference" "R67"
 			(at 165.1 137.16 0)
 			(effects
 				(font
@@ -12600,10 +13441,18 @@
 		(pin "1"
 			(uuid "6eda96e3-3f0c-492f-9a8b-71c70c9f6be5")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 45.72 93.98 0)
+		(at 25.4 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12611,8 +13460,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c5143a-7537-4019-922a-333593cf42ed")
-		(property "Reference" "#PWR0167"
-			(at 45.72 97.79 0)
+		(property "Reference" "#PWR0187"
+			(at 25.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +13470,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 45.72 88.9 0)
+			(at 25.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,7 +13478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 93.98 0)
+			(at 25.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +13487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 93.98 0)
+			(at 25.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +13496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 93.98 0)
+			(at 25.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,6 +13506,14 @@
 		)
 		(pin "1"
 			(uuid "272479f7-d303-4b98-8cf2-e6bdaeff4d5c")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12669,7 +13526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a606433f-ebb9-4537-a9da-48b25b689ab2")
-		(property "Reference" "U25"
+		(property "Reference" "U29"
 			(at 163.83 27.94 0)
 			(effects
 				(font
@@ -12754,6 +13611,14 @@
 		(pin "3"
 			(uuid "0666d696-53e0-4acb-b4c5-dcee7a328eac")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U29")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF330JTCE")
@@ -12765,7 +13630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a642c620-ef24-4541-b2db-c51d4bfd6319")
-		(property "Reference" "R71"
+		(property "Reference" "R73"
 			(at 130.81 143.51 0)
 			(effects
 				(font
@@ -12841,6 +13706,14 @@
 		(pin "2"
 			(uuid "5f0596f1-9263-426e-ba13-fcbc4cf38406")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
@@ -12852,7 +13725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a834ac6d-ecde-43c4-8a6f-689922515fc2")
-		(property "Reference" "NT13"
+		(property "Reference" "NT17"
 			(at 200.66 53.34 0)
 			(effects
 				(font
@@ -12903,6 +13776,14 @@
 		(pin "2"
 			(uuid "094403b7-0b90-4a6f-9b5d-ccd138721279")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "NT17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -12914,7 +13795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b05046b1-3074-4d43-a950-4ab76ec3008f")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0173"
 			(at 248.92 31.75 0)
 			(effects
 				(font
@@ -12961,6 +13842,14 @@
 		(pin "1"
 			(uuid "11128c8a-b107-4cba-a5a8-e0986718d852")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:1N5819WS")
@@ -12972,7 +13861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0634815-fc50-4461-ba22-d7b48e4569b9")
-		(property "Reference" "D25"
+		(property "Reference" "D33"
 			(at 200.66 26.67 0)
 			(effects
 				(font
@@ -13039,6 +13928,14 @@
 		(pin "1"
 			(uuid "82913e74-4661-4de0-a300-63d75c148691")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13049,7 +13946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b12f9cab-6e67-4ae1-9857-83654a1194aa")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0202"
 			(at 201.93 166.37 0)
 			(effects
 				(font
@@ -13096,10 +13993,18 @@
 		(pin "1"
 			(uuid "49391708-585b-4933-9214-cce7454c21f0")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RT9193-33GB-MS")
-		(at 55.88 91.44 0)
+		(at 35.56 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13107,8 +14012,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b19df84a-dbbb-49aa-a360-b0b9cf433af3")
-		(property "Reference" "U27"
-			(at 62.23 86.36 0)
+		(property "Reference" "U31"
+			(at 41.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,7 +14021,7 @@
 			)
 		)
 		(property "Value" "RT9193-33GB-MS"
-			(at 62.23 88.9 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13124,7 +14029,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 55.88 91.44 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13133,7 +14038,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/RT9193-33GB-MS/8628225.html?spm=sc.it.xds.a___sc.gbn.xh2.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJZV1ZUQllYUzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 55.88 91.44 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13142,7 +14047,7 @@
 			)
 		)
 		(property "Description" "Vin=8V(Max)，极低的关断电流Typ.=1ua;高精度2%"
-			(at 55.88 91.44 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13151,7 +14056,7 @@
 			)
 		)
 		(property "立创编号" "C7528825"
-			(at 55.88 91.44 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13174,6 +14079,14 @@
 		(pin "5"
 			(uuid "84a8eb32-36a8-4910-94a9-42cc47176ad1")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U31")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13184,7 +14097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5033da7-ecc4-4e75-aede-8d255e00c2af")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR0197"
 			(at 175.26 142.24 0)
 			(effects
 				(font
@@ -13231,6 +14144,14 @@
 		(pin "1"
 			(uuid "f1f00cb4-9e2c-4c3e-95eb-f1ba55971f54")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:EG2104")
@@ -13242,7 +14163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f71815-f096-4dd4-944c-90ba0ad72d21")
-		(property "Reference" "U28"
+		(property "Reference" "U32"
 			(at 163.83 88.9 0)
 			(effects
 				(font
@@ -13327,18 +14248,26 @@
 		(pin "3"
 			(uuid "8916d7a5-450c-4875-81eb-fa607e84c93e")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL05A105KA5NQNC")
-		(at 80.01 104.14 90)
+		(at 59.69 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b8107604-0304-4225-ade0-5a50c5c14c17")
-		(property "Reference" "C95"
-			(at 81.534 105.156 0)
+		(property "Reference" "C75"
+			(at 61.214 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,7 +14276,7 @@
 			)
 		)
 		(property "Value" "1uF,25V"
-			(at 83.82 104.14 0)
+			(at 63.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,7 +14284,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 80.01 104.14 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,7 +14293,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402B223K500NT/1884.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJZV1ZUQllYUzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 80.01 104.14 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +14302,7 @@
 			)
 		)
 		(property "Description" "22nF ±10% 50V"
-			(at 80.01 104.14 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +14311,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 80.01 104.14 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +14320,7 @@
 			)
 		)
 		(property "制造商" "SAMSUNG(三星)"
-			(at 80.01 104.14 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13400,7 +14329,7 @@
 			)
 		)
 		(property "华秋编号" "G0023341"
-			(at 80.01 104.14 0)
+			(at 59.69 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +14338,7 @@
 			)
 		)
 		(property "立创编号" "C52923"
-			(at 83.82 107.95 0)
+			(at 63.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13423,6 +14352,14 @@
 		(pin "1"
 			(uuid "d0dfd518-f97a-4d66-b595-81071a15c06f")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF1002TCE")
@@ -13433,7 +14370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0a6b819-6886-43b0-b865-4c7d7a960cc7")
-		(property "Reference" "R75"
+		(property "Reference" "R77"
 			(at 224.79 158.75 0)
 			(effects
 				(font
@@ -13500,6 +14437,14 @@
 		(pin "2"
 			(uuid "f79d3c16-dd15-48da-9a27-be512649ca49")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:+3.3_2")
@@ -13510,7 +14455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c15cd418-2751-4d0e-9bbf-d08bc0fad4bb")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0199"
 			(at 147.32 140.97 0)
 			(effects
 				(font
@@ -13557,6 +14502,14 @@
 		(pin ""
 			(uuid "b8931bf4-27d6-4ab8-8053-6aa5ebc0191f")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -13568,7 +14521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4615abb-6590-4cf5-a5d0-cb8ec6e0348e")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0185"
 			(at 232.41 88.9 0)
 			(effects
 				(font
@@ -13616,103 +14569,13 @@
 		(pin "1"
 			(uuid "dbea615b-6d14-4f28-a613-c000f39759f6")
 		)
-	)
-	(symbol
-		(lib_id "HPM6280Foc:NCE01ND03S")
-		(at 207.01 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5b2a08b-3186-4b6d-a0ee-982d1eb3caba")
-		(property "Reference" "Q14"
-			(at 218.44 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0185")
+					(unit 1)
 				)
-				(justify left)
 			)
-		)
-		(property "Value" "NCE01ND03S"
-			(at 218.44 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/NCE01ND03S/515366.html?spm=sc.it.xds.a___sc.gbn.xh1.zy.t&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYVl1fRFFdUjsOAxUeFF5JWA0HFBBIBBsCBBcFWQIBCks%3D"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2个N沟道 耐压:100V 电流:3A"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "华秋编号" "G6603933"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "立创编号" "C502845"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "a9a792c4-5653-47e9-a335-18c688ba2279")
-		)
-		(pin "1"
-			(uuid "5be50a2f-70ec-4890-8f93-9a6bc74773a5")
-		)
-		(pin "4"
-			(uuid "4b7e60dd-19bf-451a-805e-85913e57e9a5")
-		)
-		(pin "3"
-			(uuid "8003c0dc-9299-40c0-9c96-ea25bcc471f5")
-		)
-		(pin "2"
-			(uuid "4fac877c-fe61-4130-a3c3-20160c3e94e9")
-		)
-		(pin "7"
-			(uuid "9fb34b58-3c17-4359-9e80-579d843803a1")
-		)
-		(pin "6"
-			(uuid "add53443-a804-40cb-ab66-457f29488b4b")
-		)
-		(pin "5"
-			(uuid "4d8f9de7-d0a8-458a-a230-756a161a81c6")
 		)
 	)
 	(symbol
@@ -13724,7 +14587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c95b8013-db8b-448b-a56a-026716946a4e")
-		(property "Reference" "R59"
+		(property "Reference" "R61"
 			(at 200.66 39.37 0)
 			(effects
 				(font
@@ -13791,6 +14654,14 @@
 		(pin "2"
 			(uuid "7bc2be8a-1789-4e38-b0a2-c57a9b4b1c2d")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL05A106MP5NUNC")
@@ -13801,7 +14672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbb1a8b6-0f4c-45e7-84dc-97977e6c0e7c")
-		(property "Reference" "C87"
+		(property "Reference" "C68"
 			(at 27.686 50.8 0)
 			(effects
 				(font
@@ -13888,6 +14759,14 @@
 		(pin "2"
 			(uuid "922a6c82-5a10-4189-8390-e65426151a76")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13898,7 +14777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdb40132-6aa8-4fd8-ade3-d92a5958e369")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0183"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -13945,6 +14824,14 @@
 		(pin "1"
 			(uuid "acc7a1d0-a713-49a7-b016-2e761db08d02")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF1001TCE")
@@ -13955,7 +14842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d396fa74-2b93-46c6-a26b-7043994c9a5b")
-		(property "Reference" "R73"
+		(property "Reference" "R75"
 			(at 165.1 152.4 0)
 			(effects
 				(font
@@ -14022,6 +14909,14 @@
 		(pin "2"
 			(uuid "961db973-3b39-4b26-b2d5-d857b25a4426")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RE1206F1R100")
@@ -14032,7 +14927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d926755e-10c1-4fd6-aa32-d80ee9ece9e4")
-		(property "Reference" "R61"
+		(property "Reference" "R63"
 			(at 233.68 56.388 0)
 			(effects
 				(font
@@ -14092,6 +14987,14 @@
 		(pin "1"
 			(uuid "36b3c8af-ed47-4997-9dfa-02d0505969de")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -14103,7 +15006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d92969c9-7e52-4e32-bceb-b358534541af")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0190"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -14150,6 +15053,14 @@
 		(pin "1"
 			(uuid "994633b2-0f57-4f0a-92df-5a024afa1230")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0402WGF1001TCE")
@@ -14160,7 +15071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcd2c700-bb32-441d-b053-4dc03bbefd23")
-		(property "Reference" "R74"
+		(property "Reference" "R76"
 			(at 243.84 152.4 0)
 			(effects
 				(font
@@ -14227,6 +15138,14 @@
 		(pin "2"
 			(uuid "b7ad2d93-9b28-4069-a6c8-8c452c2dbe81")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+10V")
@@ -14238,7 +15157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd489aa9-ac20-4930-aad3-cba9195e3a3f")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0172"
 			(at 128.27 40.64 0)
 			(effects
 				(font
@@ -14286,6 +15205,14 @@
 		(pin "1"
 			(uuid "a7065364-efea-4dc2-98a3-f69a40e77702")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:DFR1G")
@@ -14297,7 +15224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1a1cc10-9b92-4d6d-9224-28db91ec2bbd")
-		(property "Reference" "D27"
+		(property "Reference" "D36"
 			(at 167.64 82.4784 0)
 			(effects
 				(font
@@ -14357,6 +15284,14 @@
 		(pin "2"
 			(uuid "86061879-d139-4625-8ee7-5127542d5b64")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:ZX-HY2.0-2PWT")
@@ -14368,7 +15303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9f2715a-497f-497d-89f3-9a5f8c9407f9")
-		(property "Reference" "U29"
+		(property "Reference" "U33"
 			(at 251.46 102.8699 0)
 			(effects
 				(font
@@ -14434,6 +15369,14 @@
 		(pin "2"
 			(uuid "b50669e9-a305-41a2-bdd6-b10564cdf40b")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -14445,7 +15388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f3268c-99db-42df-a8b3-2794d19148b5")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0189"
 			(at 248.92 92.71 0)
 			(effects
 				(font
@@ -14492,6 +15435,14 @@
 		(pin "1"
 			(uuid "118ed3b1-52b1-4656-ab3a-dbd60bb02c3f")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RCLAMP3324P")
@@ -14503,7 +15454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5dadf29-1e7d-4d43-bdc4-9c3e19d2ab2b")
-		(property "Reference" "D40"
+		(property "Reference" "D35"
 			(at 67.31 64.77 0)
 			(effects
 				(font
@@ -14594,6 +15545,14 @@
 		(pin "3"
 			(uuid "f8faff41-e4f1-4f37-97e6-ef3e6f8aabd4")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL31B105KCHNNNE")
@@ -14605,7 +15564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8541f8a-91ef-455e-a19a-7d57d61ff2d0")
-		(property "Reference" "C90"
+		(property "Reference" "C70"
 			(at 222.25 81.28 0)
 			(effects
 				(font
@@ -14690,6 +15649,14 @@
 		(pin "1"
 			(uuid "cb896c96-a108-4bd4-b7c6-9d700fae0cf5")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -14700,7 +15667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8818cf8-b3e1-49fa-9832-9fc5972748d9")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0174"
 			(at 34.29 38.1 0)
 			(effects
 				(font
@@ -14747,6 +15714,14 @@
 		(pin "1"
 			(uuid "4654524f-d8ff-4c90-8f53-5c9c4d4b55d4")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:DFR1G")
@@ -14758,7 +15733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f90b6d1a-a173-4f6e-89e3-7dbca40afaa0")
-		(property "Reference" "D24"
+		(property "Reference" "D32"
 			(at 167.64 21.5184 0)
 			(effects
 				(font
@@ -14818,6 +15793,14 @@
 		(pin "2"
 			(uuid "cb5d1889-d062-4927-8be2-553d51049177")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:1N5819WS")
@@ -14828,7 +15811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcdf50ee-4262-4c73-afca-f711d4f12d89")
-		(property "Reference" "D29"
+		(property "Reference" "D38"
 			(at 197.104 113.284 0)
 			(effects
 				(font
@@ -14895,6 +15878,14 @@
 		(pin "1"
 			(uuid "348fdd9a-967b-42af-bea3-d62dd31f7560")
 		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RE1206F1R100")
@@ -14905,7 +15896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe452daa-f771-4923-9ff2-856017a905aa")
-		(property "Reference" "R64"
+		(property "Reference" "R66"
 			(at 233.934 117.602 0)
 			(effects
 				(font
@@ -14964,6 +15955,14 @@
 		)
 		(pin "1"
 			(uuid "cccff392-3e8f-406b-bc6a-04f319787474")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "R66")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

@@ -4241,14 +4241,14 @@
 	(symbol
 		(lib_id "HPM5E00_Library:HPM5E31IGN1")
 		(at 74.93 71.12 0)
-		(unit 1)
+		(unit 8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9acc0d9b-f2ab-4886-a365-43d0085f71d2")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 141.605 66.04 0)
 			(effects
 				(font
@@ -4878,6 +4878,14 @@
 		)
 		(pin "L6"
 			(uuid "5b707718-876b-4f17-813a-08eb7d57031d")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/2d4a5fa8-008b-4423-85d3-728409cae44f"
+					(reference "U3")
+					(unit 8)
+				)
+			)
 		)
 	)
 )
