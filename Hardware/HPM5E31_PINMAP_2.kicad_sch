@@ -3997,7 +3997,7 @@
 		(uuid "4be8a3c2-1b5b-4bc9-9d44-cc88024599ed")
 	)
 	(label "EUI_SH"
-		(at 241.3 40.64 0)
+		(at 213.36 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4267,7 +4267,7 @@
 		(uuid "eb650fc8-8c9a-4f89-ad8c-5cab062f73aa")
 	)
 	(label "EUI_CK"
-		(at 241.3 38.1 0)
+		(at 213.36 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)

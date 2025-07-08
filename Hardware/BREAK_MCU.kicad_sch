@@ -5,6 +5,191 @@
 	(uuid "6b4b7a56-7a68-403f-8459-d58541763fbc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74xGxx:74LVC1G08"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G08"
+				(at 7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single AND Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate AND LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G08_0_1"
+				(arc
+					(start 0 5.08)
+					(mid 5.0579 0)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G08_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -1232,7 +1417,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HPM6280Foc:CC0603KRX7R9BB104"
+		(symbol "HPM6280Foc:CC0402KRX7R7BB104"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1244,7 +1429,7 @@
 					)
 				)
 			)
-			(property "Value" "100nF,50V"
+			(property "Value" "100nF,16V"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1252,7 +1437,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1288,7 +1473,7 @@
 					(hide yes)
 				)
 			)
-			(property "华秋编号" "G0045361"
+			(property "华秋编号" "G0042289"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1297,7 +1482,7 @@
 					(hide yes)
 				)
 			)
-			(property "立创编号" "C14663"
+			(property "立创编号" "C60474"
 				(at -3.81 -3.81 0)
 				(effects
 					(font
@@ -1315,7 +1500,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CC0603KRX7R9BB104_1_0"
+			(symbol "CC0402KRX7R7BB104_1_0"
 				(polyline
 					(pts
 						(xy -0.508 2.286) (xy -0.508 -2.286)
@@ -5162,6 +5347,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "硬件STO"
+		(exclude_from_sim no)
+		(at 23.622 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a37a1622-c1f6-4df9-abce-b2beed244cd6")
+	)
 	(junction
 		(at 154.94 36.83)
 		(diameter 0)
@@ -6084,6 +6279,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 170.18) (xy 30.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b05d166-09c9-4565-b21b-2626c00a7f60")
+	)
+	(wire
+		(pts
 			(xy 214.63 27.94) (xy 217.17 27.94)
 		)
 		(stroke
@@ -6131,6 +6336,16 @@
 			(type default)
 		)
 		(uuid "627b3ec0-2c9f-4329-a188-cb092755f3f3")
+	)
+	(wire
+		(pts
+			(xy 73.66 170.18) (xy 83.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a2f0bf-3508-476b-bdb0-cb413bcb95cb")
 	)
 	(wire
 		(pts
@@ -6611,6 +6826,16 @@
 			(type default)
 		)
 		(uuid "a9c45747-4030-4e2d-a109-6b812cb59595")
+	)
+	(wire
+		(pts
+			(xy 45.72 182.88) (xy 45.72 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa122c11-04c1-4601-8ce3-4f134c16165f")
 	)
 	(wire
 		(pts
@@ -7807,16 +8032,6 @@
 		)
 		(uuid "2bc59cc5-318b-4fbb-a2f8-50e367fb4a6a")
 	)
-	(label "PY32_SD1"
-		(at 143.51 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fba00d5-7189-4871-9312-5f42a350d1e7")
-	)
 	(label "PY32_SWCLK"
 		(at 76.2 99.06 0)
 		(effects
@@ -7838,7 +8053,7 @@
 		(uuid "3f9a6598-5942-4b9a-9c55-f99ece923b36")
 	)
 	(label "PY32_SD1"
-		(at 40.64 33.02 0)
+		(at 40.64 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7846,16 +8061,6 @@
 			(justify left bottom)
 		)
 		(uuid "46082235-c145-4968-919b-262c80dba39f")
-	)
-	(label "PY32_SD0"
-		(at 143.51 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5419e0fe-99f0-46d2-a1fd-938acfc5dada")
 	)
 	(label "PY32_SWCLK"
 		(at 85.09 44.45 0)
@@ -7867,6 +8072,16 @@
 		)
 		(uuid "5f93add5-a930-449c-984f-038b80a1ef64")
 	)
+	(label "PY32_SD0"
+		(at 20.32 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72f5cdb2-95aa-4719-b5a1-8dc8e8bb2124")
+	)
 	(label "BREAKA_CUR_N"
 		(at 168.91 152.4 0)
 		(effects
@@ -7877,6 +8092,16 @@
 		)
 		(uuid "7343b9d9-8420-4040-b73e-009d4bccfcec")
 	)
+	(label "SD1"
+		(at 143.51 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79037ea8-1fe5-4299-8299-869318aa0be8")
+	)
 	(label "PY32_PWM1"
 		(at 143.51 100.33 0)
 		(effects
@@ -7886,6 +8111,16 @@
 			(justify left bottom)
 		)
 		(uuid "7b8bfabd-0c17-4c44-9649-c018ef4afaea")
+	)
+	(label "SD0"
+		(at 58.42 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ee72509-0884-41a7-90d9-e6a4ce57ef80")
 	)
 	(label "PY32_PWM0"
 		(at 143.51 39.37 0)
@@ -7898,7 +8133,7 @@
 		(uuid "80200cb9-bcbe-4225-8790-9ffda7c834dd")
 	)
 	(label "PY32_SD0"
-		(at 40.64 35.56 0)
+		(at 40.64 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7916,6 +8151,16 @@
 			(justify left bottom)
 		)
 		(uuid "8688fbe9-f88d-42fe-bbdb-7f8a547b9189")
+	)
+	(label "SD1"
+		(at 111.76 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88b2f2b5-a2ae-44d7-944e-53c8dcd13706")
 	)
 	(label "PYADC_0"
 		(at 114.3 149.86 0)
@@ -7987,6 +8232,16 @@
 		)
 		(uuid "ba247812-d3f0-4602-9d00-fdf13c9dbfdb")
 	)
+	(label "SD0"
+		(at 143.51 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2022274-604b-49d5-8546-4c959890e194")
+	)
 	(label "BREAKB_CUR_N"
 		(at 180.34 123.19 0)
 		(effects
@@ -8026,6 +8281,16 @@
 			(justify left bottom)
 		)
 		(uuid "ef26b08c-ed33-4b06-b36c-d2a06ce3d96e")
+	)
+	(label "PY32_SD1"
+		(at 73.66 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efae4594-c87d-4f0b-84f0-a2c7eec75fc5")
 	)
 	(label "PY32_SWDIO"
 		(at 40.64 40.64 0)
@@ -8092,6 +8357,17 @@
 		)
 		(uuid "46c63a82-0b24-48c2-bc94-d23aad48713d")
 	)
+	(hierarchical_label "PY32_BRK"
+		(shape input)
+		(at 83.82 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "489df9ce-a34d-4381-a5fa-4badd691fc79")
+	)
 	(hierarchical_label "PY32_INT0"
 		(shape output)
 		(at 53.34 52.07 180)
@@ -8146,6 +8422,17 @@
 			(justify left)
 		)
 		(uuid "804b0ab4-88c9-4048-b952-0808c5de693d")
+	)
+	(hierarchical_label "PY32_BRK"
+		(shape input)
+		(at 30.48 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97cda56e-7fb8-4ee8-9b0e-1c99c7a68deb")
 	)
 	(hierarchical_label "PY32_EXADC3"
 		(shape input)
@@ -8238,21 +8525,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 120.65 77.47) (xy 120.65 130.81) (xy 240.03 130.81) (xy 240.03 77.47)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7afa021e-fb20-40d3-91c5-307dfaa15532)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 120.65 16.51) (xy 120.65 69.85) (xy 240.03 69.85) (xy 240.03 16.51)
 			)
 			(stroke
@@ -8262,7 +8534,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 90d3cc9d-ee7f-4174-a7e5-34ea4a778d2a)
+			(uuid 56b3464b-2282-404a-8d23-790ff22aabf0)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 120.65 77.47) (xy 120.65 130.81) (xy 240.03 130.81) (xy 240.03 77.47)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid df890107-fc13-4acf-9de5-8764a7009674)
 		)
 	)
 	(netclass_flag ""
@@ -8790,7 +9077,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "14373fa6-ed6d-430b-86a5-cf80f528576c")
+		(uuid "14373fa6-ed6d-430b-86a5-cf80f528576d")
 		(property "Reference" "U35"
 			(at 132.842 142.24 0)
 			(effects
@@ -8855,31 +9142,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "d55ca63b-9958-4fcc-bd17-edf053f89bee")
+			(uuid "d55ca63b-9958-4fcc-bd17-edf053f89bef")
 		)
 		(pin "4"
-			(uuid "4d33908e-db9b-4c32-bfb5-5daf188496d3")
+			(uuid "4d33908e-db9b-4c32-bfb5-5daf188496d4")
 		)
 		(pin "5"
-			(uuid "d061841b-bfa8-45c5-ba79-0c15e826034e")
+			(uuid "d061841b-bfa8-45c5-ba79-0c15e826034f")
 		)
 		(pin "7"
-			(uuid "e522dd44-045c-4b1d-a56c-e2abd1ae2d01")
+			(uuid "e522dd44-045c-4b1d-a56c-e2abd1ae2d02")
 		)
 		(pin "3"
-			(uuid "038aa446-4888-448c-b41f-ea5834175472")
+			(uuid "038aa446-4888-448c-b41f-ea5834175473")
 		)
 		(pin "8"
-			(uuid "051e5963-0574-4b21-9aa4-7352162538f3")
+			(uuid "051e5963-0574-4b21-9aa4-7352162538f4")
 		)
 		(pin "9"
-			(uuid "a6cd7707-d44b-42fd-9cb6-b6eb5f4da6f1")
+			(uuid "a6cd7707-d44b-42fd-9cb6-b6eb5f4da6f2")
 		)
 		(pin "6"
-			(uuid "e1dd1378-dec7-4ecc-9396-5748e0f35b05")
+			(uuid "e1dd1378-dec7-4ecc-9396-5748e0f35b06")
 		)
 		(pin "2"
-			(uuid "e8957e41-53e7-4759-bb8c-4395c8e9ec17")
+			(uuid "e8957e41-53e7-4759-bb8c-4395c8e9ec18")
 		)
 		(instances
 			(project "HPM5E31_ECatDualFOC"
@@ -8950,6 +9237,101 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
 					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G08")
+		(at 45.72 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18e0dcf8-3e40-4ee6-8680-ea3d943de263")
+		(property "Reference" "U36"
+			(at 57.15 166.2998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G08"
+			(at 57.15 168.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" ""
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" ""
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f6c63617-3f61-4c38-8bf6-9d40769e725e")
+		)
+		(pin "4"
+			(uuid "01ed55e8-cceb-409f-8790-23ca307110b2")
+		)
+		(pin "1"
+			(uuid "36397efe-95d3-4d50-b218-a19ee92d8a04")
+		)
+		(pin "5"
+			(uuid "663844a2-5cfb-466d-83db-db942a385ae0")
+		)
+		(pin "2"
+			(uuid "ac3f1159-cafa-4a83-8505-aee36015f2bc")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U36")
 					(unit 1)
 				)
 			)
@@ -9684,6 +10066,71 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:+3.3_2")
+		(at 55.88 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38b966a8-5de1-4b3c-b9bc-6a15518e5bdb")
+		(property "Reference" "#PWR0333"
+			(at 57.15 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3_2"
+			(at 55.626 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 '+3.3_2' 的全局标签"
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5414d1f2-0120-4715-be01-419cbfa47272")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 106.68 0)
 		(unit 1)
@@ -9931,7 +10378,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "44a16271-9be8-45ce-8a63-45a54ed6a99c")
+		(uuid "44a16271-9be8-45ce-8a63-45a54ed6a99d")
 		(property "Reference" "Q16"
 			(at 218.44 92.7099 0)
 			(effects
@@ -9996,28 +10443,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "6641a6d1-3683-4536-9275-c001da770af0")
+			(uuid "6641a6d1-3683-4536-9275-c001da770af1")
 		)
 		(pin "1"
-			(uuid "e56192e1-9c94-4e7a-8391-555daaf1914e")
+			(uuid "e56192e1-9c94-4e7a-8391-555daaf1914f")
 		)
 		(pin "4"
-			(uuid "8bed4430-3e7a-4eb2-bcb6-1d7182617482")
+			(uuid "8bed4430-3e7a-4eb2-bcb6-1d7182617483")
 		)
 		(pin "3"
-			(uuid "6cfd66c8-b217-441f-816a-f692ca346e98")
+			(uuid "6cfd66c8-b217-441f-816a-f692ca346e99")
 		)
 		(pin "2"
-			(uuid "64aed189-a6c7-4024-b22d-606085d6ad37")
+			(uuid "64aed189-a6c7-4024-b22d-606085d6ad38")
 		)
 		(pin "7"
-			(uuid "9d62154c-c665-4c83-b65a-dd22c2c98a38")
+			(uuid "9d62154c-c665-4c83-b65a-dd22c2c98a39")
 		)
 		(pin "6"
-			(uuid "4e87822c-81ed-46db-923c-cb8eca2d40a4")
+			(uuid "4e87822c-81ed-46db-923c-cb8eca2d40a5")
 		)
 		(pin "5"
-			(uuid "a9ff554d-e1f4-46b1-8308-5640c0929702")
+			(uuid "a9ff554d-e1f4-46b1-8308-5640c0929703")
 		)
 		(instances
 			(project "HPM5E31_ECatDualFOC"
@@ -10100,15 +10547,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 173.99 0)
+		(at 107.95 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "476f1e73-6d3a-46a0-8d93-6e78e37e71b2")
-		(property "Reference" "#PWR0204"
-			(at 114.3 180.34 0)
+		(uuid "4698845a-ca70-4b6d-8d15-b652e31d8c7b")
+		(property "Reference" "#PWR0336"
+			(at 107.95 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,7 +10564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 179.324 90)
+			(at 107.696 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10125,7 +10572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 173.99 0)
+			(at 107.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +10581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 173.99 0)
+			(at 107.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +10590,137 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 173.99 0)
+			(at 107.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50f084e3-3271-4759-9ddc-7cdb2706e95b")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0336")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46d7f84a-fc79-4395-8d0d-d6315b2ddad2")
+		(property "Reference" "#PWR0332"
+			(at 99.06 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 98.806 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1404c796-9007-4375-b0b8-63975c4d242b")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "476f1e73-6d3a-46a0-8d93-6e78e37e71b2")
+		(property "Reference" "#PWR0204"
+			(at 165.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11150,6 +11727,71 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:+3.3_2")
+		(at 45.72 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "640da4fa-0fe9-4de2-b2ec-193d15dab4e7")
+		(property "Reference" "#PWR0330"
+			(at 46.99 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3_2"
+			(at 45.466 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 '+3.3_2' 的全局标签"
+			(at 45.72 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "49d20a2f-98b8-4dec-9d5d-391ed80033f7")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:1N5819WS")
 		(at 200.66 93.98 0)
 		(unit 1)
@@ -11236,7 +11878,72 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:CC0603KRX7R9BB104")
+		(lib_id "power:GND")
+		(at 55.88 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69ef028b-3b74-4ce3-a891-dcb292752cad")
+		(property "Reference" "#PWR0334"
+			(at 55.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.626 194.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2adbb765-0165-4377-81b5-2e1b8ecb829a")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0334")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:CC0402KRX7R7BB104")
 		(at 36.83 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11262,7 +11969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 49.53 0)
 			(effects
 				(font
@@ -11307,7 +12014,7 @@
 				(hide yes)
 			)
 		)
-		(property "华秋编号" "G0045361"
+		(property "华秋编号" "G0042289"
 			(at 36.83 49.53 0)
 			(effects
 				(font
@@ -11316,7 +12023,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C14663"
+		(property "立创编号" "C60474"
 			(at 40.64 53.34 0)
 			(effects
 				(font
@@ -11872,7 +12579,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "745529b1-8305-437e-8a27-84b6ee58155e")
+		(uuid "745529b1-8305-437e-8a27-84b6ee58155f")
 		(property "Reference" "Q14"
 			(at 218.44 31.7499 0)
 			(effects
@@ -11937,28 +12644,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "fe01a9c5-b49a-49fa-aed9-3849450a2553")
+			(uuid "fe01a9c5-b49a-49fa-aed9-3849450a2554")
 		)
 		(pin "1"
-			(uuid "701f87bc-c2c0-44cf-8f78-75ca437e7167")
+			(uuid "701f87bc-c2c0-44cf-8f78-75ca437e7168")
 		)
 		(pin "4"
-			(uuid "07fda616-8bf8-4ab3-831c-d5593a060a3f")
+			(uuid "07fda616-8bf8-4ab3-831c-d5593a060a40")
 		)
 		(pin "3"
-			(uuid "d3a68c43-72d2-41a1-ba2b-99876959cd28")
+			(uuid "d3a68c43-72d2-41a1-ba2b-99876959cd29")
 		)
 		(pin "2"
-			(uuid "ef4676e2-906f-4bd6-9afd-0bbe3edb813c")
+			(uuid "ef4676e2-906f-4bd6-9afd-0bbe3edb813d")
 		)
 		(pin "7"
-			(uuid "90e66971-4602-432e-9559-776221e8c991")
+			(uuid "90e66971-4602-432e-9559-776221e8c992")
 		)
 		(pin "6"
-			(uuid "4e9b7cea-2e3e-44b6-90e3-f2d0e6508603")
+			(uuid "4e9b7cea-2e3e-44b6-90e3-f2d0e6508604")
 		)
 		(pin "5"
-			(uuid "6b14f33b-6a31-492e-817f-a6590972756f")
+			(uuid "6b14f33b-6a31-492e-817f-a65909727570")
 		)
 		(instances
 			(project "HPM5E31_ECatDualFOC"
@@ -12784,7 +13491,7 @@
 	)
 	(symbol
 		(lib_id "HPM6280Foc:CL05A106MP5NUNC")
-		(at 114.3 168.91 270)
+		(at 165.1 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12792,7 +13499,7 @@
 		(dnp no)
 		(uuid "8641061d-dcf9-4090-9b01-170e5f34e529")
 		(property "Reference" "C78"
-			(at 112.776 170.18 0)
+			(at 163.576 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12801,7 +13508,7 @@
 			)
 		)
 		(property "Value" "10uF,10V"
-			(at 110.49 163.83 0)
+			(at 161.29 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12810,7 +13517,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 114.3 168.91 0)
+			(at 165.1 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12819,7 +13526,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231220/1EF805BAE1520675928CC4638D279E74.pdf"
-			(at 114.3 168.91 0)
+			(at 165.1 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12828,7 +13535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 168.91 0)
+			(at 165.1 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12837,7 +13544,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 114.3 168.91 0)
+			(at 165.1 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12846,7 +13553,7 @@
 			)
 		)
 		(property "制造商" ""
-			(at 114.3 168.91 0)
+			(at 165.1 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12855,7 +13562,7 @@
 			)
 		)
 		(property "华秋编号" "G0022855"
-			(at 114.3 168.91 0)
+			(at 165.1 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +13571,7 @@
 			)
 		)
 		(property "立创编号" "C315248"
-			(at 114.3 168.91 0)
+			(at 165.1 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13014,6 +13721,101 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
 					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G08")
+		(at 99.06 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88066ec7-cf5e-448c-a890-d12e090a3b78")
+		(property "Reference" "U37"
+			(at 110.49 166.2998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G08"
+			(at 110.49 168.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" ""
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" ""
+			(at 99.06 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "36c8ff23-1144-46f8-b535-487feef696d9")
+		)
+		(pin "4"
+			(uuid "cc257ed3-45b6-481d-8018-2f90906293c3")
+		)
+		(pin "1"
+			(uuid "61077ab9-8535-4821-beeb-6c8dfc7fa2f0")
+		)
+		(pin "5"
+			(uuid "80d4099e-6777-435b-b146-c1a4c88e5bd9")
+		)
+		(pin "2"
+			(uuid "dd1512ee-2930-4f03-9ff9-2810c3699153")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "U37")
 					(unit 1)
 				)
 			)
@@ -13237,7 +14039,7 @@
 	)
 	(symbol
 		(lib_id "HPM6280Foc:+3.3_2")
-		(at 114.3 162.56 180)
+		(at 165.1 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13245,7 +14047,7 @@
 		(dnp no)
 		(uuid "988fe717-c845-4e29-99b4-5cdac95a8c48")
 		(property "Reference" "#PWR0203"
-			(at 115.57 160.02 0)
+			(at 166.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +14056,7 @@
 			)
 		)
 		(property "Value" "+3.3_2"
-			(at 114.3 159.258 0)
+			(at 165.1 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13262,7 +14064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 162.56 0)
+			(at 165.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13271,7 +14073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 162.56 0)
+			(at 165.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +14082,7 @@
 			)
 		)
 		(property "Description" "电源符号创建名为 '+3.3_2' 的全局标签"
-			(at 114.3 162.56 0)
+			(at 165.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13780,6 +14582,111 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
 					(reference "NT17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:CC0402KRX7R7BB104")
+		(at 107.95 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8b9f258-10d7-4373-86e6-16278e61d44e")
+		(property "Reference" "C143"
+			(at 106.426 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF,50V"
+			(at 103.886 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "制造商编号" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "制造商" "YAGEO(国巨)"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G0042289"
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C60474"
+			(at 111.76 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc44edda-9cf7-4c25-99c8-e43c1ccda411")
+		)
+		(pin "1"
+			(uuid "86884581-2ded-4969-97f9-625bf712e73e")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -14664,6 +15571,71 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:+3.3_2")
+		(at 107.95 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb6ea2b1-5fec-4eb8-94e0-4f12bd96aadf")
+		(property "Reference" "#PWR0335"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3_2"
+			(at 107.696 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 '+3.3_2' 的全局标签"
+			(at 107.95 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "4b124e24-329a-4f24-8045-d2adddf11b27")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:CL05A106MP5NUNC")
 		(at 29.21 49.53 270)
 		(unit 1)
@@ -15294,6 +16266,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 45.72 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8b65e49-f2d7-4144-8c00-bc392fe149ab")
+		(property "Reference" "#PWR0329"
+			(at 45.72 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.466 186.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8682cd-2369-4f56-a703-0d08affeff4f")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:ZX-HY2.0-2PWT")
 		(at 245.11 100.33 0)
 		(unit 1)
@@ -15439,6 +16476,176 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
 					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:+3.3_2")
+		(at 99.06 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f19c570d-ff7c-46d9-8c61-e3244d763586")
+		(property "Reference" "#PWR0331"
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3_2"
+			(at 98.806 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电源符号创建名为 '+3.3_2' 的全局标签"
+			(at 99.06 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7e23ac64-503e-4c41-a5c8-8fbc1b5c9ab0")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "#PWR0331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:CC0402KRX7R7BB104")
+		(at 55.88 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f25e5a5f-a7ed-4602-a785-72ea7ce7ce6c")
+		(property "Reference" "C142"
+			(at 54.356 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF,50V"
+			(at 51.816 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 55.88 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "制造商编号" ""
+			(at 55.88 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "制造商" "YAGEO(国巨)"
+			(at 55.88 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G0042289"
+			(at 55.88 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C60474"
+			(at 59.69 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e90afd57-c588-4e48-bf7a-5d3d3627f9d7")
+		)
+		(pin "1"
+			(uuid "a9ee406e-566d-4df0-a695-7761b5e7a4be")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/49abfb4f-bbe9-4cae-af2b-11ed3cc12571"
+					(reference "C142")
 					(unit 1)
 				)
 			)

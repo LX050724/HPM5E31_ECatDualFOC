@@ -4030,6 +4030,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "硬件STO"
+		(exclude_from_sim no)
+		(at 29.718 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55964fdc-53c0-4207-8917-0f255796ca0d")
+	)
 	(junction
 		(at 148.59 177.8)
 		(diameter 0)
@@ -6689,7 +6699,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 13.97 158.75) (xy 140.97 158.75) (xy 140.97 113.03) (xy 13.97 113.03)
+				(xy 13.97 64.77) (xy 140.97 64.77) (xy 140.97 19.05) (xy 13.97 19.05)
 			)
 			(stroke
 				(width 0)
@@ -6698,7 +6708,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b922c3cf-38bf-448b-84d7-37f48106cfca)
+			(uuid 0037aa75-2ccc-45b4-acff-9c611690494f)
 		)
 	)
 	(rule_area
@@ -6713,13 +6723,13 @@
 			(fill
 				(type none)
 			)
-			(uuid ce833e93-8598-4cdd-8c0a-5f25704c1b39)
+			(uuid 6d17938c-c104-44c1-bf88-3ac0dd4e4a0f)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 13.97 64.77) (xy 140.97 64.77) (xy 140.97 19.05) (xy 13.97 19.05)
+				(xy 13.97 158.75) (xy 140.97 158.75) (xy 140.97 113.03) (xy 13.97 113.03)
 			)
 			(stroke
 				(width 0)
@@ -6728,7 +6738,7 @@
 			(fill
 				(type none)
 			)
-			(uuid f7ede5b2-d21d-4e36-bbb7-3ca4413fb4a3)
+			(uuid 71cc1ed4-31c0-447f-baa5-e6c820a93264)
 		)
 	)
 	(netclass_flag ""

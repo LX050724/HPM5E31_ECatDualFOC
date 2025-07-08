@@ -6614,6 +6614,12 @@
 		(uuid "77628e09-40a8-43e0-be0c-72de5944c427")
 	)
 	(junction
+		(at 128.27 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e13ef57-70e9-416c-a266-216affe2109a")
+	)
+	(junction
 		(at 97.79 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7337,6 +7343,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 144.78) (xy 114.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7195a577-d805-47cd-8e66-f8c5e418ac9d")
+	)
+	(wire
+		(pts
 			(xy 160.02 118.11) (xy 168.91 118.11)
 		)
 		(stroke
@@ -7957,6 +7973,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 144.78) (xy 128.27 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60d7ff9-fc93-44d3-8b71-5a9cfa801e45")
+	)
+	(wire
+		(pts
 			(xy 160.02 43.18) (xy 162.56 43.18)
 		)
 		(stroke
@@ -8177,7 +8203,7 @@
 	)
 	(hierarchical_label "RSTN"
 		(shape input)
-		(at 114.3 144.78 0)
+		(at 132.08 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8198,7 +8224,7 @@
 			(fill
 				(type none)
 			)
-			(uuid aca2a5e4-8508-42f4-ad60-732b44bd897b)
+			(uuid e101ed90-4e93-4e80-9bd6-5724a8c1adb4)
 		)
 	)
 	(netclass_flag ""
@@ -12742,6 +12768,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 128.27 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c89a0a5-1b3b-4005-930a-65e047b53765")
+		(property "Reference" "#PWR0338"
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 128.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 128.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43cd2e35-2bae-409d-be4f-97e686cd41a7")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
+					(reference "#PWR0338")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:CL05A106MP5NUNC")
 		(at 207.01 43.18 90)
 		(unit 1)
@@ -12856,7 +12948,7 @@
 		(dnp no)
 		(uuid "70716817-a14e-4151-bae0-e8aa9be57106")
 		(property "Reference" "J22"
-			(at 162.56 157.48 0)
+			(at 137.16 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,6 +13701,94 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:0402WGF1002TCE")
+		(at 128.27 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e6bba3b-ec9b-408c-9205-8f5d583e677f")
+		(property "Reference" "R135"
+			(at 130.81 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K,1%"
+			(at 130.81 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G0063278"
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C25744"
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78a71953-98ef-4f49-b1c4-db23501f1b57")
+		)
+		(pin "2"
+			(uuid "20e64e6d-c676-49b7-b305-e1b553dfae9b")
+		)
+		(instances
+			(project ""
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
+					(reference "R135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 181.61 0)
 		(unit 1)
@@ -13669,6 +13849,112 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
 					(reference "#PWR0322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:CC0402KRX7R7BB104")
+		(at 128.27 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4945e1b-ae14-4534-9405-79e82bf59fe1")
+		(property "Reference" "C144"
+			(at 132.08 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF,16V"
+			(at 132.08 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "制造商编号" ""
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "制造商" "YAGEO(国巨)"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "华秋编号" "G0042289"
+			(at 128.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C60474"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f7decd9-13ea-4afc-8b2b-8daf080ca424")
+		)
+		(pin "1"
+			(uuid "415af2ff-cfd1-421a-aba1-2c16f7ddb159")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
+					(reference "C144")
 					(unit 1)
 				)
 			)
@@ -14250,6 +14536,72 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
 					(reference "C138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d897c035-db3b-4cf1-b984-10fb337d5c37")
+		(property "Reference" "#PWR0337"
+			(at 128.27 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4302a50a-de50-4b9d-bf06-2b70ca8d2680")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
+					(reference "#PWR0337")
 					(unit 1)
 				)
 			)

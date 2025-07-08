@@ -2130,6 +2130,16 @@
 		)
 		(uuid "fa9783ec-4e12-4d40-b211-c6c14dab4814")
 	)
+	(label "485-"
+		(at 163.83 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13ed648b-3f89-4343-8b16-b047eebdef93")
+	)
 	(label "RS485.DI"
 		(at 83.82 96.52 0)
 		(effects
@@ -2159,6 +2169,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9df111e-202a-4ebe-b5fe-a79a5937299d")
+	)
+	(label "485+"
+		(at 163.83 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c04490b3-3de0-4a3e-afdd-9f28e3b79fd5")
 	)
 	(hierarchical_label "RS485{RO DE DI}"
 		(shape input)
