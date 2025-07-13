@@ -5381,6 +5381,187 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPM6280Foc:ECMF02-2AMX6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ECMF02-2AMX6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:ST_UQFN-6L_1.5x1.7mm_P0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/ECMF02-2AMX6/2743053.html?spm=sc.it.xds.a___sc.gbn.xh1.zy.t&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNTRVJXU1BQR1ZYVjtW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB 2.0和MIPI/MDDI接口的共模滤波器和ESD保护"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C2651144"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ECMF02-2AMX6_0_0"
+				(pin unspecified line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ECMF02-2AMX6_1_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HPM6280Foc:GRM033R61A104KE15D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6674,7 +6855,7 @@
 		(uuid "afbe470b-e37a-487a-8251-13d98af84576")
 	)
 	(junction
-		(at 139.7 181.61)
+		(at 154.94 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1fb5471-f4f5-45de-9b72-d3163d390058")
@@ -6821,6 +7002,10 @@
 		(at 114.3 154.94)
 		(uuid "c3a991ed-7cf4-45e7-9da8-106191b5bc16")
 	)
+	(no_connect
+		(at 185.42 154.94)
+		(uuid "fe1b72db-258d-46ba-929c-0e81db1484c6")
+	)
 	(wire
 		(pts
 			(xy 97.79 107.95) (xy 97.79 106.68)
@@ -6833,7 +7018,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 166.37) (xy 161.29 166.37)
+			(xy 165.1 144.78) (xy 176.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6853,7 +7038,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 181.61) (xy 142.24 181.61)
+			(xy 154.94 160.02) (xy 157.48 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6890,6 +7075,16 @@
 			(type default)
 		)
 		(uuid "08a76771-590d-4748-b635-3ddff5178e71")
+	)
+	(wire
+		(pts
+			(xy 200.66 149.86) (xy 210.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa1d940-23ce-4ae2-ab33-45ab0be637fc")
 	)
 	(wire
 		(pts
@@ -6930,6 +7125,16 @@
 			(type default)
 		)
 		(uuid "10d5088b-6d61-4891-8888-4075be0b68f5")
+	)
+	(wire
+		(pts
+			(xy 200.66 152.4) (xy 210.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f35052-f35b-481d-94b5-d4133c479d65")
 	)
 	(wire
 		(pts
@@ -7203,7 +7408,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 171.45) (xy 161.29 171.45)
+			(xy 165.1 149.86) (xy 185.42 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7220,6 +7425,16 @@
 			(type default)
 		)
 		(uuid "55b5a245-3938-446b-8aad-a57391f6c5df")
+	)
+	(wire
+		(pts
+			(xy 200.66 154.94) (xy 200.66 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dadb9d-a5f7-47f4-8875-2f0df158e468")
 	)
 	(wire
 		(pts
@@ -7333,7 +7548,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 173.99) (xy 161.29 173.99)
+			(xy 165.1 152.4) (xy 185.42 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8051,6 +8266,16 @@
 		)
 		(uuid "ffa96d1e-de74-47f4-8cd1-f97c6ac340ee")
 	)
+	(label "USB_N"
+		(at 203.2 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c2fb879-ac60-469a-bed8-fbf8080c6631")
+	)
 	(label "VDD_PHY0CAP"
 		(at 161.29 114.3 0)
 		(effects
@@ -8060,16 +8285,6 @@
 			(justify left bottom)
 		)
 		(uuid "11f58460-dbb5-4111-a68f-0b588c0f9e37")
-	)
-	(label "USB_P"
-		(at 152.4 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12dd7b65-f524-4579-8ee7-708574254d3e")
 	)
 	(label "VDD_PHY1CAP"
 		(at 161.29 118.11 0)
@@ -8112,7 +8327,7 @@
 		(uuid "231268dd-585d-4416-aa1e-e17219b4c24b")
 	)
 	(label "USB_VBUS"
-		(at 152.4 166.37 0)
+		(at 167.64 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8121,15 +8336,25 @@
 		)
 		(uuid "3ca3c72b-3e97-4ec3-a216-c7db72783951")
 	)
-	(label "USB_N"
-		(at 152.4 173.99 0)
+	(label "USB'_P"
+		(at 171.45 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7b781168-86b5-4cd3-8cc9-44079edfe432")
+		(uuid "56ec28f9-dff9-41c1-a968-3b1070cde8dc")
+	)
+	(label "USB'_N"
+		(at 171.45 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6476f26a-1147-43ba-aa12-1c80f8f0ee4f")
 	)
 	(label "VDD_OTPCAP"
 		(at 161.29 110.49 0)
@@ -8170,6 +8395,16 @@
 			(justify left bottom)
 		)
 		(uuid "c0dc5539-03f2-411c-9fc8-897fd145a901")
+	)
+	(label "USB_P"
+		(at 203.2 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcbd0f8a-f643-4b7d-bb46-df32d592660d")
 	)
 	(label "USB_VBUS"
 		(at 40.64 171.45 0)
@@ -8215,7 +8450,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 151.13 168.91) (xy 151.13 176.53) (xy 163.83 176.53) (xy 163.83 168.91)
+				(xy 201.93 147.32) (xy 201.93 154.94) (xy 212.09 154.94) (xy 212.09 147.32)
 			)
 			(stroke
 				(width 0)
@@ -8224,13 +8459,59 @@
 			(fill
 				(type none)
 			)
-			(uuid e101ed90-4e93-4e80-9bd6-5724a8c1adb4)
+			(uuid 362df5a2-3d45-4694-8ef8-24aaf8724a28)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 170.18 147.32) (xy 170.18 154.94) (xy 179.07 154.94) (xy 179.07 147.32)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c6e133d7-b102-4963-aee9-322329a03b16)
 		)
 	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 163.83 168.91 0)
+		(at 204.47 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "490d5ea0-5e8b-4cd1-9e67-9b187fff5006")
+		(property "Netclass" "USB"
+			(at 205.1685 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -29.21 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 179.07 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8240,7 +8521,7 @@
 		)
 		(uuid "91a2adfd-4ee0-423a-97de-29227ca8a6c7")
 		(property "Netclass" "USB"
-			(at 164.5285 166.37 0)
+			(at 179.7685 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8249,7 +8530,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -69.85 16.51 0)
+			(at -54.61 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,6 +10105,95 @@
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:ECMF02-2AMX6")
+		(at 198.12 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22e384fe-4940-48a2-853a-d48a9c50b909")
+		(property "Reference" "U55"
+			(at 193.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECMF02-2AMX6"
+			(at 193.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:ST_UQFN-6L_1.5x1.7mm_P0.5mm"
+			(at 198.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/ECMF02-2AMX6/2743053.html?spm=sc.it.xds.a___sc.gbn.xh1.zy.t&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNTRVJXU1BQR1ZYVjtW"
+			(at 198.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0和MIPI/MDDI接口的共模滤波器和ESD保护"
+			(at 198.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C2651144"
+			(at 198.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26fa9549-6c30-4a68-b308-3d4f9219b9ae")
+		)
+		(pin "6"
+			(uuid "da679a90-57ee-47a4-a07c-68dc525fd270")
+		)
+		(pin "1"
+			(uuid "c72a4b04-6e8c-40a4-b4b1-0e1e24b1c4b0")
+		)
+		(pin "4"
+			(uuid "f00a1577-462f-4ed9-8b48-3d1603248f4c")
+		)
+		(pin "2"
+			(uuid "a63ea569-3082-48d6-9e35-a7c0926da75b")
+		)
+		(pin "5"
+			(uuid "887b6cbe-bb7d-4624-b83c-15810b7fe2a2")
+		)
+		(instances
+			(project ""
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
+					(reference "U55")
+					(unit 1)
 				)
 			)
 		)
@@ -12940,7 +13310,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_B")
-		(at 142.24 171.45 0)
+		(at 157.48 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12948,7 +13318,7 @@
 		(dnp no)
 		(uuid "70716817-a14e-4151-bae0-e8aa9be57106")
 		(property "Reference" "J22"
-			(at 137.16 161.036 0)
+			(at 152.4 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12956,7 +13326,7 @@
 			)
 		)
 		(property "Value" "USB_B"
-			(at 142.24 161.29 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12964,7 +13334,7 @@
 			)
 		)
 		(property "Footprint" "Library:USB_B_OST_USB-B1HSxx_Horizontal"
-			(at 146.05 172.72 0)
+			(at 161.29 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +13343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 172.72 0)
+			(at 161.29 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12982,7 +13352,7 @@
 			)
 		)
 		(property "Description" "USB Type B connector"
-			(at 142.24 171.45 0)
+			(at 157.48 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12991,7 +13361,7 @@
 			)
 		)
 		(property "立创编号" ""
-			(at 142.24 171.45 0)
+			(at 157.48 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13000,7 +13370,7 @@
 			)
 		)
 		(property "华秋编号" ""
-			(at 142.24 171.45 0)
+			(at 157.48 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +13576,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 181.61 0)
+		(at 154.94 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13215,7 +13585,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a7cfecc-3852-407f-a999-9bdf2d6ef6c9")
 		(property "Reference" "#PWR0323"
-			(at 139.7 187.96 0)
+			(at 154.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,7 +13594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 186.69 0)
+			(at 154.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13232,7 +13602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 181.61 0)
+			(at 154.94 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,7 +13611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 181.61 0)
+			(at 154.94 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13250,7 +13620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 181.61 0)
+			(at 154.94 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,6 +13979,72 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
 					(reference "C132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96a77555-7f8c-4855-b352-fb1124f8dba1")
+		(property "Reference" "#PWR0339"
+			(at 200.66 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c64bbe-4e15-431e-ba02-62c5af940084")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/16a5d62f-8e33-460b-aaf4-ac810c44f339"
+					(reference "#PWR0339")
 					(unit 1)
 				)
 			)

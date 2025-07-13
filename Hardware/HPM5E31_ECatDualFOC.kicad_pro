@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 4.5,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -522,11 +522,20 @@
         "wire_width": 5
       },
       {
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.127,
+        "name": "CUR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127
+      },
+      {
         "diff_pair_gap": 0.1524,
         "diff_pair_width": 0.108966,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.108966
       },
@@ -535,7 +544,7 @@
         "diff_pair_gap": 0.381,
         "name": "MII",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127
       },
@@ -545,7 +554,7 @@
         "diff_pair_width": 0.12954,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1397
       }
@@ -783,6 +792,12 @@
       "/HPM5E31_TOP/FLASH{CS0 SCLK D[0..3]}": [
         "QSPI_FLASH"
       ],
+      "/HPM5E31_TOP/MCU_POWER/USB'_N": [
+        "USB"
+      ],
+      "/HPM5E31_TOP/MCU_POWER/USB'_P": [
+        "USB"
+      ],
       "/HPM5E31_TOP/MCU_POWER/USB_N": [
         "USB"
       ],
@@ -808,7 +823,12 @@
         "QSPI_FLASH"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "CUR",
+        "pattern": "/INVERTER_BRIDGE_?/C?_?"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -1109,6 +1129,10 @@
     [
       "d84e09e4-bcea-42f8-8f76-803deb05d7b4",
       "EMS_BUTTON"
+    ],
+    [
+      "3ffd3b75-6661-44c7-b55b-cd6c8f70391c",
+      "BRAKE_RES"
     ]
   ],
   "text_variables": {}

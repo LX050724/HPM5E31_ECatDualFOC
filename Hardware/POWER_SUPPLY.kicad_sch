@@ -6231,7 +6231,7 @@
 		)
 		(uuid "9b62df5c-272c-4ba5-b52c-b925f5d7fc82")
 	)
-	(text "RON_K = Vout * 2500 / Fsw_Khz\n      = 12 * 2500 / 600 = 50"
+	(text "RON_K = Vout * 2500 / Fsw_Khz\n      = 10 * 2500 / 500 = 50"
 		(exclude_from_sim yes)
 		(at 113.284 57.404 0)
 		(effects

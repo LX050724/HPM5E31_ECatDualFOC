@@ -903,6 +903,16 @@
 		)
 		(uuid "bc725882-fcd5-4225-ab4e-1ee0020efce2")
 	)
+	(wire
+		(pts
+			(xy 74.93 162.56) (xy 77.47 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7b00d7-53d5-493c-8184-c738157b3393")
+	)
 	(bus
 		(pts
 			(xy 90.17 86.36) (xy 90.17 76.2)
@@ -1112,6 +1122,16 @@
 			(justify left bottom)
 		)
 		(uuid "365370d4-e70c-4406-a663-2e6ccee6f218")
+	)
+	(label "nBREAK"
+		(at 77.47 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f7b96a0-6da8-4f0b-8eb7-efaddc5d3c9c")
 	)
 	(label "MB_TEMP"
 		(at 213.36 80.01 0)
@@ -2347,6 +2367,68 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 160.02)
+		(size 49.53 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3ffd3b75-6661-44c7-b55b-cd6c8f70391c")
+		(property "Sheetname" "BRAKE_RES"
+			(at 25.4 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BRAKE_RES.kicad_sch"
+			(at 25.4 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BRAKE_RES_EN" input
+			(at 74.93 162.56 0)
+			(uuid "1563a013-d344-48cd-a0c1-d68f51566e68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BRAKE_RES_PWM" input
+			(at 74.93 165.1 0)
+			(uuid "45be6ece-75e1-4c4e-b617-2259646898cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
+					(page "27")
 				)
 			)
 		)
