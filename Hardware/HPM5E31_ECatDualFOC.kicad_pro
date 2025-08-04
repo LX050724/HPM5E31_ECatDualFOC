@@ -270,6 +270,11 @@
         "bottomLayer": 2,
         "enabled": true,
         "topLayer": 4
+      },
+      {
+        "bottomLayer": 4,
+        "enabled": true,
+        "topLayer": 0
       }
     ],
     "layer_presets": [],
@@ -536,16 +541,22 @@
         "diff_pair_width": 0.127,
         "name": "CUR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127
+      },
+      {
+        "name": "HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "diff_pair_gap": 0.1524,
         "diff_pair_width": 0.108966,
         "name": "MDI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.108966
       },
@@ -554,7 +565,7 @@
         "diff_pair_gap": 0.381,
         "name": "MII",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127
       },
@@ -564,7 +575,7 @@
         "diff_pair_width": 0.12954,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1397
       }
@@ -831,6 +842,240 @@
       ],
       "/HPM5E31_TOP/PC31": [
         "QSPI_FLASH"
+      ],
+      "/INVERTER_BRIDGE_A/C0_N": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/C0_P": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/C1_N": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/C1_P": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/C2_N": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/C2_P": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/C3_N": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/C3_P": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/M_A": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/M_B": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/M_C": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_A/VBUS'": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/C0_N": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/C0_P": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/C1_N": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/C1_P": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/C2_N": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/C2_P": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/C3_N": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/C3_P": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/M_A": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/M_B": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/M_C": [
+        "HV"
+      ],
+      "/INVERTER_BRIDGE_B/VBUS'": [
+        "HV"
+      ],
+      "/POWER_SUPPLY/VBUS_F": [
+        "HV"
+      ],
+      "/POWER_SUPPLY/VBUS_SW": [
+        "HV"
+      ],
+      "Net-(D12-K)": [
+        "HV"
+      ],
+      "Net-(D14-A)": [
+        "HV"
+      ],
+      "Net-(D14-K)": [
+        "HV"
+      ],
+      "Net-(D15-A)": [
+        "HV"
+      ],
+      "Net-(D15-K)": [
+        "HV"
+      ],
+      "Net-(D17-A)": [
+        "HV"
+      ],
+      "Net-(D17-K)": [
+        "HV"
+      ],
+      "Net-(D18-A)": [
+        "HV"
+      ],
+      "Net-(D18-K)": [
+        "HV"
+      ],
+      "Net-(D20-A)": [
+        "HV"
+      ],
+      "Net-(D20-K)": [
+        "HV"
+      ],
+      "Net-(D21-A)": [
+        "HV"
+      ],
+      "Net-(D21-K)": [
+        "HV"
+      ],
+      "Net-(D23-A)": [
+        "HV"
+      ],
+      "Net-(D23-K)": [
+        "HV"
+      ],
+      "Net-(D24-A)": [
+        "HV"
+      ],
+      "Net-(D24-K)": [
+        "HV"
+      ],
+      "Net-(D26-A)": [
+        "HV"
+      ],
+      "Net-(D26-K)": [
+        "HV"
+      ],
+      "Net-(D27-A)": [
+        "HV"
+      ],
+      "Net-(D27-K)": [
+        "HV"
+      ],
+      "Net-(D29-A)": [
+        "HV"
+      ],
+      "Net-(D29-K)": [
+        "HV"
+      ],
+      "Net-(D30-A)": [
+        "HV"
+      ],
+      "Net-(D30-K)": [
+        "HV"
+      ],
+      "Net-(D32-K)": [
+        "HV"
+      ],
+      "Net-(D33-A)": [
+        "HV"
+      ],
+      "Net-(D33-K)": [
+        "HV"
+      ],
+      "Net-(D36-K)": [
+        "HV"
+      ],
+      "Net-(D37-A)": [
+        "HV"
+      ],
+      "Net-(D37-K)": [
+        "HV"
+      ],
+      "Net-(D41-K)": [
+        "HV"
+      ],
+      "Net-(D42-A)": [
+        "HV"
+      ],
+      "Net-(D42-K)": [
+        "HV"
+      ],
+      "Net-(Q1-S)": [
+        "HV"
+      ],
+      "Net-(Q10-D)": [
+        "HV"
+      ],
+      "Net-(Q11-S)": [
+        "HV"
+      ],
+      "Net-(Q13-S)": [
+        "HV"
+      ],
+      "Net-(Q14B-S2)": [
+        "HV"
+      ],
+      "Net-(Q16B-S2)": [
+        "HV"
+      ],
+      "Net-(Q3-S)": [
+        "HV"
+      ],
+      "Net-(Q5-S)": [
+        "HV"
+      ],
+      "Net-(Q7-S)": [
+        "HV"
+      ],
+      "Net-(U12-HB)": [
+        "HV"
+      ],
+      "Net-(U14-HB)": [
+        "HV"
+      ],
+      "Net-(U16-HB)": [
+        "HV"
+      ],
+      "Net-(U20-HB)": [
+        "HV"
+      ],
+      "Net-(U22-HB)": [
+        "HV"
+      ],
+      "Net-(U24-HB)": [
+        "HV"
+      ],
+      "Net-(U4-BST)": [
+        "HV"
+      ],
+      "VBUS": [
+        "HV"
+      ],
+      "Vdrive": [
+        "HV"
       ]
     },
     "netclass_patterns": [

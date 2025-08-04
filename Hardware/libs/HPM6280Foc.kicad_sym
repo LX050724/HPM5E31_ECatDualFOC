@@ -18934,6 +18934,61 @@
 			)
 		)
 	)
+	(symbol "CC0402JRNPO9BN470"
+		(extends "C")
+		(property "Reference" "C"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47pF,50V"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0402JRNPO9BN470/61189.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNTQ1JcVFdSQVhYUTtW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47pF ±5% 50V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C60137"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "CC0402KRX7R7BB104"
 		(extends "C")
 		(property "Reference" "C"
@@ -19628,6 +19683,61 @@
 			)
 		)
 		(property "制造商" "SAMSUNG(三星)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CL21A475KAQNNNE"
+		(extends "C")
+		(property "Reference" "C"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF,25V"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CL21A475KAQNNNE/2131.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNTQ1JcVFdSQVhYUTtW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7uF ±10% 25V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C1779"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20635,6 +20745,61 @@
 			)
 		)
 		(property "立创编号" "C5159688"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "FRC0402F7323TS"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "732K,1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/FRC0402F7323TS/5803269.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.t&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNTQ1NaVFZRQ1VaXjtW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C5159692"
 			(at 0 0 0)
 			(effects
 				(font

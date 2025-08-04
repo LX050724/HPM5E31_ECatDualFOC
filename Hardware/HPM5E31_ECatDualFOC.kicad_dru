@@ -1,5 +1,5 @@
 (version 1)
-(rule "CUR"
+(rule "HV_GND"
 	(constraint clearance (min 0.2mm))
-	(condition "A.hasNetclass('CUR') && B.Type == 'Zone'")
+	(condition "A.hasNetclass('HV') &&  !B.hasNetclass('HV')")
 )
