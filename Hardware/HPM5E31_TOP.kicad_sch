@@ -2536,6 +2536,15 @@
 		(uuid "e3e14e09-e6a0-4c2e-9391-2859c3a86e98")
 	)
 	(bus_entry
+		(at 191.77 76.2)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54026b6-1b65-4556-87b2-69be31a63078")
+	)
+	(bus_entry
 		(at 154.94 179.07)
 		(size 2.54 -2.54)
 		(stroke
@@ -2662,6 +2671,16 @@
 			(type default)
 		)
 		(uuid "18453e84-2b9e-4765-97b5-e5864181f27c")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198c9ec5-9335-4557-bf15-a690bbc927ef")
 	)
 	(bus
 		(pts
@@ -3355,7 +3374,7 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 72.39) (xy 191.77 86.36)
+			(xy 191.77 76.2) (xy 191.77 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3442,6 +3461,16 @@
 			(type default)
 		)
 		(uuid "ec5a32c5-75fa-4193-9479-c82eaecebd08")
+	)
+	(bus
+		(pts
+			(xy 191.77 72.39) (xy 191.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec650bc4-f517-479e-87f1-5be877fa254a")
 	)
 	(wire
 		(pts
@@ -3953,6 +3982,16 @@
 		)
 		(uuid "c820b5d7-280d-429e-8a6d-b34d62668447")
 	)
+	(label "PE2"
+		(at 185.42 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca3b5d5b-7bf6-48fd-a996-83ea60e23f97")
+	)
 	(label "JTAG_TRST"
 		(at 205.74 162.56 0)
 		(effects
@@ -4381,6 +4420,17 @@
 			(justify right)
 		)
 		(uuid "e510b274-f83f-41cf-a96a-0eb14cc678b3")
+	)
+	(hierarchical_label "BRAKE_RES_PWM"
+		(shape output)
+		(at 177.8 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec15ce97-b66c-474d-8c14-f55d2351a0cd")
 	)
 	(hierarchical_label "RS485_6{RO DE DI}"
 		(shape output)

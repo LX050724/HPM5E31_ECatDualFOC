@@ -493,6 +493,16 @@
 		)
 		(uuid "0ca04ccf-f31b-4e04-b98c-cb311a5ef0ed")
 	)
+	(wire
+		(pts
+			(xy 118.11 165.1) (xy 74.93 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104bc97a-fd1c-4b84-af4f-a30f0c7be272")
+	)
 	(bus
 		(pts
 			(xy 125.73 125.73) (xy 129.54 125.73)
@@ -665,6 +675,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 105.41) (xy 118.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c1fad4-34ac-492c-93ea-6b715b5d86dd")
+	)
+	(wire
+		(pts
 			(xy 182.88 63.5) (xy 224.79 63.5)
 		)
 		(stroke
@@ -762,6 +782,16 @@
 			(type default)
 		)
 		(uuid "8745db90-c204-452c-9845-08bf2fd38b85")
+	)
+	(wire
+		(pts
+			(xy 118.11 105.41) (xy 118.11 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d47aad-41fc-4899-bd5c-aaef58ead970")
 	)
 	(wire
 		(pts
@@ -3005,6 +3035,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BRAKE_RES_PWM" output
+			(at 129.54 105.41 180)
+			(uuid "9a343f94-a596-4f36-b0f2-887f47c53aaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

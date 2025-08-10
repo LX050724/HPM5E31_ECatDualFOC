@@ -5849,7 +5849,7 @@
 		)
 		(uuid "22f5c434-3b4b-45ac-8d07-ebd7d9dd72ca")
 	)
-	(label "PE2"
+	(label "PE0"
 		(at 139.7 156.21 0)
 		(effects
 			(font
