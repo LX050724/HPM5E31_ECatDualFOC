@@ -755,6 +755,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 35.56) (xy 95.25 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759f6e74-d911-45e9-8491-e3579dc03fe9")
+	)
+	(wire
+		(pts
 			(xy 154.94 133.35) (xy 152.4 133.35)
 		)
 		(stroke
@@ -1015,6 +1025,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 35.56) (xy 95.25 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f99fe6-0f30-4422-8d32-0103ac4ac673")
+	)
+	(wire
+		(pts
 			(xy 152.4 143.51) (xy 154.94 143.51)
 		)
 		(stroke
@@ -1032,6 +1052,16 @@
 			(type default)
 		)
 		(uuid "db42fffb-dcf2-4e13-aeee-a0cbe3ce76b7")
+	)
+	(wire
+		(pts
+			(xy 95.25 57.15) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b0864e-f4e7-4d60-b9f3-d78f88c00476")
 	)
 	(wire
 		(pts
@@ -2805,6 +2835,16 @@
 				(justify left top)
 			)
 		)
+		(pin "VBUS_ADC" input
+			(at 74.93 35.56 0)
+			(uuid "fe98cb3f-51e0-4e64-86c3-6b42b74a444b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e"
@@ -2814,8 +2854,8 @@
 		)
 	)
 	(sheet
-		(at 129.54 57.15)
-		(size 53.34 59.69)
+		(at 129.54 54.61)
+		(size 53.34 62.23)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2830,7 +2870,7 @@
 		)
 		(uuid "b9a8d5a3-7d25-4818-87f6-adc719379948")
 		(property "Sheetname" "HPM5E31_TOP"
-			(at 129.54 56.4384 0)
+			(at 129.54 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,6 +3080,16 @@
 		(pin "BRAKE_RES_PWM" output
 			(at 129.54 105.41 180)
 			(uuid "9a343f94-a596-4f36-b0f2-887f47c53aaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_ADC" input
+			(at 129.54 57.15 180)
+			(uuid "8b936a64-16b1-40c0-b482-d80833ec2edf")
 			(effects
 				(font
 					(size 1.27 1.27)

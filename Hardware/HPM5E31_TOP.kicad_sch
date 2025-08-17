@@ -2428,6 +2428,15 @@
 		(uuid "3a389392-a6d1-49df-aeb8-22326f1f1468")
 	)
 	(bus_entry
+		(at 158.75 151.13)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414ef129-92b6-4c58-94a6-fd9db95e6219")
+	)
+	(bus_entry
 		(at 154.94 138.43)
 		(size 2.54 -2.54)
 		(stroke
@@ -2435,15 +2444,6 @@
 			(type default)
 		)
 		(uuid "4469525b-116b-4563-ac4c-ea3e8e7bb3da")
-	)
-	(bus_entry
-		(at 154.94 148.59)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44740955-21e4-49d9-94e2-c8e6b9d0c69c")
 	)
 	(bus_entry
 		(at 154.94 187.96)
@@ -2489,6 +2489,15 @@
 			(type default)
 		)
 		(uuid "7f632260-905a-46b9-b3d1-d4400b4ae0fb")
+	)
+	(bus_entry
+		(at 158.75 148.59)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90802898-5db7-4bbc-94db-f4fce56267da")
 	)
 	(bus_entry
 		(at 154.94 171.45)
@@ -2621,6 +2630,16 @@
 			(type default)
 		)
 		(uuid "07f2e699-d947-4eb5-bed3-f7a8a66fc4e3")
+	)
+	(bus
+		(pts
+			(xy 161.29 146.05) (xy 161.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149ee572-5f35-4882-8c00-a9e61ff9bb4b")
 	)
 	(wire
 		(pts
@@ -3124,6 +3143,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 151.13) (xy 158.75 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe0b8c5-dcfd-49a7-a458-f4deade6bfc6")
+	)
+	(wire
+		(pts
 			(xy 241.3 128.27) (xy 256.54 128.27)
 		)
 		(stroke
@@ -3442,16 +3471,6 @@
 		)
 		(uuid "eb3259f5-cba9-4bc4-9d26-cce08e61e22f")
 	)
-	(bus
-		(pts
-			(xy 157.48 146.05) (xy 161.29 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc25a92-7d10-4704-bca9-b21a992ae2c3")
-	)
 	(wire
 		(pts
 			(xy 205.74 110.49) (xy 203.2 110.49)
@@ -3484,7 +3503,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 148.59) (xy 154.94 148.59)
+			(xy 140.97 148.59) (xy 158.75 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4102,6 +4121,16 @@
 		)
 		(uuid "fc220c42-04b7-46a5-ba1f-544b094cb3fb")
 	)
+	(label "PF27"
+		(at 149.86 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe4d7285-8b89-431f-9fb6-18da19818682")
+	)
 	(global_label "PA[0..31]"
 		(shape input)
 		(at 157.48 166.37 90)
@@ -4266,6 +4295,17 @@
 			(justify right)
 		)
 		(uuid "33fe4d74-e91a-454a-8f30-4ff7de252b4c")
+	)
+	(hierarchical_label "VBUS_ADC"
+		(shape input)
+		(at 140.97 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36056d40-2889-4cc4-8f1c-742017a36b74")
 	)
 	(hierarchical_label "~{RESET}"
 		(shape output)
