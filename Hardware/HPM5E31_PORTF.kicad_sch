@@ -5307,6 +5307,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "G6"
 			(uuid "cf4170ab-96b4-4bf3-8246-8c19ddf1c08e")
 		)

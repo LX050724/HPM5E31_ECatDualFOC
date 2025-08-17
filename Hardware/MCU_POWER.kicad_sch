@@ -8450,21 +8450,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 201.93 147.32) (xy 201.93 154.94) (xy 212.09 154.94) (xy 212.09 147.32)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 64e5b200-d946-4ca2-b0c5-77c68470235e)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 170.18 147.32) (xy 170.18 154.94) (xy 179.07 154.94) (xy 179.07 147.32)
 			)
 			(stroke
@@ -8474,7 +8459,22 @@
 			(fill
 				(type none)
 			)
-			(uuid db0b3e36-5c3e-4255-95f6-9f23a46b16a6)
+			(uuid 3a960996-5516-4451-bdaa-ab915a7e8e3d)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 201.93 147.32) (xy 201.93 154.94) (xy 212.09 154.94) (xy 212.09 147.32)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 66cfbc4b-fb95-46f4-8587-2aa01edb548c)
 		)
 	)
 	(netclass_flag ""
@@ -8630,6 +8630,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69dec945-8b84-433d-b89d-cdb3b38ed0e1")
 		)
@@ -8735,6 +8744,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 224.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "05a3f041-abcc-464e-bd88-2339faaacce5")
 		)
@@ -8832,6 +8850,15 @@
 			)
 		)
 		(property "立创编号" "C315248"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -8946,6 +8973,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 242.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1bde9a6-3533-4cca-8be2-f22a2decf0d9")
 		)
@@ -9043,6 +9079,15 @@
 			)
 		)
 		(property "立创编号" "C315248"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -9157,6 +9202,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 57.15 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b0a32e7-922c-4485-a7da-aca31a2e46f5")
 		)
@@ -9252,6 +9306,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7be7650b-ba50-4e0f-a4a1-a02dc98b73fd")
 		)
@@ -9330,6 +9393,15 @@
 			)
 		)
 		(property "立创编号" "C25105"
+			(at 55.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -9444,6 +9516,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "beab58b5-d36e-46dc-8ec3-b1eb6376774f")
 		)
@@ -9504,6 +9585,15 @@
 			)
 		)
 		(property "Description" "BGA196"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 205.74 64.77 0)
 			(effects
 				(font
@@ -10171,6 +10261,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 198.12 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "26fa9549-6c30-4a68-b308-3d4f9219b9ae")
 		)
@@ -10392,6 +10491,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 39.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6e90e8cf-880c-478c-9dfd-a19e01cb3ab1")
 		)
@@ -10570,6 +10678,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 17.78 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8200f145-a49a-4451-9acf-0ab29bd8026c")
 		)
@@ -10696,6 +10813,15 @@
 			)
 		)
 		(property "Description" "BGA196"
+			(at 119.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 119.38 31.75 0)
 			(effects
 				(font
@@ -11346,6 +11472,15 @@
 			)
 		)
 		(property "Description" "BGA196"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 73.66 138.43 0)
 			(effects
 				(font
@@ -12022,6 +12157,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 102.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3681eedd-96d3-4303-b88a-7b7fccf96014")
 		)
@@ -12121,6 +12265,15 @@
 		)
 		(property "立创编号" "C76934"
 			(at 201.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 198.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12234,6 +12387,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 173.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df1d6409-f415-4817-a219-2d96161aad62")
 		)
@@ -12333,6 +12495,15 @@
 		)
 		(property "立创编号" "C76934"
 			(at 203.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 199.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12532,6 +12703,15 @@
 			)
 		)
 		(property "Description" "BGA196"
+			(at 119.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 119.38 102.87 0)
 			(effects
 				(font
@@ -13293,6 +13473,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 207.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e989b71f-8173-4874-a7d1-8c22a3f4c634")
 		)
@@ -13370,6 +13559,15 @@
 			)
 		)
 		(property "华秋编号" ""
+			(at 157.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 157.48 149.86 0)
 			(effects
 				(font
@@ -13552,6 +13750,15 @@
 		)
 		(property "立创编号" "C368809"
 			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 207.01 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,6 +14003,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db002c6e-3195-45dc-be48-4593e43881ef")
 		)
@@ -13969,6 +14185,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 177.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80f9d8af-3fe8-403b-97d0-ea2675457ad7")
 		)
@@ -14121,6 +14346,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3fa1a714-f3c4-47db-9fdf-9519f38874e3")
 		)
@@ -14202,6 +14436,15 @@
 		)
 		(property "立创编号" "C25744"
 			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 128.27 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14374,6 +14617,15 @@
 		)
 		(property "立创编号" "C60474"
 			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 128.27 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14618,6 +14870,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 189.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "340a9458-4336-48b9-862b-020748ab223d")
 		)
@@ -14791,6 +15052,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b292c593-f23a-4eea-a04a-357a08bb03de")
 		)
@@ -14954,6 +15224,15 @@
 			)
 		)
 		(property "立创编号" "C315248"
+			(at 233.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 233.68 123.19 0)
 			(effects
 				(font
@@ -15134,6 +15413,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 59.69 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e168414b-5779-4c17-9d8f-9f1dc14abde4")
 		)
@@ -15240,6 +15528,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebc665b3-554e-4259-bc0f-ab1f70652849")
 		)
@@ -15339,6 +15636,15 @@
 		)
 		(property "立创编号" "C76934"
 			(at 194.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15584,6 +15890,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "212227b2-4199-4942-bd33-306828f5cd20")
 		)
@@ -15681,6 +15996,15 @@
 			)
 		)
 		(property "立创编号" "C315248"
+			(at 214.63 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 214.63 43.18 0)
 			(effects
 				(font

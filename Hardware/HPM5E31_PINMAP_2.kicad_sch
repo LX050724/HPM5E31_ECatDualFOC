@@ -4464,6 +4464,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c412e933-07b8-4111-ad0a-4616c3cf4350")
 		)
@@ -4741,6 +4750,15 @@
 			)
 		)
 		(property "立创编号" "C105266"
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 193.04 34.29 0)
 			(effects
 				(font
@@ -5217,6 +5235,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddc5b477-22e0-4483-90d5-ff3435074281")
 		)
@@ -5363,6 +5390,15 @@
 		)
 		(property "立创编号" "C907837"
 			(at 199.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 196.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,6 +5658,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8575fbda-d578-4235-af2b-e9ba99de487c")
 		)
@@ -5850,6 +5895,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a326ffc-a68a-491d-9e0b-5c1da2bfcb60")
 		)
@@ -6003,6 +6057,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 67.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c7d4a41d-5bc1-40a9-bff2-04e1530dfb86")
 		)
@@ -6129,6 +6192,15 @@
 			)
 		)
 		(property "立创编号" "C84267"
+			(at 220.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 220.98 114.3 0)
 			(effects
 				(font
@@ -6280,6 +6352,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 220.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d97040a-61dc-4b32-a575-ef8ed8d754e8")
 		)
@@ -6360,6 +6441,15 @@
 			)
 		)
 		(property "华秋编号" "G12025068"
+			(at 226.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 226.06 41.91 0)
 			(effects
 				(font
@@ -6509,6 +6599,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 73.66 157.48 0)
 			(effects
 				(font
@@ -6712,6 +6811,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "950e24b5-d66b-4182-b122-da299e9820c3")
 		)
@@ -6791,6 +6899,15 @@
 		)
 		(property "立创编号" "C907837"
 			(at 73.66 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 71.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6920,6 +7037,15 @@
 		)
 		(property "立创编号" "C60474"
 			(at 210.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 207.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,6 +7731,15 @@
 		)
 		(property "立创编号" "C907837"
 			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
+			(at 71.12 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

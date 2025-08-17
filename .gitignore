@@ -30,3 +30,8 @@ fp-info-cache
 *.csv
 
 */dfm*
+/Hardware/dfm
+/Hardware/Gerber
+/Hardware/database
+/Hardware/bom
+Hardware/Gerber.zip

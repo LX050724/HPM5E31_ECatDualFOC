@@ -1255,7 +1255,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4a064b10-4965-490e-a8d4-25e309b1cdf9)
+			(uuid fc504f42-91ff-4a9d-beea-70d4362b2cc1)
 		)
 	)
 	(netclass_flag ""
@@ -1368,6 +1368,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4576680d-69b7-4efc-9eb9-81084c85a458")
 		)
@@ -1446,6 +1455,15 @@
 			)
 		)
 		(property "立创编号" "C701355"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -1634,6 +1652,15 @@
 			)
 		)
 		(property "立创编号" "C315248"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 207.01 102.87 0)
 			(effects
 				(font

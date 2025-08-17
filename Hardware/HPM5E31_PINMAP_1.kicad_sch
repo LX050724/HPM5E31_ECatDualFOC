@@ -8127,6 +8127,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27feefa4-dacc-4e8e-bd88-b9c6825aeda1")
 		)
@@ -8221,6 +8230,15 @@
 				(hide yes)
 			)
 		)
+		(property "供应商编号" ""
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36ed6f18-c618-4952-acb7-ca6dacf0f769")
 		)
@@ -8298,6 +8316,15 @@
 			)
 		)
 		(property "立创编号" "C25105"
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "供应商编号" ""
 			(at 60.96 62.23 0)
 			(effects
 				(font
