@@ -408,6 +408,26 @@
 		)
 		(uuid "22f6ae64-e94d-469d-9fdd-ff3013bdb5c8")
 	)
+	(text "CTR4"
+		(exclude_from_sim no)
+		(at 67.818 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35b664d5-ccab-4fbf-93c4-c27fa2c44303")
+	)
+	(text "CTR5"
+		(exclude_from_sim no)
+		(at 66.294 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59decd8e-b921-4a0e-a1a4-746388bd2b40")
+	)
 	(text "CAN0"
 		(exclude_from_sim no)
 		(at 245.872 31.242 90)
@@ -448,6 +468,16 @@
 		)
 		(uuid "927498a4-2ff8-4330-bc15-4e0947534800")
 	)
+	(text "CTR1"
+		(exclude_from_sim no)
+		(at 67.818 117.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2aa84e9-4ec6-4609-b4d4-0b53ee0c232b")
+	)
 	(text "QEI0"
 		(exclude_from_sim no)
 		(at 163.068 84.836 90)
@@ -467,6 +497,16 @@
 			)
 		)
 		(uuid "d3e68db1-9756-4791-9c06-8c06a5a8fe77")
+	)
+	(text "CTR4"
+		(exclude_from_sim no)
+		(at 66.294 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d913bd02-2c49-40a4-80fc-8cbe82a54146")
 	)
 	(text "SPI1"
 		(exclude_from_sim no)

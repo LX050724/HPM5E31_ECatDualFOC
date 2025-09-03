@@ -566,6 +566,236 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPM6280Foc:0402WGF1403TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "140K,1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "140kΩ ±1% 62.5mW 厚膜电阻"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C270645"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF1403TCE_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF1403TCE_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HPM6280Foc:0402WGF2002TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "20K,1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20kΩ ±1% 62.5mW 厚膜电阻"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C25765"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF2002TCE_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF2002TCE_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "HPM6280Foc:0402WGF330JTCE"
 			(pin_numbers
 				(hide yes)
@@ -2915,6 +3145,213 @@
 				)
 			)
 			(symbol "FTC252012S1R0MBCA_1_1"
+				(arc
+					(start -3.2766 1.0922)
+					(mid -2.551 0.755)
+					(end -2.286 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.2926 0)
+					(mid -4.0218 0.7668)
+					(end -3.2766 1.0922)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.1336 0)
+					(mid -1.8853 0.7701)
+					(end -1.143 1.0922)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.143 1.0922)
+					(mid -0.3957 0.7687)
+					(end -0.127 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.2707 0.767)
+					(end 1.016 1.0922)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.0922)
+					(mid 1.7635 0.7689)
+					(end 2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.2098 0)
+					(mid 2.4583 0.7696)
+					(end 3.2004 1.0922)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.2004 1.0922)
+					(mid 3.9477 0.7687)
+					(end 4.2164 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 0.762)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 0.762)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HPM6280Foc:FTC252012S4R7MBCA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7uH,2.4A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Inductor_SMD:L_Changjiang_FNR252012S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/FTC252012S4R7MBCA/6763494.html?spm=sc.it.xds.a___sc.gbn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNTQVVXU1FfRlhZXjtW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7uH ±20% 2.4A 小型化一体成型T-CORE，小体积，扁线工艺，感值小"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C5832374"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "制造商" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FTC252012S4R7MBCA_1_1"
 				(arc
 					(start -3.2766 1.0922)
 					(mid -2.551 0.755)
@@ -7053,6 +7490,18 @@
 		)
 		(uuid "b13ceb22-0415-490f-9937-4092b804875c")
 	)
+	(text "UVLO 12V"
+		(exclude_from_sim yes)
+		(at 44.704 58.42 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1c0632c-1068-421f-a18f-fc5af7545334")
+	)
 	(text "系统3.3V电源 3.31V [3.26V ... 3.38V]"
 		(exclude_from_sim no)
 		(at 209.296 72.644 0)
@@ -7102,12 +7551,6 @@
 		(uuid "12833f6c-157c-47d7-99a9-77d0c3a124fb")
 	)
 	(junction
-		(at 46.99 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15d5d51b-bb8f-47ca-bc44-d81d040b4110")
-	)
-	(junction
 		(at 46.99 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7132,12 +7575,6 @@
 		(uuid "355b846f-c5bd-4122-ac61-0253f9a91f99")
 	)
 	(junction
-		(at 59.69 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37c79fa0-b678-4c3e-a819-55ac71a7cbc3")
-	)
-	(junction
 		(at 226.06 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7156,10 +7593,22 @@
 		(uuid "5c012bc3-1023-4475-9a52-41c8cf4a7a45")
 	)
 	(junction
+		(at 39.37 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c99e255-cef7-4440-b277-c045d589be2e")
+	)
+	(junction
 		(at 172.72 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e15763e-e8e5-4e32-8f9f-509341f3e5fe")
+	)
+	(junction
+		(at 62.23 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63554d68-c694-4128-b980-e01d26a90c57")
 	)
 	(junction
 		(at 137.16 132.08)
@@ -7192,10 +7641,10 @@
 		(uuid "69523b71-f784-4efb-8455-adcbefe4a7de")
 	)
 	(junction
-		(at 60.96 39.37)
+		(at 39.37 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d066177-2267-41d7-b7cc-72cddc8bdfa4")
+		(uuid "6ae3e3d6-af94-4fde-95ce-ce22d9245721")
 	)
 	(junction
 		(at 252.73 49.53)
@@ -7246,6 +7695,18 @@
 		(uuid "8531650e-2d44-499d-b4fc-ef0b8b628672")
 	)
 	(junction
+		(at 49.53 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dd9df0f-d09b-4ccb-93b2-f998e2e2a850")
+	)
+	(junction
+		(at 49.53 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92eb7456-04c6-4c26-9990-f28ee40e3128")
+	)
+	(junction
 		(at 165.1 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7256,6 +7717,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c6d92d6-1b29-4736-9fbe-69655ec73f90")
+	)
+	(junction
+		(at 53.34 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eea86c1-f243-4998-9a6c-f54da274ac0f")
 	)
 	(junction
 		(at 207.01 86.36)
@@ -7324,6 +7791,12 @@
 		(uuid "c52313a6-fd9d-4e5a-9207-e7ae0418ea30")
 	)
 	(junction
+		(at 49.53 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b56e1a-0b7a-475c-8d05-be5a5b537d21")
+	)
+	(junction
 		(at 148.59 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7372,12 +7845,6 @@
 		(uuid "e8a06a54-0dc4-487e-a985-3e4cdbc28563")
 	)
 	(junction
-		(at 52.07 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f726449b-f3fb-456e-8777-f10e49e6486f")
-	)
-	(junction
 		(at 129.54 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7394,6 +7861,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd7a8dd4-5883-42a9-a681-4557b26fd993")
+	)
+	(wire
+		(pts
+			(xy 39.37 55.88) (xy 39.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00686d0c-7a44-4f12-bb5e-3e923603c19d")
+	)
+	(wire
+		(pts
+			(xy 52.07 48.26) (xy 49.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016ae532-3216-4dd1-aeac-9867f85dedd6")
 	)
 	(wire
 		(pts
@@ -7464,6 +7951,16 @@
 			(type default)
 		)
 		(uuid "089d89ae-c5d9-4ecf-86a1-5e16bd8ec397")
+	)
+	(wire
+		(pts
+			(xy 62.23 48.26) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09426051-b90a-4923-875f-b4a024fdddc7")
 	)
 	(wire
 		(pts
@@ -7627,16 +8124,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 60.96 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a68843-b8b6-4e81-86fc-1b111d127c41")
-	)
-	(wire
-		(pts
 			(xy 252.73 102.87) (xy 260.35 102.87)
 		)
 		(stroke
@@ -7697,6 +8184,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 39.37) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434db6ec-8857-4dfc-bc97-1ee823296e69")
+	)
+	(wire
+		(pts
 			(xy 83.82 50.8) (xy 92.71 50.8)
 		)
 		(stroke
@@ -7737,16 +8234,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 45.72) (xy 62.23 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51fb50d9-9841-4428-82ba-88d1c8cb5aa4")
-	)
-	(wire
-		(pts
 			(xy 251.46 130.81) (xy 246.38 130.81)
 		)
 		(stroke
@@ -7777,13 +8264,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 39.37) (xy 62.23 39.37)
+			(xy 62.23 50.8) (xy 62.23 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b42044c-73a3-4032-9da9-b909074902ab")
+		(uuid "5b8c4d62-0de7-4f37-830d-dad10d58c5c5")
 	)
 	(wire
 		(pts
@@ -7797,23 +8284,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 41.91) (xy 60.96 39.37)
+			(xy 39.37 55.88) (xy 49.53 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60760f79-28d4-4bc6-9228-0bf934d341d0")
-	)
-	(wire
-		(pts
-			(xy 62.23 48.26) (xy 59.69 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a43623-2322-47e6-8a0b-968ab484e1e0")
+		(uuid "5fbf101b-b002-42ab-a214-12dfe00b98d3")
 	)
 	(wire
 		(pts
@@ -7927,6 +8404,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 40.64) (xy 49.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708c9c62-8071-4f5a-b90a-32e94913a29b")
+	)
+	(wire
+		(pts
 			(xy 207.01 86.36) (xy 214.63 86.36)
 		)
 		(stroke
@@ -8007,6 +8494,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 39.37) (xy 49.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853e1a00-8210-4cae-86f1-7553517adf96")
+	)
+	(wire
+		(pts
 			(xy 236.22 43.18) (xy 247.65 43.18)
 		)
 		(stroke
@@ -8014,6 +8511,16 @@
 			(type default)
 		)
 		(uuid "86bc7ff6-8b37-406a-adf5-bc28e1dd1b5f")
+	)
+	(wire
+		(pts
+			(xy 52.07 41.91) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870975e1-f8a4-4a3b-98f1-731e50e28b85")
 	)
 	(wire
 		(pts
@@ -8037,16 +8544,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 49.53) (xy 46.99 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cea48c6-677e-45eb-a8f3-e179e4eddbec")
-	)
-	(wire
-		(pts
 			(xy 137.16 132.08) (xy 151.13 132.08)
 		)
 		(stroke
@@ -8054,16 +8551,6 @@
 			(type default)
 		)
 		(uuid "90c6e52e-da3a-4e6a-b7fa-dce8c519e7e7")
-	)
-	(wire
-		(pts
-			(xy 52.07 50.8) (xy 59.69 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91249514-fcca-4e92-885b-f6c9eaaec3d8")
 	)
 	(wire
 		(pts
@@ -8124,6 +8611,16 @@
 			(type default)
 		)
 		(uuid "99a05995-5f5b-4069-a416-4db305661950")
+	)
+	(wire
+		(pts
+			(xy 53.34 48.26) (xy 53.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf9eff8-2113-4aa3-a228-c6a87b35df9f")
 	)
 	(wire
 		(pts
@@ -8207,6 +8704,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 49.53) (xy 39.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5816e44-8899-4889-9a3a-56845dfd01be")
+	)
+	(wire
+		(pts
 			(xy 73.66 132.08) (xy 83.82 132.08)
 		)
 		(stroke
@@ -8247,6 +8754,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 41.91) (xy 52.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baaa752e-c52a-4511-a3f4-6f61449daed5")
+	)
+	(wire
+		(pts
 			(xy 95.25 93.98) (xy 111.76 93.98)
 		)
 		(stroke
@@ -8267,13 +8784,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 48.26) (xy 59.69 50.8)
+			(xy 62.23 55.88) (xy 53.34 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c64f1da9-76f4-4927-8a27-dc5fd03da4a9")
+		(uuid "c6128301-f61f-4e9a-884b-d7c28f5ad4e8")
 	)
 	(wire
 		(pts
@@ -8307,16 +8824,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 39.37) (xy 60.96 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf3a041-dce4-4c45-a8da-5182482421d9")
-	)
-	(wire
-		(pts
 			(xy 121.92 50.8) (xy 121.92 55.88)
 		)
 		(stroke
@@ -8327,13 +8834,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 50.8) (xy 59.69 52.07)
+			(xy 53.34 45.72) (xy 62.23 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d25acc27-c519-45d5-8d44-1f7cf7b0df6f")
+		(uuid "d2c0c890-2f54-424a-b712-28f3e52ddcfd")
+	)
+	(wire
+		(pts
+			(xy 53.34 55.88) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ca666e-8af0-4f2e-8264-f8cd427a2b19")
 	)
 	(wire
 		(pts
@@ -8374,16 +8891,6 @@
 			(type default)
 		)
 		(uuid "da0c2128-3778-4903-a048-9289302b96a7")
-	)
-	(wire
-		(pts
-			(xy 46.99 50.8) (xy 52.07 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da16e8c9-907c-4305-85b6-ab83363f337f")
 	)
 	(wire
 		(pts
@@ -8454,26 +8961,6 @@
 			(type default)
 		)
 		(uuid "e1ee8ea9-5ffe-40fb-a9d6-04db7b533f1b")
-	)
-	(wire
-		(pts
-			(xy 52.07 45.72) (xy 52.07 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e2e940-a83e-4b50-b446-12587685415b")
-	)
-	(wire
-		(pts
-			(xy 59.69 50.8) (xy 62.23 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e497b435-ee2a-4c61-b715-4c63f295e494")
 	)
 	(wire
 		(pts
@@ -8564,16 +9051,6 @@
 			(type default)
 		)
 		(uuid "f9e1700f-b6c4-4987-b2fd-fb2629720d81")
-	)
-	(wire
-		(pts
-			(xy 31.75 39.37) (xy 39.37 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ff69fd-5440-40fc-a55c-0927a296e45b")
 	)
 	(image
 		(at 44.45 179.07)
@@ -12966,7 +13443,7 @@
 	)
 	(symbol
 		(lib_id "HPM6280Foc:JFC2410-1100TS")
-		(at 43.18 39.37 90)
+		(at 35.56 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12975,7 +13452,7 @@
 		(fields_autoplaced yes)
 		(uuid "09df985f-c73a-4ab8-9e30-f43b90858e79")
 		(property "Reference" "F1"
-			(at 43.18 33.02 90)
+			(at 35.56 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,7 +13460,7 @@
 			)
 		)
 		(property "Value" "JFC2410-1100TS"
-			(at 43.18 35.56 90)
+			(at 35.56 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12991,7 +13468,7 @@
 			)
 		)
 		(property "Footprint" "Library:JFC2410"
-			(at 43.18 41.148 90)
+			(at 35.56 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13000,7 +13477,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/JFC2410-1100TS/147695.html?spm=sc.it.xds.a___sc.cidn.xh7.zy.n&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNTRlZWVVFRTlldXztW"
-			(at 43.18 39.37 0)
+			(at 35.56 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,7 +13486,7 @@
 			)
 		)
 		(property "Description" "250V贴片式保险丝"
-			(at 43.18 39.37 0)
+			(at 35.56 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13018,7 +13495,7 @@
 			)
 		)
 		(property "立创编号" "C136380"
-			(at 43.18 39.37 0)
+			(at 35.56 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,7 +13504,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 43.18 39.37 90)
+			(at 35.56 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16282,8 +16759,8 @@
 	)
 	(symbol
 		(lib_id "HPM6280Foc:RTT025002FTH")
-		(at 55.88 45.72 0)
-		(mirror y)
+		(at 53.34 52.07 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16291,7 +16768,7 @@
 		(dnp no)
 		(uuid "647dc611-1b02-4cc8-a2c2-f27650e892bc")
 		(property "Reference" "R16"
-			(at 52.578 41.656 0)
+			(at 55.88 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16300,7 +16777,7 @@
 			)
 		)
 		(property "Value" "50K,1%"
-			(at 52.578 43.434 0)
+			(at 55.88 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16309,7 +16786,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.88 45.72 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16318,7 +16795,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/RTT025002FTH/177942.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=RFRfBVcDE1AKVwFQFlNZVFdVEVVeBlJXT1hWXgUERFUxVlNSTlNcVldfT1VbXjsOAxUeFF5JWA0HFBBIBBsCBBcFWQIBCks%3D"
-			(at 55.88 45.72 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16327,7 +16804,7 @@
 			)
 		)
 		(property "Description" "厚膜电阻 50kΩ ±1% 62.5mW"
-			(at 55.88 45.72 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16336,7 +16813,7 @@
 			)
 		)
 		(property "华秋编号" "G4691569"
-			(at 55.88 45.72 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16345,7 +16822,7 @@
 			)
 		)
 		(property "立创编号" "C166559"
-			(at 55.88 45.72 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16354,7 +16831,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 55.88 45.72 0)
+			(at 53.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16787,7 +17264,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 31.75 39.37 0)
+		(at 31.75 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16795,7 +17272,7 @@
 		(dnp no)
 		(uuid "7ad6d601-62b6-4dbf-840f-41cddc390de2")
 		(property "Reference" "#PWR048"
-			(at 31.75 43.18 0)
+			(at 35.56 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16804,7 +17281,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 29.464 35.56 0)
+			(at 27.94 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17394,7 +17871,8 @@
 	)
 	(symbol
 		(lib_id "HPM6280Foc:EWH1KM100D11OT")
-		(at 46.99 44.45 270)
+		(at 39.37 44.45 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17402,7 +17880,7 @@
 		(dnp no)
 		(uuid "930bc3ec-d1e3-42bd-96ce-bd84907f292c")
 		(property "Reference" "C9"
-			(at 40.132 42.672 90)
+			(at 35.56 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17411,7 +17889,7 @@
 			)
 		)
 		(property "Value" "10uF,100V"
-			(at 34.036 44.958 90)
+			(at 35.56 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17420,7 +17898,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 46.99 44.45 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17429,7 +17907,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200106/C481308_16D735F9103482ADD8491C667D201AFA.pdf"
-			(at 46.99 44.45 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17438,7 +17916,7 @@
 			)
 		)
 		(property "Description" "10uF±20%,100V"
-			(at 46.99 44.45 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17447,7 +17925,7 @@
 			)
 		)
 		(property "华秋编号" "G11622090"
-			(at 46.99 44.45 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17456,7 +17934,7 @@
 			)
 		)
 		(property "立创编号" "C2832307"
-			(at 46.99 44.45 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17465,7 +17943,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 46.99 44.45 90)
+			(at 39.37 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19158,7 +19636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:FTC252012S1R0MBCA")
+		(lib_id "HPM6280Foc:FTC252012S4R7MBCA")
 		(at 242.57 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19175,7 +19653,7 @@
 				)
 			)
 		)
-		(property "Value" "1uH,5.6A"
+		(property "Value" "4.7uH,2.4A"
 			(at 242.57 82.55 0)
 			(effects
 				(font
@@ -19192,7 +19670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240918/5AD8A1A0D9C2859F32750FF2CC514AFA.pdf?Expires=4070880000&OSSAccessKeyId=LTAIJDIkh7KmGS1H&Signature=eqZS0TbNmJvnt42LNOBqcLcFTVQ%3D&response-content-disposition=attachment%3Bfilename%3DC5832370_%25E5%258A%259F%25E7%258E%2587%25E7%2594%25B5%25E6%2584%259F_FTC252012S1R0MBCA_%25E8%25A7%2584%25E6%25A0%25BC%25E4%25B9%25A6_WJ1228177.PDF"
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/FTC252012S4R7MBCA/6763494.html?spm=sc.it.xds.a___sc.gbn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNTQVVXU1FfRlhZXjtW"
 			(at 242.57 86.36 0)
 			(effects
 				(font
@@ -19201,7 +19679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "小型化一体成型T-CORE，小体积，扁线工艺，感值小"
+		(property "Description" "4.7uH ±20% 2.4A 小型化一体成型T-CORE，小体积，扁线工艺，感值小"
 			(at 242.57 86.36 0)
 			(effects
 				(font
@@ -19210,7 +19688,7 @@
 				(hide yes)
 			)
 		)
-		(property "制造商" ""
+		(property "制造商" "Sumida(胜美达)"
 			(at 242.57 86.36 0)
 			(effects
 				(font
@@ -19255,7 +19733,7 @@
 				(hide yes)
 			)
 		)
-		(property "华秋编号" "G6636520"
+		(property "华秋编号" "G4665211"
 			(at 242.57 86.36 0)
 			(effects
 				(font
@@ -19264,7 +19742,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C5832370"
+		(property "立创编号" "C5832374"
 			(at 242.57 86.36 0)
 			(effects
 				(font
@@ -19518,6 +19996,85 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:0402WGF1403TCE")
+		(at 49.53 44.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc034ac9-b553-418e-933f-9e7b6e1c5140")
+		(property "Reference" "R137"
+			(at 47.752 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "140K,1%"
+			(at 47.752 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "140kΩ ±1% 62.5mW 厚膜电阻"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C270645"
+			(at 49.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3ef7332-964f-484d-abe1-185b50c67855")
+		)
+		(pin "2"
+			(uuid "da5ec675-bb49-4be2-98b6-17b7772e8034")
+		)
+		(instances
+			(project ""
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
+					(reference "R137")
 					(unit 1)
 				)
 			)
@@ -20283,7 +20840,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 59.69 52.07 0)
+		(at 39.37 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20291,7 +20848,7 @@
 		(dnp no)
 		(uuid "f417907d-31f9-4a05-ab6c-125d7121179e")
 		(property "Reference" "#PWR054"
-			(at 59.69 57.15 0)
+			(at 39.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20300,7 +20857,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 59.69 56.134 0)
+			(at 39.37 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20308,7 +20865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 53.34 0)
+			(at 39.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20317,7 +20874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 53.34 0)
+			(at 39.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20326,7 +20883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 59.69 52.07 0)
+			(at 39.37 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20892,6 +21449,85 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:0402WGF2002TCE")
+		(at 49.53 52.07 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb3e7492-cc03-47c2-baa6-669dca1be51a")
+		(property "Reference" "R138"
+			(at 47.752 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20K,1%"
+			(at 47.752 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20kΩ ±1% 62.5mW 厚膜电阻"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C25765"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d5447b2-b569-4f8b-bd08-27096a67c4b0")
+		)
+		(pin "1"
+			(uuid "0dca9ebd-0e60-4436-98e1-c88c1c0c8599")
+		)
+		(instances
+			(project ""
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
+					(reference "R138")
 					(unit 1)
 				)
 			)

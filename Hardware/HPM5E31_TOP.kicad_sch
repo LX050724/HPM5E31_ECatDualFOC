@@ -3902,7 +3902,7 @@
 		(uuid "9e7959e0-dae3-46b4-9cf8-76e5689dca7f")
 	)
 	(label "UART0.RXD"
-		(at 240.03 106.68 0)
+		(at 240.03 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3982,7 +3982,7 @@
 		(uuid "c34606e2-0d73-459d-aaf0-0ac3fbb48aeb")
 	)
 	(label "UART0.TXD"
-		(at 240.03 109.22 0)
+		(at 240.03 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)

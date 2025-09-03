@@ -1020,7 +1020,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HPM6280Foc:0402WGF200KTCE"
+		(symbol "HPM6280Foc:0402WGF2002TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1038,7 +1038,7 @@
 					)
 				)
 			)
-			(property "Value" "2R,1%"
+			(property "Value" "20K,1%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1055,7 +1055,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1064,7 +1064,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
+			(property "Description" "20kΩ ±1% 62.5mW 厚膜电阻"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1073,7 +1073,7 @@
 					(hide yes)
 				)
 			)
-			(property "华秋编号" "G3327760"
+			(property "立创编号" "C25765"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1082,16 +1082,7 @@
 					(hide yes)
 				)
 			)
-			(property "立创编号" "C270630"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF200KTCE_0_1"
+			(symbol "0402WGF2002TCE_0_1"
 				(rectangle
 					(start 2.54 -1.016)
 					(end -2.54 1.016)
@@ -1104,7 +1095,7 @@
 					)
 				)
 			)
-			(symbol "0402WGF200KTCE_1_1"
+			(symbol "0402WGF2002TCE_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1229,6 +1220,121 @@
 				)
 			)
 			(symbol "0402WGF330JTCE_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HPM6280Foc:0402WGF510KTCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5.1R,1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5.1Ω ±1% 62.5mW 厚膜电阻"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C25128"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF510KTCE_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF510KTCE_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -3326,130 +3432,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HPM6280Foc:RC0402FR-075KL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "5K,1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200715/C477765_7B5FC8325F065A7C97D0E958BF6567D2.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "华秋编号" "G0074770"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "立创编号" "C477765"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC0402FR-075KL_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RC0402FR-075KL_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "HPM6280Foc:RCLAMP3324P"
 			(pin_numbers
 				(hide yes)
@@ -5406,6 +5388,12 @@
 		(uuid "162b9523-6409-4df9-b116-6479580dc8f5")
 	)
 	(junction
+		(at 207.01 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "230b18cf-38df-483c-98fd-3e50678049de")
+	)
+	(junction
 		(at 157.48 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5458,12 +5446,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f3cf2e8-dfae-49e5-a261-32568db3aa96")
-	)
-	(junction
-		(at 204.47 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61446788-90ba-4c70-b409-aff81eb23543")
 	)
 	(junction
 		(at 217.17 102.87)
@@ -5616,6 +5598,12 @@
 		(uuid "d61d3a00-7bd0-4549-9aac-8dcd5a70663e")
 	)
 	(junction
+		(at 207.01 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a4d4f2-12da-4997-b887-2cecb1ef5bd1")
+	)
+	(junction
 		(at 25.4 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5626,12 +5614,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6a596b4-712e-467b-9332-8aed8ac9a31e")
-	)
-	(junction
-		(at 204.47 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f32ed13b-b777-4e93-988b-6530bd2b5bd0")
 	)
 	(junction
 		(at 95.25 106.68)
@@ -5756,6 +5738,16 @@
 			(type default)
 		)
 		(uuid "0e46e13e-38dd-46cb-90a8-f8d95270f03e")
+	)
+	(wire
+		(pts
+			(xy 204.47 93.98) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edd957b-d9fb-45c9-96e5-71641787e48f")
 	)
 	(wire
 		(pts
@@ -6299,16 +6291,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 93.98) (xy 204.47 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0ee903-1a00-449a-a625-83a0abbe2143")
-	)
-	(wire
-		(pts
 			(xy 232.41 147.32) (xy 236.22 147.32)
 		)
 		(stroke
@@ -6376,16 +6358,6 @@
 			(type default)
 		)
 		(uuid "6a2ed536-a8fe-4742-a2a8-ff742ca883d9")
-	)
-	(wire
-		(pts
-			(xy 204.47 33.02) (xy 204.47 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a325056-d513-4ac2-8b84-29af2794e448")
 	)
 	(wire
 		(pts
@@ -6686,6 +6658,16 @@
 			(type default)
 		)
 		(uuid "99164bd3-0511-484b-9625-a1cfc9b4dfac")
+	)
+	(wire
+		(pts
+			(xy 204.47 33.02) (xy 207.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c06d36-706b-4e3c-b506-f83bc0480b16")
 	)
 	(wire
 		(pts
@@ -8022,7 +8004,7 @@
 			"QUAQEAQEAUFAEPh/YQ+urp+jajkAAAAASUVORK5CYII="
 		)
 	)
-	(label "BREAKB_CUR_N"
+	(label "BREAKA_CUR_N"
 		(at 247.65 152.4 0)
 		(effects
 			(font
@@ -8043,7 +8025,7 @@
 		(uuid "3eb30fd1-c68b-431c-a663-43cf2311d77d")
 	)
 	(label "PY32_PWM0"
-		(at 85.09 49.53 0)
+		(at 85.09 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8052,7 +8034,7 @@
 		)
 		(uuid "3f9a6598-5942-4b9a-9c55-f99ece923b36")
 	)
-	(label "PY32_SD1"
+	(label "PY32_SD0"
 		(at 40.64 35.56 0)
 		(effects
 			(font
@@ -8072,7 +8054,7 @@
 		)
 		(uuid "5f93add5-a930-449c-984f-038b80a1ef64")
 	)
-	(label "PY32_SD0"
+	(label "PY32_SD1"
 		(at 20.32 170.18 0)
 		(effects
 			(font
@@ -8082,7 +8064,7 @@
 		)
 		(uuid "72f5cdb2-95aa-4719-b5a1-8dc8e8bb2124")
 	)
-	(label "BREAKA_CUR_N"
+	(label "BREAKB_CUR_N"
 		(at 168.91 152.4 0)
 		(effects
 			(font
@@ -8092,7 +8074,7 @@
 		)
 		(uuid "7343b9d9-8420-4040-b73e-009d4bccfcec")
 	)
-	(label "SD1"
+	(label "SD0"
 		(at 143.51 102.87 0)
 		(effects
 			(font
@@ -8102,7 +8084,7 @@
 		)
 		(uuid "79037ea8-1fe5-4299-8299-869318aa0be8")
 	)
-	(label "PY32_PWM1"
+	(label "PY32_PWM0"
 		(at 143.51 100.33 0)
 		(effects
 			(font
@@ -8112,7 +8094,7 @@
 		)
 		(uuid "7b8bfabd-0c17-4c44-9649-c018ef4afaea")
 	)
-	(label "SD0"
+	(label "SD1"
 		(at 58.42 172.72 0)
 		(effects
 			(font
@@ -8122,7 +8104,7 @@
 		)
 		(uuid "7ee72509-0884-41a7-90d9-e6a4ce57ef80")
 	)
-	(label "PY32_PWM0"
+	(label "PY32_PWM1"
 		(at 143.51 39.37 0)
 		(effects
 			(font
@@ -8132,7 +8114,7 @@
 		)
 		(uuid "80200cb9-bcbe-4225-8790-9ffda7c834dd")
 	)
-	(label "PY32_SD0"
+	(label "PY32_SD1"
 		(at 40.64 33.02 0)
 		(effects
 			(font
@@ -8152,7 +8134,7 @@
 		)
 		(uuid "8688fbe9-f88d-42fe-bbdb-7f8a547b9189")
 	)
-	(label "SD1"
+	(label "SD0"
 		(at 111.76 172.72 0)
 		(effects
 			(font
@@ -8172,7 +8154,7 @@
 		)
 		(uuid "894d22cc-3f4b-4ba2-8bcb-3ca42c6ed6ff")
 	)
-	(label "BREAKA_CUR_P"
+	(label "BREAKB_CUR_P"
 		(at 180.34 58.42 0)
 		(effects
 			(font
@@ -8182,7 +8164,7 @@
 		)
 		(uuid "923579bf-8874-4121-90c7-e7e7c86b9204")
 	)
-	(label "BREAKA_CUR_N"
+	(label "BREAKB_CUR_N"
 		(at 180.34 62.23 0)
 		(effects
 			(font
@@ -8202,7 +8184,7 @@
 		)
 		(uuid "9a74df1a-b48c-40ca-bde5-a879db264673")
 	)
-	(label "BREAKB_CUR_P"
+	(label "BREAKA_CUR_P"
 		(at 247.65 147.32 0)
 		(effects
 			(font
@@ -8213,7 +8195,7 @@
 		(uuid "9b5477d8-e0a8-49e4-83ad-0bed1e9a1200")
 	)
 	(label "PY32_PWM1"
-		(at 85.09 46.99 0)
+		(at 85.09 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8232,7 +8214,7 @@
 		)
 		(uuid "ba247812-d3f0-4602-9d00-fdf13c9dbfdb")
 	)
-	(label "SD0"
+	(label "SD1"
 		(at 143.51 41.91 0)
 		(effects
 			(font
@@ -8242,7 +8224,7 @@
 		)
 		(uuid "d2022274-604b-49d5-8546-4c959890e194")
 	)
-	(label "BREAKB_CUR_N"
+	(label "BREAKA_CUR_N"
 		(at 180.34 123.19 0)
 		(effects
 			(font
@@ -8252,7 +8234,7 @@
 		)
 		(uuid "dd362310-9a53-457c-837e-de5744e855c9")
 	)
-	(label "BREAKA_CUR_P"
+	(label "BREAKB_CUR_P"
 		(at 168.91 147.32 0)
 		(effects
 			(font
@@ -8262,7 +8244,7 @@
 		)
 		(uuid "e69a3250-2715-4647-aa19-0e378027e9a2")
 	)
-	(label "BREAKB_CUR_P"
+	(label "BREAKA_CUR_P"
 		(at 180.34 119.38 0)
 		(effects
 			(font
@@ -8282,7 +8264,7 @@
 		)
 		(uuid "ef26b08c-ed33-4b06-b36c-d2a06ce3d96e")
 	)
-	(label "PY32_SD1"
+	(label "PY32_SD0"
 		(at 73.66 170.18 0)
 		(effects
 			(font
@@ -8525,21 +8507,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 120.65 77.47) (xy 120.65 130.81) (xy 240.03 130.81) (xy 240.03 77.47)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 879b89e8-b74b-4efc-add4-494e8129ece9)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 120.65 16.51) (xy 120.65 69.85) (xy 240.03 69.85) (xy 240.03 16.51)
 			)
 			(stroke
@@ -8549,7 +8516,22 @@
 			(fill
 				(type none)
 			)
-			(uuid ddeac287-67d5-4527-983e-53b385d6ba0d)
+			(uuid 7d8848b1-d971-43b8-9dfd-3251576d6710)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 120.65 77.47) (xy 120.65 130.81) (xy 240.03 130.81) (xy 240.03 77.47)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c999b373-8cd9-4129-a211-6a293398a060)
 		)
 	)
 	(netclass_flag ""
@@ -8626,7 +8608,7 @@
 			(justify right bottom)
 		)
 		(uuid "617b58ef-d59b-4ce7-8d10-87c80900a57e")
-		(property "Component Class" "BREAK_B"
+		(property "Component Class" "BREAK_A"
 			(at 230.5685 133.35 0)
 			(effects
 				(font
@@ -8649,7 +8631,7 @@
 			(justify right bottom)
 		)
 		(uuid "890c4039-0738-43d9-ac71-49935608a38c")
-		(property "Component Class" "BREAK_A"
+		(property "Component Class" "BREAK_B"
 			(at 230.5685 72.39 0)
 			(effects
 				(font
@@ -8914,7 +8896,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:RC0402FR-075KL")
+		(lib_id "HPM6280Foc:0402WGF2002TCE")
 		(at 243.84 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8930,7 +8912,7 @@
 				)
 			)
 		)
-		(property "Value" "5K,1%"
+		(property "Value" "20K,1%"
 			(at 243.84 144.526 0)
 			(effects
 				(font
@@ -8956,7 +8938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20kΩ ±1% 62.5mW 厚膜电阻"
 			(at 243.84 142.24 0)
 			(effects
 				(font
@@ -8974,7 +8956,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C477765"
+		(property "立创编号" "C25765"
 			(at 243.84 142.24 0)
 			(effects
 				(font
@@ -10066,7 +10048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:RC0402FR-075KL")
+		(lib_id "HPM6280Foc:0402WGF2002TCE")
 		(at 165.1 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10082,7 +10064,7 @@
 				)
 			)
 		)
-		(property "Value" "5K,1%"
+		(property "Value" "20K,1%"
 			(at 165.1 144.526 0)
 			(effects
 				(font
@@ -10108,7 +10090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20kΩ ±1% 62.5mW 厚膜电阻"
 			(at 165.1 142.24 0)
 			(effects
 				(font
@@ -10126,7 +10108,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C477765"
+		(property "立创编号" "C25765"
 			(at 165.1 142.24 0)
 			(effects
 				(font
@@ -11287,7 +11269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
+		(lib_id "HPM6280Foc:0402WGF510KTCE")
 		(at 200.66 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11303,7 +11285,7 @@
 				)
 			)
 		)
-		(property "Value" "2R,1%"
+		(property "Value" "5.1R,1%"
 			(at 200.66 107.696 0)
 			(effects
 				(font
@@ -11329,7 +11311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
+		(property "Description" "5.1Ω ±1% 62.5mW 厚膜电阻"
 			(at 200.66 105.41 0)
 			(effects
 				(font
@@ -11347,7 +11329,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
+		(property "立创编号" "C25128"
 			(at 200.66 105.41 0)
 			(effects
 				(font
@@ -11447,7 +11429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:RC0402FR-075KL")
+		(lib_id "HPM6280Foc:0402WGF2002TCE")
 		(at 243.84 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11463,7 +11445,7 @@
 				)
 			)
 		)
-		(property "Value" "5K,1%"
+		(property "Value" "20K,1%"
 			(at 243.84 139.446 0)
 			(effects
 				(font
@@ -11489,7 +11471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20kΩ ±1% 62.5mW 厚膜电阻"
 			(at 243.84 137.16 0)
 			(effects
 				(font
@@ -11507,7 +11489,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C477765"
+		(property "立创编号" "C25765"
 			(at 243.84 137.16 0)
 			(effects
 				(font
@@ -11995,7 +11977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
+		(lib_id "HPM6280Foc:0402WGF510KTCE")
 		(at 200.66 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12011,8 +11993,8 @@
 				)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 200.66 46.736 0)
+		(property "Value" "5.1R,1%"
+			(at 200.914 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +12019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
+		(property "Description" "5.1Ω ±1% 62.5mW 厚膜电阻"
 			(at 200.66 44.45 0)
 			(effects
 				(font
@@ -12055,7 +12037,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
+		(property "立创编号" "C25128"
 			(at 200.66 44.45 0)
 			(effects
 				(font
@@ -13844,7 +13826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
+		(lib_id "HPM6280Foc:0402WGF510KTCE")
 		(at 200.66 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13860,8 +13842,8 @@
 				)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 200.914 97.79 0)
+		(property "Value" "5.1R,1%"
+			(at 200.66 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13886,7 +13868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
+		(property "Description" "5.1Ω ±1% 62.5mW 厚膜电阻"
 			(at 200.66 100.33 0)
 			(effects
 				(font
@@ -13904,7 +13886,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
+		(property "立创编号" "C25128"
 			(at 200.66 100.33 0)
 			(effects
 				(font
@@ -14749,7 +14731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:RC0402FR-075KL")
+		(lib_id "HPM6280Foc:0402WGF2002TCE")
 		(at 165.1 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14765,7 +14747,7 @@
 				)
 			)
 		)
-		(property "Value" "5K,1%"
+		(property "Value" "20K,1%"
 			(at 165.1 139.446 0)
 			(effects
 				(font
@@ -14791,7 +14773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20kΩ ±1% 62.5mW 厚膜电阻"
 			(at 165.1 137.16 0)
 			(effects
 				(font
@@ -14809,7 +14791,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C477765"
+		(property "立创编号" "C25765"
 			(at 165.1 137.16 0)
 			(effects
 				(font
@@ -16157,7 +16139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
+		(lib_id "HPM6280Foc:0402WGF510KTCE")
 		(at 200.66 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16173,8 +16155,8 @@
 				)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 200.914 36.83 0)
+		(property "Value" "5.1R,1%"
+			(at 200.66 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16199,7 +16181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
+		(property "Description" "5.1Ω ±1% 62.5mW 厚膜电阻"
 			(at 200.66 39.37 0)
 			(effects
 				(font
@@ -16217,7 +16199,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
+		(property "立创编号" "C25128"
 			(at 200.66 39.37 0)
 			(effects
 				(font
