@@ -51,6 +51,13 @@ void init_uart_break_signal_pin(void);
 void init_gptmr_channel_pin(GPTMR_Type *ptr, uint32_t channel, bool as_comp);
 void init_owr_pins(OWR_Type *ptr);
 void init_clk_ref_pins(void);
+
+void init_encoder_gpio_pins(uint8_t index);
+void init_rgb_gpio_pins();
+void init_driverEN_pins(uint8_t index);
+void init_trgm_extern_pins();
+void init_py32_pins();
+
 #ifdef __cplusplus
 }
 #endif

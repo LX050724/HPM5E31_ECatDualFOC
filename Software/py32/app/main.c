@@ -289,10 +289,12 @@ void USART_Init(void)
     LL_USART_Init(USART1, &USART_InitStruct);
 
     LL_USART_ConfigAsyncMode(USART1);
-    LL_USART_Enable(USART1);
-
+    LL_USART_EnableIT_RXNE(USART1);
+    LL_USART_EnableIT_IDLE(USART1);
+    
     NVIC_SetPriority(USART1_IRQn, 1);
     NVIC_EnableIRQ(USART1_IRQn);
+    LL_USART_Enable(USART1);
 }
 
 void PWM_Init(void)

@@ -1373,6 +1373,94 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPM6280Foc:test_point"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.27 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Library:test_point_0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "test_point_1_1"
+				(circle
+					(center 0 0)
+					(radius 0.5107)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1737,6 +1825,18 @@
 		(color 0 0 0 0)
 		(uuid "6fca9b34-6add-41b2-b1e7-9043983f5c98")
 	)
+	(junction
+		(at 91.44 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "945c0fed-15d7-4dce-b801-79ef18bf5e20")
+	)
+	(junction
+		(at 91.44 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4faac42-f80b-46b1-b0f0-ff593b11f792")
+	)
 	(bus_entry
 		(at 78.74 93.98)
 		(size 2.54 2.54)
@@ -1797,6 +1897,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 96.52) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242bfc3a-b97f-45cc-9e0b-3de5147af5c1")
+	)
+	(wire
+		(pts
 			(xy 180.34 99.06) (xy 180.34 100.33)
 		)
 		(stroke
@@ -1847,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 104.14) (xy 95.25 104.14)
+			(xy 81.28 104.14) (xy 91.44 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 95.25 96.52)
+			(xy 81.28 96.52) (xy 91.44 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1915,6 +2025,16 @@
 		)
 		(uuid "eeb92c72-d0e2-4746-8b4a-5b1143201fa9")
 	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 95.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc492a7-17f5-4864-86dd-aae41a7aaa18")
+	)
 	(label "CAN.TXD"
 		(at 82.55 96.52 0)
 		(effects
@@ -1945,6 +2065,75 @@
 			(justify right)
 		)
 		(uuid "806572bd-3173-4259-92d6-b1cc50bc2032")
+	)
+	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 91.44 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16473fb8-337a-47a6-94c3-de5f17b77333")
+		(property "Reference" "TP35"
+			(at 93.9502 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "398e4b31-610d-4a5f-9d9c-aca2082fda39")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/53f5766c-ec8f-4b40-a51f-916b133ba359"
+					(reference "TP36")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/c78eab24-5a2b-43f8-b2ca-bd8788f7483b"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HPM6280Foc:TJA1042TK/3")
@@ -2888,6 +3077,75 @@
 				)
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/c78eab24-5a2b-43f8-b2ca-bd8788f7483b"
 					(reference "#PWR0290")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 91.44 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c0d89fd-e87d-4dfd-b912-fe7d4adc5c09")
+		(property "Reference" "TP33"
+			(at 93.9502 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4448cff-cec4-471c-b10e-d2ccee90fd9c")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/53f5766c-ec8f-4b40-a51f-916b133ba359"
+					(reference "TP34")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/c78eab24-5a2b-43f8-b2ca-bd8788f7483b"
+					(reference "TP33")
 					(unit 1)
 				)
 			)

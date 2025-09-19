@@ -19,7 +19,7 @@
 #include "hpm_debug_console.h"
 #endif
 
-#define BOARD_NAME          "hpm5e00evk"
+#define BOARD_NAME          "HPM5E_DFoc"
 #define BOARD_UF2_SIGNATURE (0x0A4D5048UL)
 #define BOARD_CPU_FREQ      (480000000UL)
 
@@ -161,7 +161,7 @@
 #define BOARD_APP_PWM_OUT4         pwm_channel_3
 #define BOARD_APP_PWM_OUT5         pwm_channel_4
 #define BOARD_APP_PWM_OUT6         pwm_channel_5
-#define BOARD_APP_PWM_FAULT_PIN    (5)
+#define BOARD_APP_PWM_FAULT_PIN    (10)
 #define BOARD_APP_TRGM             HPM_TRGM0
 #define BOARD_APP_PWM_IRQ          IRQn_PWM0
 #define BOARD_APP_TRGM_PWM_OUTPUT  HPM_TRGM0_OUTPUT_SRC_PWM0_TRIG_IN_0
@@ -253,12 +253,6 @@
 #define BOARD_CALLBACK_TIMER_IRQ      IRQn_GPTMR3
 #define BOARD_CALLBACK_TIMER_CLK_NAME (clock_gptmr3)
 
-/* LED */
-#define BOARD_LED_GPIO_CTRL  HPM_GPIO0
-#define BOARD_LED_GPIO_INDEX GPIO_DI_GPIOC
-#define BOARD_LED_GPIO_PIN   28
-#define BOARD_LED_OFF_LEVEL  0
-#define BOARD_LED_ON_LEVEL   1
 
 #ifndef BOARD_SHOW_CLOCK
 #define BOARD_SHOW_CLOCK 1
@@ -591,6 +585,92 @@
 #define BOARD_APP_CLK_REF_PIN_NAME "P5[22] (PC30)"
 #define BOARD_APP_CLK_REF_CLK_NAME clock_ref1
 
+/////////////////////////////////////////////
+
+#define BOARD_DRIVER_A_INDEX 0
+#define BOARD_DRIVER_B_INDEX 1
+
+
+#define BOARD_DRIVER_A_EN_GPIO_CTRL HPM_GPIO0
+#define BOARD_DRIVER_A_EN_GPIO_INDEX GPIO_DO_GPIOF
+#define BOARD_DRIVER_A_EN_GPIO_PIN 6
+
+#define BOARD_DRIVER_B_EN_GPIO_CTRL HPM_GPIO0
+#define BOARD_DRIVER_B_EN_GPIO_INDEX GPIO_DO_GPIOE
+#define BOARD_DRIVER_B_EN_GPIO_PIN 0
+
+/* encoderA */
+#define BOARD_ENCODER_A_SPI HPM_SPI0
+#define BOARD_ENCODER_A_QEI HPM_QEI0
+
+#define BOARD_ENCODER_A_PWR_GPIO_CTRL HPM_GPIO0
+#define BOARD_ENCODER_A_PWR_GPIO_INDEX GPIO_DO_GPIOA
+#define BOARD_ENCODER_A_PWR_GPIO_PIN 19
+
+#define BOARD_ENCODER_A_U_GPIO_CTRL HPM_GPIO0
+#define BOARD_ENCODER_A_U_GPIO_INDEX GPIO_DO_GPIOA
+#define BOARD_ENCODER_A_U_GPIO_PIN 22
+
+#define BOARD_ENCODER_A_V_GPIO_CTRL HPM_GPIO0
+#define BOARD_ENCODER_A_V_GPIO_INDEX GPIO_DO_GPIOA
+#define BOARD_ENCODER_A_V_GPIO_PIN 21
+
+#define BOARD_ENCODER_A_W_GPIO_CTRL HPM_GPIO0
+#define BOARD_ENCODER_A_W_GPIO_INDEX GPIO_DO_GPIOA
+#define BOARD_ENCODER_A_W_GPIO_PIN 20
+
+/* encoderB */
+#define BOARD_ENCODER_B_SPI HPM_SPI3
+#define BOARD_ENCODER_B_QEI HPM_QEI1
+
+#define BOARD_ENCODER_B_PWR_GPIO_CTRL HPM_GPIO0
+#define BOARD_ENCODER_B_PWR_GPIO_INDEX GPIO_DO_GPIOD
+#define BOARD_ENCODER_B_PWR_GPIO_PIN 13
+
+#define BOARD_ENCODER_B_U_GPIO_CTRL HPM_GPIO0
+#define BOARD_ENCODER_B_U_GPIO_INDEX GPIO_DO_GPIOD
+#define BOARD_ENCODER_B_U_GPIO_PIN 12
+
+#define BOARD_ENCODER_B_V_GPIO_CTRL HPM_GPIO0
+#define BOARD_ENCODER_B_V_GPIO_INDEX GPIO_DO_GPIOD
+#define BOARD_ENCODER_B_V_GPIO_PIN 10
+
+#define BOARD_ENCODER_B_W_GPIO_CTRL HPM_GPIO0
+#define BOARD_ENCODER_B_W_GPIO_INDEX GPIO_DO_GPIOD
+#define BOARD_ENCODER_B_W_GPIO_PIN 11
+
+/* RGB LED */
+#define BOARD_RGB_R_GPIO_CTRL HPM_GPIO0
+#define BOARD_RGB_R_GPIO_INDEX GPIO_DO_GPIOC
+#define BOARD_RGB_R_GPIO_PIN 3
+
+#define BOARD_RGB_G_GPIO_CTRL HPM_GPIO0
+#define BOARD_RGB_G_GPIO_INDEX GPIO_DO_GPIOC
+#define BOARD_RGB_G_GPIO_PIN 2
+
+#define BOARD_RGB_B_GPIO_CTRL HPM_GPIO0
+#define BOARD_RGB_B_GPIO_INDEX GPIO_DO_GPIOC
+#define BOARD_RGB_B_GPIO_PIN 18
+
+/* Motor0 ADC Channels */
+#define BOARD_MOTOR0_CUR_A_ADC_CH 7
+#define BOARD_MOTOR0_CUR_B_ADC_CH 5
+#define BOARD_MOTOR0_CUR_C_ADC_CH 3
+#define BOARD_MOTOR0_CUR_BUS_ADC_CH 1
+
+#define BOARD_MOTOR1_CUR_A_ADC_CH 11
+#define BOARD_MOTOR1_CUR_B_ADC_CH 14
+#define BOARD_MOTOR1_CUR_C_ADC_CH 12
+#define BOARD_MOTOR1_CUR_BUS_ADC_CH 8
+
+#define BOARD_BUS_VOLIATE_ADC_CH 10
+
+/*  */
+#define BOARD_RGB_PYRST_GPIO_CTRL HPM_GPIO0
+#define BOARD_RGB_PYRST_GPIO_INDEX GPIO_DO_GPIOF
+#define BOARD_RGB_PYRST_GPIO_PIN 29
+
+
 #if defined(__cplusplus)
 extern "C" {
 #endif /* __cplusplus */
@@ -612,6 +692,7 @@ void board_init_led_pins(void);
 void board_led_write(uint8_t state);
 void board_led_toggle(void);
 void board_init_owr_pins(OWR_Type *ptr);
+void board_init_encoder_gpio_pins(uint8_t index);
 
 /* Initialize SoC overall clocks */
 void board_init_clock(void);
@@ -658,6 +739,19 @@ void init_pwm_fault_pins(void);
 void board_init_gptmr_channel_pin(GPTMR_Type *ptr, uint32_t channel, bool as_comp);
 void board_init_clk_ref_pin(void);
 uint32_t board_init_gptmr_clock(GPTMR_Type *ptr);
+
+
+void board_init_encoder_gpio_pins(uint8_t index);
+void board_encoderA_powerup(bool power);
+void board_encoderB_powerup(bool power);
+uint8_t board_encoderA_get_uvw();
+uint8_t board_encoderB_get_uvw();
+uint32_t board_init_qeiv2_clock(QEIV2_Type *ptr);
+
+void board_init_driverEN_pins(uint8_t index);
+void board_set_driverA_enable(bool enable);
+void board_set_driverB_enable(bool enable);
+
 
 #if defined(__cplusplus)
 }

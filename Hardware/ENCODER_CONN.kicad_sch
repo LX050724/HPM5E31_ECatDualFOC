@@ -2377,6 +2377,94 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPM6280Foc:test_point"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.27 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Library:test_point_0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "test_point_1_1"
+				(circle
+					(center 0 0)
+					(radius 0.5107)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2748,10 +2836,28 @@
 		(uuid "428cd0d4-f1bb-4fe2-930d-5ac2d5f47545")
 	)
 	(junction
+		(at 53.34 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a0a6529-d28d-447d-bfd1-ea81857bede0")
+	)
+	(junction
+		(at 53.34 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fefc756-abe0-45c6-b1c7-d61c1c6760ef")
+	)
+	(junction
 		(at 120.65 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59bedc14-66b4-471c-8caa-4c60a9b7390a")
+	)
+	(junction
+		(at 46.99 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ba859a1-a586-4dce-8ae6-d24333260c85")
 	)
 	(junction
 		(at 231.14 81.28)
@@ -2760,10 +2866,28 @@
 		(uuid "6c578a29-4fa7-4e12-b3a1-7492488e92bc")
 	)
 	(junction
+		(at 52.07 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dbd38b3-884d-4c9a-a68e-494ba1991d6e")
+	)
+	(junction
+		(at 53.34 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70dedf51-5abf-4544-b568-44f55aa3cf3e")
+	)
+	(junction
 		(at 40.64 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75f3999b-2836-49ca-9f52-2aa88dd1151c")
+	)
+	(junction
+		(at 52.07 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "817596ae-4e2a-4ce3-82cf-695662dada9c")
 	)
 	(junction
 		(at 120.65 68.58)
@@ -2784,6 +2908,18 @@
 		(uuid "a4442dc9-60c1-43bf-b791-cbae8ee0267c")
 	)
 	(junction
+		(at 46.99 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9855a90-f907-4a3a-856b-8c8e61e0ca4c")
+	)
+	(junction
+		(at 47.0198 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae5806d3-3d1e-45a5-910e-a2ba65241de4")
+	)
+	(junction
 		(at 80.01 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2794,6 +2930,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b80abb24-8d5b-4e97-ad14-87e8e8b716cd")
+	)
+	(junction
+		(at 52.07 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8a359b0-88ae-4647-a4ca-d9f8d59a9e42")
+	)
+	(junction
+		(at 46.99 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdbb2533-9e7e-4e81-a5d1-21c4a1813a92")
 	)
 	(no_connect
 		(at 146.05 52.07)
@@ -3010,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 144.78) (xy 55.88 144.78)
+			(xy 31.75 144.78) (xy 46.99 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3030,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 86.36) (xy 110.49 86.36)
+			(xy 31.75 86.36) (xy 52.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3070,6 +3218,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 39.37) (xy 124.46 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adc350b-0c2b-4bb1-b865-e84e61994cd9")
+	)
+	(wire
+		(pts
 			(xy 146.05 88.9) (xy 156.21 88.9)
 		)
 		(stroke
@@ -3087,6 +3245,16 @@
 			(type default)
 		)
 		(uuid "1f978840-f7ac-4539-acfb-47bcee5d9841")
+	)
+	(wire
+		(pts
+			(xy 52.07 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20858c7e-76a5-4975-9f79-14185640c707")
 	)
 	(wire
 		(pts
@@ -3140,6 +3308,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 142.24) (xy 55.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c7a50d-0984-449c-9df2-61b9d30f793e")
+	)
+	(wire
+		(pts
 			(xy 184.15 29.21) (xy 193.04 29.21)
 		)
 		(stroke
@@ -3190,13 +3368,43 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 83.82) (xy 128.27 83.82)
+			(xy 46.99 147.32) (xy 55.88 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ee1bdc-e603-436d-957c-b1e1440cedb7")
+	)
+	(wire
+		(pts
+			(xy 47.0198 139.7) (xy 55.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3357e48d-b4bc-4e27-9b69-74275b723472")
+	)
+	(wire
+		(pts
+			(xy 31.75 83.82) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "376e4d87-fa6b-4559-bb3d-52cba65b98f8")
+	)
+	(wire
+		(pts
+			(xy 31.75 147.32) (xy 46.99 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39133f9e-f51b-4c2b-a888-105f143977aa")
 	)
 	(wire
 		(pts
@@ -3230,7 +3438,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 88.9) (xy 107.95 88.9)
+			(xy 31.75 88.9) (xy 52.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3290,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 39.37) (xy 124.46 39.37)
+			(xy 31.75 39.37) (xy 53.34 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3317,6 +3525,16 @@
 			(type default)
 		)
 		(uuid "490abf38-effc-4e59-9971-b5bdc7f8f533")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd2c283-5353-4634-9184-9551059b0d46")
 	)
 	(wire
 		(pts
@@ -3350,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 139.7) (xy 55.88 139.7)
+			(xy 31.75 139.7) (xy 47.0198 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3387,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "60f6389d-3455-48cb-91b3-2da7ed2e8105")
+	)
+	(wire
+		(pts
+			(xy 46.99 144.78) (xy 55.88 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bb5032-d392-4de3-a29b-8039370255fe")
 	)
 	(wire
 		(pts
@@ -3710,6 +3938,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 36.83) (xy 128.27 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ce6694-40ae-42f4-a4f5-57b5e5b93e94")
+	)
+	(wire
+		(pts
 			(xy 210.82 31.75) (xy 224.79 31.75)
 		)
 		(stroke
@@ -3740,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 142.24) (xy 55.88 142.24)
+			(xy 31.75 142.24) (xy 46.99 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3750,7 +3988,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 41.91) (xy 120.65 41.91)
+			(xy 52.07 83.82) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1bc8f77-0c62-43df-a4b8-cb104f3a04a5")
+	)
+	(wire
+		(pts
+			(xy 31.75 41.91) (xy 53.34 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3850,7 +4098,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 36.83) (xy 128.27 36.83)
+			(xy 31.75 36.83) (xy 53.34 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3957,16 +4205,6 @@
 			(type default)
 		)
 		(uuid "cab2314a-5d4b-433c-83ee-620232d983b8")
-	)
-	(wire
-		(pts
-			(xy 31.75 147.32) (xy 55.88 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0959eb7-d68a-4454-b8af-b749036f3491")
 	)
 	(wire
 		(pts
@@ -4097,6 +4335,16 @@
 			(type default)
 		)
 		(uuid "eee95da7-72e8-4aae-b2ca-8d678408fb89")
+	)
+	(wire
+		(pts
+			(xy 52.07 86.36) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb302c4-310a-4567-92f5-5ef405140167")
 	)
 	(wire
 		(pts
@@ -4959,6 +5207,75 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 53.34 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07cfdf19-b1ea-4eb3-b45f-49b81d30078f")
+		(property "Reference" "TP18"
+			(at 55.8502 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04bd937d-02a4-4b36-9ff9-8f6db8c1f799")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:MS2575T")
 		(at 130.81 27.94 0)
 		(unit 1)
@@ -5515,6 +5832,76 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 46.99 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27a13dde-bda1-439a-8492-e7f6b42d6469")
+		(property "Reference" "TP4"
+			(at 47.752 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e152301-66fe-4d85-84b0-93e38557556c")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP4")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:CC0402KRX7R7BB104")
 		(at 120.65 63.5 90)
 		(unit 1)
@@ -5815,6 +6202,76 @@
 				)
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
 					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 46.99 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48d295cc-9f35-40c9-8929-b7245860c4a6")
+		(property "Reference" "TP1"
+			(at 47.752 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 46.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4af40a0-15eb-4f15-8f71-30b0d7d8c308")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP1")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7708,6 +8165,144 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 46.99 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9075efae-8ea2-4b71-b537-394c892c84cb")
+		(property "Reference" "TP3"
+			(at 49.5002 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be3dc39d-6dc3-485d-aa08-5f1e08c48ca0")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 52.07 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91d1186b-85fd-47b4-9002-fb10582ef31f")
+		(property "Reference" "TP12"
+			(at 54.5802 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b5466c-db0e-4535-9626-d46df364dad5")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP12")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:PS03W4F1000T5E")
 		(at 180.34 55.88 180)
 		(unit 1)
@@ -7807,6 +8402,75 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 47.0198 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b91266a-e993-40ba-9f76-f4daeb87cd58")
+		(property "Reference" "TP6"
+			(at 49.53 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 47.0198 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 47.0198 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 47.0198 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 47.0198 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae3c0abe-2635-4237-aef0-dccfedbec8bc")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 53.34 151.13 0)
 		(unit 1)
@@ -7871,6 +8535,75 @@
 				)
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
 					(reference "#PWR0247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 53.34 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0f1aab9-b587-4cf0-abbe-4501eb9cfe09")
+		(property "Reference" "TP14"
+			(at 55.8502 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00bd3c1c-3298-4205-9bef-8c70a026a5e7")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -8758,6 +9491,75 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 53.34 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e490d53e-f199-4e2e-9051-bd46346b56c6")
+		(property "Reference" "TP16"
+			(at 55.8502 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe62cd5-eb81-4779-b47c-e3f83688938e")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP16")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HPM6280Foc:PHB2.0-02-20PWZ")
 		(at 227.33 29.21 0)
 		(unit 1)
@@ -8972,6 +9774,75 @@
 		)
 	)
 	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 52.07 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f64814f1-8845-43b5-8158-d07e53798981")
+		(property "Reference" "TP10"
+			(at 54.5802 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7106feb7-6681-4748-89a2-f3bcb043477f")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP10")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 115.57 0)
 		(unit 1)
@@ -9036,6 +9907,75 @@
 				)
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
 					(reference "#PWR0240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 52.07 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd47418d-63cb-412d-b1ed-7a32f9ad3b9c")
+		(property "Reference" "TP8"
+			(at 54.5802 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4303862-bf20-4f6a-96de-1ba0968a8c45")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/2cb50c61-c8ae-42b9-b508-861bf0b40a9f"
+					(reference "TP8")
+					(unit 1)
+				)
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/9ccd6862-1c4b-463d-8600-75edca9a3412"
+					(reference "TP9")
 					(unit 1)
 				)
 			)

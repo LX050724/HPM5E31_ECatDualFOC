@@ -108,6 +108,7 @@ void uart_recv_frame(uint8_t *data, uint8_t len)
         // write reg
         uint8_t addr = data_pack->addr & 0x7f;
         uart_dict[addr] = data_pack->data;
+        uart_dict_edit_flag |= (1 << addr);
         LL_USART_TransmitData8(USART1, addr);
     }
     else

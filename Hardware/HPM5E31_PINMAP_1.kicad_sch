@@ -262,6 +262,94 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HPM6280Foc:test_point"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.27 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Library:test_point_0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "test_point_1_1"
+				(circle
+					(center 0 0)
+					(radius 0.5107)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -398,6 +486,26 @@
 		)
 		(uuid "1201019b-5f18-4ba2-b053-59932d30d33c")
 	)
+	(text "ADC_CH5"
+		(exclude_from_sim no)
+		(at 157.988 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "154d926a-e8cc-4d69-aa0c-ddee8fc9a10c")
+	)
+	(text "ADC_CH12"
+		(exclude_from_sim no)
+		(at 158.242 178.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18793eac-d20d-4e66-8620-aab5361e48b2")
+	)
 	(text "SPI2"
 		(exclude_from_sim no)
 		(at 149.098 32.512 90)
@@ -417,6 +525,16 @@
 			)
 		)
 		(uuid "35b664d5-ccab-4fbf-93c4-c27fa2c44303")
+	)
+	(text "ADC_CH14"
+		(exclude_from_sim no)
+		(at 158.242 175.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47592478-ea5c-4565-919c-c56c67e78ac0")
 	)
 	(text "CTR5"
 		(exclude_from_sim no)
@@ -438,6 +556,16 @@
 		)
 		(uuid "677bf5cc-feaa-4d36-9f65-48ff5628ff14")
 	)
+	(text "ADC_CH3"
+		(exclude_from_sim no)
+		(at 157.988 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7584fdce-5237-43fb-8fee-1da7008cc562")
+	)
 	(text "UART6"
 		(exclude_from_sim no)
 		(at 74.422 152.146 90)
@@ -447,6 +575,16 @@
 			)
 		)
 		(uuid "798f2396-c313-4953-a39e-36b57c4369ee")
+	)
+	(text "ADC_CH7"
+		(exclude_from_sim no)
+		(at 157.988 136.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82ac006b-37a8-46dd-8266-2dd85016320a")
 	)
 	(text "QEI1"
 		(exclude_from_sim no)
@@ -468,6 +606,16 @@
 		)
 		(uuid "927498a4-2ff8-4330-bc15-4e0947534800")
 	)
+	(text "ADC_CH1"
+		(exclude_from_sim no)
+		(at 157.988 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1d24adf-4524-44ea-a82b-be99ee224879")
+	)
 	(text "CTR1"
 		(exclude_from_sim no)
 		(at 67.818 117.094 0)
@@ -478,6 +626,16 @@
 		)
 		(uuid "c2aa84e9-4ec6-4609-b4d4-0b53ee0c232b")
 	)
+	(text "ADC_CH11"
+		(exclude_from_sim no)
+		(at 158.242 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5902b85-e7c3-444a-9fe3-d4edef007e2b")
+	)
 	(text "QEI0"
 		(exclude_from_sim no)
 		(at 163.068 84.836 90)
@@ -487,6 +645,16 @@
 			)
 		)
 		(uuid "c84737cc-3072-4023-ab54-a3cce2e24246")
+	)
+	(text "ADC_CH8"
+		(exclude_from_sim no)
+		(at 158.242 180.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0dace74-30c0-4538-a672-5d0cf38f8f35")
 	)
 	(text "SPI3"
 		(exclude_from_sim no)
@@ -539,6 +707,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b18cad48-e2cb-48bb-8dcd-cd1951f96fe0")
+	)
+	(junction
+		(at 55.88 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84425a4-e68e-43fb-becb-76ff32e88049")
 	)
 	(junction
 		(at 59.69 107.95)
@@ -2831,7 +3005,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 115.57) (xy 82.55 115.57)
+			(xy 43.18 115.57) (xy 55.88 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4428,6 +4602,16 @@
 			(type default)
 		)
 		(uuid "9e62f1e3-f8e9-45f0-bfc6-f3a0eb6f7bd9")
+	)
+	(wire
+		(pts
+			(xy 55.88 115.57) (xy 82.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee46a31-db33-4216-8ee1-852a047168aa")
 	)
 	(wire
 		(pts
@@ -8383,6 +8567,71 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/6734c7c5-c927-492b-a5ca-68015457caeb"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HPM6280Foc:test_point")
+		(at 55.88 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8439fb1-9c67-4699-8d71-8943915689cd")
+		(property "Reference" "TP20"
+			(at 58.3902 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:test_point_0.5mm"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59367431-a10e-4535-8046-340fa85b7882")
+		)
+		(instances
+			(project "HPM5E31_ECatDualFOC"
+				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/b9a8d5a3-7d25-4818-87f6-adc719379948/6734c7c5-c927-492b-a5ca-68015457caeb"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
