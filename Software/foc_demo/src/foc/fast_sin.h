@@ -14,6 +14,29 @@ extern "C" {
 
 #define F_PI 3.14159265358979323846f
 
+#ifdef HPMSOC_HAS_HPMSDK_TFA
+#include "hpm_tfa_drv.h"
+
+#define FAST_SIN_2PIX
+
+static inline ATTR_ALWAYS_INLINE float fast_sin(float x)
+{
+    return hpm_tfa_sin_f32(x);
+}
+
+static inline ATTR_ALWAYS_INLINE float fast_cos(float x)
+{
+    return hpm_tfa_cos_f32(x);
+}
+
+static inline ATTR_ALWAYS_INLINE void fast_sin_cos(float x, float *sin_x, float *cos_x)
+{
+    *sin_x = hpm_tfa_sin_f32(x);
+    *cos_x = hpm_tfa_cos_f32(x);
+}
+
+#else
+
 // lolremez --float --degree 5 --range "1e-50:pi*pi"
 // "(sin(sqrt(x))-sqrt(x))/(x*sqrt(x))" "1/(x*sqrt(x))"
 // Estimated max error: 1.455468e-9
@@ -76,6 +99,8 @@ static inline ATTR_RAMFUNC void fast_sin_cos(float x, float *sin_x, float *cos_x
     *sin_x = x + x * x * x * f1(x * x);
     *cos_x = 1.0f + x * x * f2(x * x);
 }
+
+#endif
 
 #ifdef __cplusplus
 }

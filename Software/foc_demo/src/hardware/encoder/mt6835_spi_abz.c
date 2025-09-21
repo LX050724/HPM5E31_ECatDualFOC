@@ -60,14 +60,14 @@ int mt6835_spi_abz_init(SPI_Type *spi, uint32_t baud, QEIV2_Type *qei)
     format_config.common_config.cpol = spi_sclk_high_idle;
     spi_format_init(spi, &format_config);
 
-    mt6835_set_abz_res(spi, 16384);
+    mt6835_set_abz_res(spi, ENCODER_MAX / 4);
 
     qeiv2_mode_config_t mode_config = {0};
     /*  mode config */
     mode_config.work_mode = qeiv2_work_mode_abz;
     mode_config.spd_tmr_content_sel = qeiv2_spd_tmr_as_spd_tm;
     mode_config.z_count_inc_mode = qeiv2_z_count_inc_on_z_input_assert;
-    mode_config.phcnt_max = 16384 * 4;
+    mode_config.phcnt_max = ENCODER_MAX;
     mode_config.z_cali_enable = true;
     mode_config.z_cali_ignore_ab = false;
     mode_config.phcnt_idx = 0;

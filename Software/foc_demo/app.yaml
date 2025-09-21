@@ -1,0 +1,16 @@
+dependency:
+  - pwmv2
+  - qeiv2
+  - uart
+  - spi
+  - mcan
+  - eui
+  - crc
+  - gpiom
+  - adc16
+  - acmp
+  - synt
+  - trgm
+  - usb
+  - esc
+  - tfa

@@ -25,7 +25,7 @@ extern "C" {
 #define ENCODER_LINEAR_HALL (ENCODER_INTERFACE_LINEAR_HALL << 8 | 4)
 
 #define ENCODER_TYPE ENCODER_MT6835_SPI_ABZ // 编码器类型
-#define ENCODER_MAX 3999        // 编码器最大值
+#define ENCODER_MAX 16384        // 编码器最大值
 #define ENCODER_INVALID ((uint32_t) - 1)
 
 /* 时间参数 */
@@ -35,17 +35,16 @@ extern "C" {
 #define ELECTRICAL_ANGLE_CALIBRATION_DELAY 500  // 电角度校准延迟(ms)
 
 /* ADC参数 */
-#define SAMPLING_RESISTOR 0.005f                      // 采样电阻 Ω
-#define CURRENT_AMP 20                                // 电流运放放大倍数 5/10/20/40
+#define SAMPLING_RESISTOR 0.002f                      // 采样电阻 Ω
+#define CURRENT_AMP 20                                // 电流运放放大倍数
 #define CURRENT_COE (SAMPLING_RESISTOR * CURRENT_AMP) // 电流系数 V/A
-#define VOLTAGE_AMP 20.0f                             // 母线电压放大倍数
+#define VOLTAGE_AMP 50.0f                             // 母线电压放大倍数
 #define ADC_IGNORE_BIT 5                              // ADC低位舍弃
 #define ADC_ENABLE_FILTER 1                           // 启用2位滑动平均滤波
 #define ADC_CALIBRATION_TIMES 1024                    // ADC校准采样次数
 
 /* 启用HRPWM */
-#define HRPWM_ENABLE 0 // HRPWM故障保护功能有问题，暂不开启
-
+#define HRPWM_ENABLE 1
 /* 速度滤波方式 */
 #define SPEED_FILTER_PLL 0  // 使用电角度计算PLL
 #define SPEED_FILTER_PLL2 1 // 使用机械角度计算简化PLL

@@ -24,31 +24,21 @@ static inline float adc_voltage(int raw)
 static inline void adc_enable_irq(uint32_t pri)
 {
     intc_m_enable_irq_with_priority(IRQn_ADC0, pri);
-    // intc_m_enable_irq_with_priority(IRQn_ADC1, pri);
 }
 
 static inline void adc_disable_irq()
 {
     intc_m_disable_irq(IRQn_ADC0);
-    // intc_m_disable_irq(IRQn_ADC1);
 }
 
 static inline void adc_enable_it()
 {
-    adc_type adc = {.module = adc_module_adc16};
-    adc.adc_base.adc16 = HPM_ADC0;
-    hpm_adc_enable_interrupts(&adc, adc16_event_trig_complete);
-    adc.adc_base.adc16 = HPM_ADC1;
-    hpm_adc_enable_interrupts(&adc, adc16_event_trig_complete);
+    adc16_enable_interrupts(HPM_ADC0, adc16_event_trig_complete);
 }
 
 static inline void adc_disable_it()
 {
-    adc_type adc = {.module = adc_module_adc16};
-    adc.adc_base.adc16 = HPM_ADC0;
-    hpm_adc_disable_interrupts(&adc, adc16_event_trig_complete);
-    adc.adc_base.adc16 = HPM_ADC1;
-    hpm_adc_disable_interrupts(&adc, adc16_event_trig_complete);
+    adc16_disable_interrupts(HPM_ADC0, adc16_event_trig_complete);
 }
 
 uint16_t adc_get_ntc1_raw();

@@ -4,7 +4,7 @@
 #include <foc/iir_filter.h>
 #include <stdint.h>
 
-//#define EN_TIMER // 定义启用计算运行时间
+// #define EN_TIMER // 定义启用计算运行时间
 
 #ifdef EN_TIMER
 uint32_t time[4];
@@ -32,12 +32,16 @@ ATTR_RAMFUNC void Motor_RunFoc(MotorClass_t *motor)
     if (motor->mode == SVPWM_OPEN_LOOP_MODE)
     {
         /* svpwm开环模式使用angle_exp作为角度输入 */
+#ifdef FAST_SIN_2PIX
+        foc_sin_cos(motor->angle_exp * (1.0f / UINT16_MAX), &sin_cos);
+#else
         foc_sin_cos(motor->angle_exp * (2.0f * F_PI / UINT16_MAX), &sin_cos);
+#endif
     }
     else
     {
         /* 其他模式使用编码器作为角度输入 */
-        //encoder_get_eleAngle_sincos(&motor->encoder, motor->raw_angle, &sin_cos);
+        encoder_get_eleAngle_sincos(&motor->encoder, motor->raw_angle, &sin_cos);
     }
 
 #if SPEED_FILTER_MODE == SPEED_FILTER_IIR

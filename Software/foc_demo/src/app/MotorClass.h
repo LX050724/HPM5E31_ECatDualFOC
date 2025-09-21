@@ -29,7 +29,7 @@ typedef struct MotorClass_t
 
     int intr_count;
 
-    //encoder_t encoder;
+    encoder_t encoder;
     CurrentCal_t current_cal;
 
     foc_pll_t speed_pll;
