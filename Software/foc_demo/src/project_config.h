@@ -25,23 +25,25 @@ extern "C" {
 #define ENCODER_LINEAR_HALL (ENCODER_INTERFACE_LINEAR_HALL << 8 | 4)
 
 #define ENCODER_TYPE ENCODER_MT6835_SPI_ABZ // 编码器类型
-#define ENCODER_MAX 16384        // 编码器最大值
-#define ENCODER_INVALID ((uint32_t) - 1)
+#define ENCODER_MAX 16384                   // 编码器最大值
+#define ENCODER_INVALID ((uint32_t)-1)
 
 /* 时间参数 */
-#define PWM_FREQUENCY 50000                     // PWM频率(Hz) 根据散热条件 Max: 100KHz@24V, 50Khz@48V
-#define SPEED_PID_FREQUENCY 5000                // 速度、位置环频率(Hz)
-#define ELECTRICAL_ANGLE_CALIBRATION_POWER 0.4f // 电角度校准油门
-#define ELECTRICAL_ANGLE_CALIBRATION_DELAY 500  // 电角度校准延迟(ms)
+#define PWM_FREQUENCY 50000                      // PWM频率(Hz) 根据散热条件 Max: 100KHz@24V, 50Khz@48V
+#define SPEED_PID_FREQUENCY 5000                 // 速度、位置环频率(Hz)
+#define ELECTRICAL_ANGLE_CALIBRATION_POWER 0.06f // 电角度校准油门
+#define ELECTRICAL_ANGLE_CALIBRATION_DELAY 500   // 电角度校准延迟(ms)
 
 /* ADC参数 */
-#define SAMPLING_RESISTOR 0.002f                      // 采样电阻 Ω
-#define CURRENT_AMP 20                                // 电流运放放大倍数
-#define CURRENT_COE (SAMPLING_RESISTOR * CURRENT_AMP) // 电流系数 V/A
-#define VOLTAGE_AMP 50.0f                             // 母线电压放大倍数
-#define ADC_IGNORE_BIT 5                              // ADC低位舍弃
-#define ADC_ENABLE_FILTER 1                           // 启用2位滑动平均滤波
-#define ADC_CALIBRATION_TIMES 1024                    // ADC校准采样次数
+#define SAMPLING_RESISTOR 0.002f                           // 采样电阻 Ω
+#define BUS_SAMPLING_RESISTOR 0.001f                       // 母线采样电阻 Ω
+#define CURRENT_AMP 20                                     // 电流运放放大倍数
+#define CURRENT_COE (SAMPLING_RESISTOR * CURRENT_AMP)      // 电流系数 V/A
+#define BUS_CURRENT_COE (-SAMPLING_RESISTOR * CURRENT_AMP) // 母线电流系数 V/A
+#define VOLTAGE_AMP 50.0f                                  // 母线电压放大倍数
+#define ADC_IGNORE_BIT 5                                   // ADC低位舍弃
+#define ADC_ENABLE_FILTER 0                                // 启用2位滑动平均滤波，暂不支持
+#define ADC_CALIBRATION_TIMES 1024                         // ADC校准采样次数
 
 /* 启用HRPWM */
 #define HRPWM_ENABLE 1

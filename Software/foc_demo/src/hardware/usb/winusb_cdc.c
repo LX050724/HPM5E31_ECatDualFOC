@@ -5,8 +5,12 @@
  *
  */
 
+#include "winusb_cdc.h"
+#include "usb_dc.h"
 #include "usbd_core.h"
 #include "usbd_cdc_acm.h"
+#include <stdbool.h>
+#include <stdint.h>
 #include <string.h>
 
 #ifndef ENABLE_CDC_COMPOSITE
@@ -276,8 +280,9 @@ USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t winusb_write_buffer[2048];
 
 #if ENABLE_CDC_COMPOSITE
 USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t cdc_read_buffer[2][512];
-USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t cdc_write_buffer[2048];
-volatile uint8_t cdc_read_buffer_index;
+uint8_t cdc_read_buffer_index;
+usb_read_cb_t cdc_read_cb;
+bool cdc_dtr;
 #endif
 
 volatile bool ep_tx_busy_flag;
@@ -286,10 +291,12 @@ static void usbd_event_handler(uint8_t busid, uint8_t event)
 {
     switch (event) {
     case USBD_EVENT_RESET:
+        cdc_dtr = false;
         break;
     case USBD_EVENT_CONNECTED:
         break;
     case USBD_EVENT_DISCONNECTED:
+        cdc_dtr = false;
         break;
     case USBD_EVENT_RESUME:
         break;
@@ -351,11 +358,10 @@ struct usbd_interface winusb_intf1;
 void usbd_cdc_acm_bulk_out(uint8_t busid, uint8_t ep, uint32_t nbytes)
 {
     uint8_t index = cdc_read_buffer_index;
-    USB_LOG_RAW("actual out len:%d\r\n", nbytes);
-
-    cdc_read_buffer_index = (index == 0) ? 1 : 0;
-    usbd_ep_start_write(busid, CDC_IN_EP, &cdc_read_buffer[index][0], nbytes);
-    usbd_ep_start_read(busid, ep, &cdc_read_buffer[cdc_read_buffer_index][0], usbd_get_ep_mps(busid, ep));
+    cdc_read_buffer_index = !cdc_read_buffer_index;
+    usbd_ep_start_read(busid, ep, cdc_read_buffer[cdc_read_buffer_index], usbd_get_ep_mps(busid, ep));
+    if (cdc_read_cb)
+        cdc_read_cb(cdc_read_buffer[index], nbytes);
 }
 
 void usbd_cdc_acm_bulk_in(uint8_t busid, uint8_t ep, uint32_t nbytes)
@@ -372,9 +378,7 @@ void usbd_cdc_acm_bulk_in(uint8_t busid, uint8_t ep, uint32_t nbytes)
 
 void usbd_cdc_acm_set_dtr(uint8_t busid, uint8_t intf, bool dtr)
 {
-    (void)busid;
-    (void)intf;
-    (void)dtr;
+    cdc_dtr = dtr;
 }
 
 void usbd_cdc_acm_set_rts(uint8_t busid, uint8_t intf, bool rts)
@@ -382,6 +386,21 @@ void usbd_cdc_acm_set_rts(uint8_t busid, uint8_t intf, bool rts)
     (void)busid;
     (void)intf;
     (void)rts;
+}
+
+void usb_cdc_write(void *buf, uint32_t len)
+{
+    usbd_ep_start_write(0, CDC_IN_EP, buf, len);
+}
+
+void usb_cdc_set_read_cb(usb_read_cb_t cb)
+{
+    cdc_read_cb = cb;
+}
+
+bool usb_cdc_dtr_isActivate()
+{
+    return cdc_dtr;
 }
 
 /*!< endpoint call back */

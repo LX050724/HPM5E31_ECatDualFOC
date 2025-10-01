@@ -6,6 +6,8 @@
 extern "C" {
 #endif
 
+#define MT6835_POS_MAX (0x200000)
+
 int mt6835_spi_abz_init(SPI_Type *spi, uint32_t baud, QEIV2_Type *qei);
 uint32_t mt6835_spi_read_angle_status(SPI_Type *spi, uint32_t *angle, uint8_t *status);
 int mt6835_enable_crc(CRC_Type *crc, uint32_t index);

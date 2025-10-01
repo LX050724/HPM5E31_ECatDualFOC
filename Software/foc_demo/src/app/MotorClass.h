@@ -4,6 +4,7 @@
 #include "foc/foc_pid.h"
 #include "foc/foc_pll.h"
 #include "foc/iir_filter.h"
+#include "hardware/adc_init.h"
 #include "hardware/current/current.h"
 #include "hardware/encoder/encoder.h"
 #include <stdint.h>
@@ -30,6 +31,7 @@ typedef struct MotorClass_t
     int intr_count;
 
     encoder_t encoder;
+    AdcResult_t adc_value;
     CurrentCal_t current_cal;
 
     foc_pll_t speed_pll;
@@ -43,6 +45,7 @@ typedef struct MotorClass_t
     foc_pid_contrl_t current_id_pid;
 
     float bus_voltage;
+    float bus_current;
     float power;
 
     uint16_t angle_exp;
@@ -50,6 +53,7 @@ typedef struct MotorClass_t
     foc_qd_current_t qd_current_exp;
     foc_qd_current_t qd_voltage_exp;
 
+    AdcTriggerSequence_t adc_seq;
     foc_uvw_current_t uvw_current;
     foc_qd_current_t qd_current;
     foc_pwm_t pwm;
@@ -57,7 +61,8 @@ typedef struct MotorClass_t
     float speed;
     uint16_t raw_angle;
 
-    void (*get_uvw_current_cb)(struct MotorClass_t *, foc_uvw_current_t *);
+    void (*set_adc_seq_cb)(struct MotorClass_t *, AdcTriggerSequence_t seq);
+    void (*get_analog_cb)(struct MotorClass_t *);
     uint16_t (*get_raw_angle_cb)(struct MotorClass_t *);
     void (*set_pwm_cb)(struct MotorClass_t *, const foc_pwm_t *);
     void (*enable_pwm)(struct MotorClass_t *, bool);

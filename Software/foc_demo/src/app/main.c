@@ -2,6 +2,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 #include "app/MotorClass.h"
@@ -21,6 +22,7 @@
 #include "hpm_iomux.h"
 #include "hpm_mbx_drv.h"
 #include "hpm_misc.h"
+#include "hpm_qeiv2_drv.h"
 #include "hpm_romapi.h"
 #include "hpm_soc.h"
 #include "hpm_trgm_drv.h"
@@ -30,15 +32,17 @@
 #include "project_config.h"
 #include "stdbool.h"
 #include "usb_config.h"
+#include "vofa/vofa.h"
 
 #define MAIN_DEBUG(fmt, ...) DLOG("MAIN", fmt, ##__VA_ARGS__)
 
-static void motor0_get_uvw_current(MotorClass_t *motor, foc_uvw_current_t *uvw_current);
+static void motor0_get_analog(MotorClass_t *motor);
 static uint16_t motor0_get_raw_angle(MotorClass_t *motor);
 static void motor0_set_pwm(MotorClass_t *motor, const foc_pwm_t *pwm);
 static void motor0_enable_pwm(MotorClass_t *motor, bool en);
+static void motor0_set_adc_seq(MotorClass_t *motor, AdcTriggerSequence_t seq);
 
-ATTR_PLACE_AT_FAST_RAM_BSS MotorClass_t motor0;
+ATTR_PLACE_AT_NONCACHEABLE_BSS MotorClass_t motor0;
 ATTR_PLACE_AT_FAST_RAM_BSS volatile int vofa_write_ptr;
 
 #if SPEED_FILTER_MODE == SPEED_FILTER_IIR
@@ -88,12 +92,16 @@ void read_opt_uuid()
 
 int main(void)
 {
+    memset(&motor0, 0, sizeof(motor0));
+    vofa_init();
+
     board_init();
     read_opt_uuid();
 
     board_init_usb((USB_Type *)CONFIG_HPM_USBD_BASE);
     intc_set_irq_priority(CONFIG_HPM_USBD_IRQn, 1);
     winusb_cdc_init(0, CONFIG_HPM_USBD_BASE, uuid_string);
+    usb_cdc_set_read_cb(vofa_read_cb);
 
     uart_config_t uart_config;
     init_uart_pins(HPM_UART2);
@@ -127,42 +135,50 @@ int main(void)
     clock_cpu_delay_ms(1000);
     mt6835_spi_abz_init(BOARD_ENCODER_A_SPI, 500000, BOARD_ENCODER_A_QEI);
 
+    uint32_t spi_xx = 0;
+    while (mt6835_spi_read_angle_status(BOARD_ENCODER_A_SPI, &spi_xx, NULL) != 0)
+    {
+        clock_cpu_delay_ms(100);
+    }
+    qeiv2_set_phase_cnt(BOARD_ENCODER_A_QEI, (float)(MT6835_POS_MAX - spi_xx) * ENCODER_MAX / MT6835_POS_MAX);
+
     udata[2] = 3;
     for (int i = 1; i < sizeof(udata) - 1; i++)
         udata[sizeof(udata) - 1] ^= udata[i];
     CPU_Delay(300);
     uart_send_data(HPM_UART2, udata, sizeof(udata));
 
-        motor0.speed_pll.pi.output_limit = 2000;
+    motor0.speed_pll.pi.output_limit = 2000;
 
-        motor0.speed_pll.pi.kp = 0.05f;
-        motor0.speed_pll.pi.output_limit = 200;
+    motor0.speed_pll.pi.kp = 0.05f;
+    motor0.speed_pll.pi.output_limit = 200;
 
-        motor0.angle_pid.kp = 0.08f;
-        motor0.angle_pid.ki = 0.002f;
-        motor0.angle_pid.integral_limit = 300;
-        motor0.angle_pid.output_limit = 1000;
+    motor0.angle_pid.kp = 0.08f;
+    motor0.angle_pid.ki = 0.002f;
+    motor0.angle_pid.integral_limit = 300;
+    motor0.angle_pid.output_limit = 1000;
 
-        motor0.speed_pid.kp = 0.01f;
-        motor0.speed_pid.ki = 0.01f;
-        motor0.speed_pid.integral_limit = 5;
-        motor0.speed_pid.output_limit = 10;
+    motor0.speed_pid.kp = 0.01f;
+    motor0.speed_pid.ki = 0.01f;
+    motor0.speed_pid.integral_limit = 5;
+    motor0.speed_pid.output_limit = 10;
 
-        motor0.current_iq_pid.kp = 0.4f;
-        motor0.current_iq_pid.ki = 0.06f;
-        motor0.current_iq_pid.integral_limit = 6;
-        motor0.current_id_pid.kp = 1.6f;
-        motor0.current_id_pid.ki = 0.03f;
-        motor0.current_id_pid.integral_limit = 3;
+    motor0.current_iq_pid.kp = 0.07f;
+    motor0.current_iq_pid.ki = 0.06f;
+    motor0.current_iq_pid.integral_limit = 6;
+    motor0.current_id_pid.kp = 0.07f;
+    motor0.current_id_pid.ki = 0.06f;
+    motor0.current_id_pid.integral_limit = 6;
 
-        motor0.get_uvw_current_cb = motor0_get_uvw_current;
-        motor0.get_raw_angle_cb = motor0_get_raw_angle;
-        motor0.set_pwm_cb = motor0_set_pwm;
-        motor0.enable_pwm = motor0_enable_pwm;
-    #if SPEED_FILTER_MODE == SPEED_FILTER_IIR
-        IIRFilterInit(&motor0.speed_filter, 3, FLITER_NUM, FLITER_DEN);
-    #endif
-        Motor_Init(&motor0);
+    motor0.get_analog_cb = motor0_get_analog;
+    motor0.get_raw_angle_cb = motor0_get_raw_angle;
+    motor0.set_pwm_cb = motor0_set_pwm;
+    motor0.enable_pwm = motor0_enable_pwm;
+    motor0.set_adc_seq_cb = motor0_set_adc_seq;
+#if SPEED_FILTER_MODE == SPEED_FILTER_IIR
+    IIRFilterInit(&motor0.speed_filter, 3, FLITER_NUM, FLITER_DEN);
+#endif
+    Motor_Init(&motor0);
 
     /* 按键通过TRGM1输出0连接到PWM0内部故障输入1 */
     // HPM_IOC->PAD[IOC_PAD_PA27].FUNC_CTL = IOC_PA27_FUNC_CTL_TRGM1_P_07;
@@ -198,8 +214,10 @@ int main(void)
     adc_enable_irq(1);
     adc_enable_it();
 
-    trgm_connect(HPM_TRGM0, HPM_TRGM0_INPUT_SRC_PWM0_TRGO_0, HPM_TRGM0_OUTPUT_SRC_ADCX_PTRGI0A, trgm_output_pulse_at_input_rising_edge, false);
-    trgm_connect(HPM_TRGM0, HPM_TRGM0_INPUT_SRC_PWM0_TRGO_0, HPM_TRGM0_OUTPUT_SRC_ADCX_PTRGI2A, trgm_output_pulse_at_input_rising_edge, false);
+    trgm_connect(HPM_TRGM0, HPM_TRGM0_INPUT_SRC_PWM0_TRGO_0, HPM_TRGM0_OUTPUT_SRC_ADCX_PTRGI0A,
+                 trgm_output_pulse_at_input_rising_edge, false);
+    trgm_connect(HPM_TRGM0, HPM_TRGM0_INPUT_SRC_PWM0_TRGO_0, HPM_TRGM0_OUTPUT_SRC_ADCX_PTRGI2A,
+                 trgm_output_pulse_at_input_rising_edge, false);
 
     /* PWM初始化 */
     board_init_driverEN_pins(BOARD_DRIVER_A_INDEX);
@@ -207,29 +225,65 @@ int main(void)
 
     init_pwm_pins(HPM_PWM0);
     init_pwm_fault_pins();
-    pwm_init(HPM_PWM0, 0, 200);
+    pwm_init(HPM_PWM0, 0, 100);
 
     /* adc中值校准程序 */
-    // current_calibration(&motor0);
+    current_calibration(&motor0);
+
     // drv832x_calibration(false);
 
-    if (electrical_angle_calibration(&motor0) == 0)
+    // uint32_t start_z = qeiv2_get_current_count(BOARD_ENCODER_A_QEI, qeiv2_counter_type_z);
+    // while (start_z == qeiv2_get_current_count(BOARD_ENCODER_A_QEI, qeiv2_counter_type_z))
+    // {
+    // }
+
+    // if (electrical_angle_calibration(&motor0) == 0)
     {
-        motor0.qd_current_exp.iq = 5;
-        motor0.qd_voltage_exp.iq = 0.03f;
-        Motor_SetMode(&motor0, SVPWM_OPEN_LOOP_MODE);
+        motor0.encoder.pole_pairs = 5;
+        motor0.encoder.ang_offset = 49970;
+        motor0.qd_voltage_exp.iq = 0;
+        Motor_SetMode(&motor0, CURRENT_MODE);
         adc_enable_irq(2);
         adc_enable_it();
         adc_set_callback(adc_callback);
     }
 
+    bool init_done = false;
+
+    while (!init_done)
+    {
+#define VOL_TARGET_VAL 0.05f
+#define CAL_TARGET_VAL 6.0f
+        switch (motor0.mode)
+        {
+
+        case DISABLE_MODE:
+            break;
+        case SVPWM_OPEN_LOOP_MODE:
+            break;
+        case VOLTAGE_OPEN_LOOP_MODE:
+            if (motor0.qd_voltage_exp.iq < VOL_TARGET_VAL)
+                motor0.qd_voltage_exp.iq += 0.00001f;
+            else
+                init_done = true;
+            break;
+        case CURRENT_MODE:
+            if (motor0.qd_current_exp.iq < CAL_TARGET_VAL)
+                motor0.qd_current_exp.iq += 0.01f;
+            else
+                init_done = true;
+            break;
+        case SPEED_MODE:
+            break;
+        case ANGLE_MODE:
+            break;
+        }
+        clock_cpu_delay_us(200);
+    }
+
     while (1)
     {
-        if (motor0.mode == SVPWM_OPEN_LOOP_MODE)
-        {
-            motor0.angle_exp += 100;
-            clock_cpu_delay_us(200);
-        }
+        WFI();
     }
 
     return 0;
@@ -240,35 +294,37 @@ static void adc_callback(ADC16_Type *adc, uint32_t flag)
 {
     Motor_RunFoc(&motor0);
 
-    // just_float_data *pdata = &core_comm_ctl.vofa_buf[vofa_write_ptr];
-    // pdata->data[0] = motor0.qd_current.iq;
-    // pdata->data[1] = motor0.qd_current_exp.iq;
-    // pdata->data[2] = motor0.qd_current.id;
-    // pdata->data[3] = motor0.qd_current_exp.id;
-    // pdata->data[4] = motor0.speed;
-    // pdata->data[5] = motor0.speed_exp;
-    // pdata->data[6] = motor0.uvw_current.iu;
-    // pdata->data[7] = motor0.uvw_current.iv;
-    // pdata->data[8] = motor0.uvw_current.iw;
-    // pdata->data[9] = motor0.raw_angle;
-    // pdata->data[10] = motor0.bus_voltage;
-    // pdata->data[11] = motor0.power;
-    // pdata->data[12] = count;
-
-    // if (++count > 1000)
-    //     count = 0;
+    just_float_data *pdata = vofa_alloc_block();
+    if (pdata)
+    {
+        pdata->data[0] = motor0.qd_current.iq;
+        pdata->data[1] = motor0.qd_current_exp.iq;
+        pdata->data[2] = motor0.qd_current.id;
+        pdata->data[3] = motor0.qd_current_exp.id;
+        pdata->data[4] = motor0.speed;
+        pdata->data[5] = motor0.speed_exp;
+        pdata->data[6] = motor0.uvw_current.iu;
+        pdata->data[7] = motor0.uvw_current.iv;
+        pdata->data[8] = motor0.uvw_current.iw;
+        pdata->data[9] = motor0.raw_angle;
+        pdata->data[10] = motor0.bus_voltage;
+        pdata->data[11] = motor0.bus_current;
+        pdata->data[12] = motor0.power;
+        pdata->data[13] = count;
+        vofa_push_data();
+    }
+    if (++count > 1000)
+        count = 0;
 }
 
-static void motor0_get_uvw_current(MotorClass_t *motor, foc_uvw_current_t *uvw_current)
+static void motor0_get_analog(MotorClass_t *motor)
 {
-    // uint16_t cal[3];
-    // adc_get_trigger0a_raw(cal);
-    // current_get_cal(&motor->current_cal, cal, uvw_current);
+    adc_driverA_get_value(motor->adc_seq, &motor->adc_value);
 }
 
 static uint16_t motor0_get_raw_angle(MotorClass_t *motor)
 {
-    return qeiv2_get_current_phase_phcnt(BOARD_ENCODER_A_QEI) * UINT16_MAX / ENCODER_MAX;
+    return qeiv2_get_phase_cnt(BOARD_ENCODER_A_QEI) * UINT16_MAX / ENCODER_MAX;
 }
 
 static void motor0_set_pwm(MotorClass_t *motor, const foc_pwm_t *pwm)
@@ -278,5 +334,10 @@ static void motor0_set_pwm(MotorClass_t *motor, const foc_pwm_t *pwm)
 
 static void motor0_enable_pwm(MotorClass_t *motor, bool en)
 {
-    // en ? pwm_enable_all_output() : pwm_disable_all_output();
+    en ? pwm_enable_all_output(HPM_PWM0) : pwm_disable_all_output(HPM_PWM0);
+}
+
+static void motor0_set_adc_seq(MotorClass_t *motor, AdcTriggerSequence_t seq)
+{
+    adc_driverA_set_trigger_sequence(HPM_TRGM0_INPUT_SRC_PWM0_TRGO_0, seq);
 }

@@ -12,9 +12,31 @@ extern "C" {
 
 typedef void (*adc_callback_t)(ADC16_Type *, uint32_t);
 
+typedef enum
+{
+    ADC_TRIGGGER_SEQ_UV,
+    ADC_TRIGGGER_SEQ_VW,
+    ADC_TRIGGGER_SEQ_WU,
+    ADC_TRIGGGER_SEQ_CALI,
+} AdcTriggerSequence_t;
+
+typedef struct
+{
+    uint16_t iu;
+    uint16_t iv;
+    uint16_t iw;
+    uint16_t ibus;
+    uint16_t vbus;
+} AdcResult_t;
+
 void adc_init();
 
 void adc_set_callback(adc_callback_t cb);
+
+void adc_driverA_set_trigger_sequence(uint8_t triggrt_sig, AdcTriggerSequence_t seqence);
+void adc_driverA_get_value(AdcTriggerSequence_t seqence, AdcResult_t *result);
+void adc_driverB_set_trigger_sequence(uint8_t triggrt_sig, AdcTriggerSequence_t seqence);
+void adc_driverB_get_value(AdcTriggerSequence_t seqence, AdcResult_t *result);
 
 static inline float adc_voltage(int raw)
 {

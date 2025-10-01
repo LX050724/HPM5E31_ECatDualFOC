@@ -68,6 +68,20 @@ static void pwmv2_init_channel_config(PWMV2_Type *pwm, pwm_channel_t chn, float 
     /* 使能PWM通道输出 */
     pwmv2_channel_enable_output(pwm, chn);
     pwmv2_channel_enable_output(pwm, chn + 1);
+
+    /* 使能软件强制输出 */
+    pwmv2_enable_force_by_software(pwm, chn);
+    pwmv2_enable_force_by_software(pwm, chn + 1);
+
+    /* 强制输出低电平 */
+    pwmv2_force_output(pwm, chn, pwm_force_output_0, false);
+    pwmv2_force_output(pwm, chn + 1, pwm_force_output_0, false);
+
+    /* 强制输出更新时刻参考重载时刻 */
+    pwmv2_force_update_time_by_shadow(pwm, chn, pwm_force_update_shadow_at_reload);
+    pwmv2_force_update_time_by_shadow(pwm, chn + 1, pwm_force_update_shadow_at_reload);
+    pwmv2_set_force_update_time(pwm, chn, pwm_force_at_reload);
+    pwmv2_set_force_update_time(pwm, chn + 1, pwm_force_at_reload);
 }
 
 void pwm_fault_async(PWMV2_Type *pwm)
@@ -93,6 +107,9 @@ int pwm_init(PWMV2_Type *pwm, uint32_t adc_trigger_cmp, float dead_time_ns)
     /* 配置异步故障保护信号 */
     pwm_fault_async(pwm);
 
+    /* 启用PWM调试暂停 */
+    pwmv2_enable_debug_mode(pwm);
+
     /* 解锁PWM影子寄存器 */
     pwmv2_shadow_register_unlock(pwm);
     pwmv2_set_shadow_val(pwm, PWM_SHADOW_VAL_RELOAD, PWM_RELOAD, 0, false);
@@ -106,25 +123,25 @@ int pwm_init(PWMV2_Type *pwm, uint32_t adc_trigger_cmp, float dead_time_ns)
 
     /* 初始化影子寄存器 */
     pwmv2_set_shadow_val(pwm, PWM_SHADOW_VAL_ADC_CMP0, adc_trigger_cmp, 0, false);
-    pwmv2_set_shadow_val(pwm, PWM_SHADOW_VAL_ADC_CMP1, adc_trigger_cmp, 0, false);
     /* 选择计数器0 */
     pwmv2_cmp_select_counter(pwm, PWM_ADC_CMP0, pwm_counter_0);
-    pwmv2_cmp_select_counter(pwm, PWM_ADC_CMP1, pwm_counter_0);
     /* 绑定影子寄存器 */
     pwmv2_select_cmp_source(pwm, PWM_ADC_CMP0, cmp_value_from_shadow_val, PWM_SHADOW_VAL_ADC_CMP0);
-    pwmv2_select_cmp_source(pwm, PWM_ADC_CMP1, cmp_value_from_shadow_val, PWM_SHADOW_VAL_ADC_CMP1);
     /* 设置重载时刻 */
     pwmv2_cmp_update_trig_time(pwm, PWM_ADC_CMP0, pwm_shadow_register_update_on_reload);
-    pwmv2_cmp_update_trig_time(pwm, PWM_ADC_CMP1, pwm_shadow_register_update_on_reload);
     /* 绑定触发输出通道 */
     pwmv2_set_trigout_cmp_index(pwm, PWMV2_TRIGGER_CFG_0, PWM_ADC_CMP0);
-    pwmv2_set_trigout_cmp_index(pwm, PWMV2_TRIGGER_CFG_1, PWM_ADC_CMP1);
 
-    pwmv2_shadow_register_lock(pwm);
+    // pwmv2_set_shadow_val(pwm, PWM_SHADOW_VAL_ADC_CMP1, adc_trigger_cmp, 0, false);
+    // pwmv2_cmp_select_counter(pwm, PWM_ADC_CMP1, pwm_counter_0);
+    // pwmv2_select_cmp_source(pwm, PWM_ADC_CMP1, cmp_value_from_shadow_val, PWM_SHADOW_VAL_ADC_CMP1);
+    // pwmv2_cmp_update_trig_time(pwm, PWM_ADC_CMP1, pwm_shadow_register_update_on_reload);
+    // pwmv2_set_trigout_cmp_index(pwm, PWMV2_TRIGGER_CFG_1, PWM_ADC_CMP1);
 
     pwmv2_init_channel_config(pwm, pwm_channel_0, dead_time_ns);
     pwmv2_init_channel_config(pwm, pwm_channel_2, dead_time_ns);
     pwmv2_init_channel_config(pwm, pwm_channel_4, dead_time_ns);
+    pwmv2_shadow_register_lock(pwm);
 
     pwmv2_enable_counter(pwm, pwm_counter_0);
     pwmv2_enable_counter(pwm, pwm_counter_1);
@@ -132,6 +149,14 @@ int pwm_init(PWMV2_Type *pwm, uint32_t adc_trigger_cmp, float dead_time_ns)
 #ifdef HRPWM_ENABLE
     pwmv2_enable_hrpwm(pwm);
 #endif
+
+    pwmv2_enable_software_force(pwm, pwm_channel_0);
+    pwmv2_enable_software_force(pwm, pwm_channel_1);
+    pwmv2_enable_software_force(pwm, pwm_channel_2);
+    pwmv2_enable_software_force(pwm, pwm_channel_3);
+    pwmv2_enable_software_force(pwm, pwm_channel_4);
+    pwmv2_enable_software_force(pwm, pwm_channel_5);
+
     pwmv2_start_pwm_output(pwm, pwm_counter_0);
     pwmv2_start_pwm_output(pwm, pwm_counter_1);
     pwmv2_start_pwm_output(pwm, pwm_counter_2);

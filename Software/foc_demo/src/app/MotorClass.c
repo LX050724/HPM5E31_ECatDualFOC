@@ -1,4 +1,6 @@
 #include "app/MotorClass.h"
+#include "hardware/adc_init.h"
+#include "hardware/current/current.h"
 #include "hpm_clock_drv.h"
 #include "project_config.h"
 #include <foc/iir_filter.h>
@@ -27,7 +29,13 @@ ATTR_RAMFUNC void Motor_RunFoc(MotorClass_t *motor)
     GET_TIME(1);
     motor->raw_angle = motor->get_raw_angle_cb(motor); // 获取原始角度
     GET_TIME(2);
-    motor->get_uvw_current_cb(motor, &motor->uvw_current); // 获取三相电流
+    motor->get_analog_cb(motor); // 获取模拟量
+
+    // 重建三相电流
+    current_get_cal(&motor->current_cal, &motor->adc_value, motor->adc_seq, &motor->uvw_current);
+    // 计算母线电压电流
+    motor->bus_current = adc_voltage(motor->adc_value.ibus - motor->current_cal.adc_calibration_bus) / BUS_CURRENT_COE;
+    motor->bus_voltage = adc_voltage(motor->adc_value.vbus) * VOLTAGE_AMP;
 
     if (motor->mode == SVPWM_OPEN_LOOP_MODE)
     {
@@ -73,9 +81,8 @@ ATTR_RAMFUNC void Motor_RunFoc(MotorClass_t *motor)
             motor->qd_current_exp.iq = foc_pi_controller(&motor->speed_pid, motor->speed, motor->speed_exp);
         }
     }
-    motor->power = (motor->qd_voltage_exp.iq * motor->qd_current.iq + motor->qd_voltage_exp.id * motor->qd_current.id) *
-                       motor->bus_voltage * 0.75f +
-                   1.5f; // 估计值 0.75补偿系数，1.5静态功耗
+    motor->power = motor->bus_current * motor->bus_voltage;
+    
     foc_clarke(&motor->uvw_current, &alpha_beta_current);
     foc_park(&alpha_beta_current, &sin_cos, &motor->qd_current);
 
