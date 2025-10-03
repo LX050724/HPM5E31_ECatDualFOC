@@ -60,7 +60,7 @@ extern "C" {
  *       其中0.96为PWM最大占空比
  */
 #define UQ_LIMIT 0.8f // Q轴电压限幅
-#define UD_LIMIT 0.2f // D轴电压限幅
+#define UD_LIMIT 0.4f // D轴电压限幅
 
 /* 不可修改 */
 #define AHB_CLOCK 200000000LLU // AHB时钟频率(Hz)

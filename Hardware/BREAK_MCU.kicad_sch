@@ -8516,7 +8516,7 @@
 			(fill
 				(type none)
 			)
-			(uuid c5ff064e-4759-4bc1-b32e-75bf1781a35f)
+			(uuid 3cbb6eb7-ca7e-44e2-9b07-16c08449e6ce)
 		)
 	)
 	(rule_area
@@ -8531,7 +8531,7 @@
 			(fill
 				(type none)
 			)
-			(uuid c72b4d02-9ee6-4c5b-97c8-1bcc4fe32930)
+			(uuid cc2a9238-bece-4ea0-8d13-36b0033614d2)
 		)
 	)
 	(netclass_flag ""
@@ -12379,7 +12379,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF,50V"
+		(property "Value" "100nF,16V"
 			(at 32.766 44.45 0)
 			(effects
 				(font
@@ -15204,7 +15204,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF,50V"
+		(property "Value" "100nF,16V"
 			(at 103.886 179.07 0)
 			(effects
 				(font
@@ -17280,7 +17280,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF,50V"
+		(property "Value" "100nF,16V"
 			(at 51.816 179.07 0)
 			(effects
 				(font

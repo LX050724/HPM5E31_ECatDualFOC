@@ -53,9 +53,9 @@ ATTR_RAMFUNC void Motor_RunFoc(MotorClass_t *motor)
     }
 
 #if SPEED_FILTER_MODE == SPEED_FILTER_IIR
-    int16_t diff = foc_pid_diff(motor->raw_angle, motor->speed_pll.last_ang, ENCODER_MAX);
+    int16_t diff = foc_pid_diff(motor->raw_angle, motor->speed_pll.last_ang, 65536);
     motor->speed_pll.last_ang = motor->raw_angle;
-    motor->speed_pll.speed = IIRFilter(&motor->speed_filter, (float)diff / ENCODER_MAX);
+    motor->speed_pll.speed = IIRFilter(&motor->speed_filter, (float)diff / 65536);
     motor->speed = motor->speed_pll.speed * 60 * PWM_FREQUENCY;
 #endif
 
