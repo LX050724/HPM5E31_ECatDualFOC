@@ -5,7 +5,7 @@
 	(uuid "92a3b4a3-9f28-49dd-abb6-89ad66314d8f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "HPM6280Foc:0402WGF200KTCE"
+		(symbol "HPM6280Foc:0402WGF510KTCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -23,7 +23,7 @@
 					)
 				)
 			)
-			(property "Value" "2R,1%"
+			(property "Value" "5.1R,1%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -40,7 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
+			(property "Description" "5.1Ω ±1% 62.5mW 厚膜电阻"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "华秋编号" "G3327760"
+			(property "立创编号" "C25128"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,16 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "立创编号" "C270630"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF200KTCE_0_1"
+			(symbol "0402WGF510KTCE_0_1"
 				(rectangle
 					(start 2.54 -1.016)
 					(end -2.54 1.016)
@@ -89,7 +80,7 @@
 					)
 				)
 			)
-			(symbol "0402WGF200KTCE_1_1"
+			(symbol "0402WGF510KTCE_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -2391,7 +2382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
+		(lib_id "HPM6280Foc:0402WGF510KTCE")
 		(at 165.1 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2407,8 +2398,8 @@
 				)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 165.354 90.17 0)
+		(property "Value" "5.1R,1%"
+			(at 165.1 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +2424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
+		(property "Description" "5.1Ω ±1% 62.5mW 厚膜电阻"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -2451,7 +2442,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
+		(property "立创编号" "C25128"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -3043,7 +3034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
+		(lib_id "HPM6280Foc:0402WGF510KTCE")
 		(at 165.1 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3052,15 +3043,15 @@
 		(dnp no)
 		(uuid "85ea7337-51c5-4007-87ed-1cbe88fc4cf4")
 		(property "Reference" "R97"
-			(at 165.354 97.79 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 165.1 100.076 0)
+		(property "Value" "5.1R,1%"
+			(at 165.862 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +3076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
+		(property "Description" "5.1Ω ±1% 62.5mW 厚膜电阻"
 			(at 165.1 97.79 0)
 			(effects
 				(font
@@ -3103,7 +3094,7 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
+		(property "立创编号" "C25128"
 			(at 165.1 97.79 0)
 			(effects
 				(font

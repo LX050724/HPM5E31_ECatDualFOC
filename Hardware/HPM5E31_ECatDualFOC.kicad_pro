@@ -1053,19 +1053,37 @@
       "Net-(U12-HB)": [
         "HV"
       ],
+      "Net-(U12-HO)": [
+        "HV"
+      ],
       "Net-(U14-HB)": [
+        "HV"
+      ],
+      "Net-(U14-HO)": [
         "HV"
       ],
       "Net-(U16-HB)": [
         "HV"
       ],
+      "Net-(U16-HO)": [
+        "HV"
+      ],
       "Net-(U20-HB)": [
+        "HV"
+      ],
+      "Net-(U20-HO)": [
         "HV"
       ],
       "Net-(U22-HB)": [
         "HV"
       ],
+      "Net-(U22-HO)": [
+        "HV"
+      ],
       "Net-(U24-HB)": [
+        "HV"
+      ],
+      "Net-(U24-HO)": [
         "HV"
       ],
       "Net-(U4-BST)": [

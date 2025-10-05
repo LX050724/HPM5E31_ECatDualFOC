@@ -169,7 +169,7 @@ int pwm_init(PWMV2_Type *pwm, uint32_t adc_trigger_cmp, float dead_time_ns)
 void pwm_synt_init()
 {
     synt_reset_counter(HPM_SYNT);
-    synt_set_reload(HPM_SYNT, PWM_RELOAD);
+    synt_set_reload(HPM_SYNT, PWM_RELOAD-1);
     synt_set_comparator(HPM_SYNT, SYNT_CMP_0, PWM_RELOAD / 2);
 
     trgm_output_t trgm_config;

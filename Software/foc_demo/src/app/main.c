@@ -225,7 +225,7 @@ int main(void)
 
     init_pwm_pins(HPM_PWM0);
     init_pwm_fault_pins();
-    pwm_init(HPM_PWM0, 0, 100);
+    pwm_init(HPM_PWM0, 0, 150);
 
     /* adc中值校准程序 */
     current_calibration(&motor0);
