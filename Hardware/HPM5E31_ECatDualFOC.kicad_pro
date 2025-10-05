@@ -921,6 +921,9 @@
       "/POWER_SUPPLY/VBUS_SW": [
         "HV"
       ],
+      "GND": [
+        "MDI"
+      ],
       "Net-(D12-K)": [
         "HV"
       ],
