@@ -4694,24 +4694,6 @@
 						)
 					)
 				)
-				(number "SH2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 19.05 -10.16 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "SH3"
 					(effects
 						(font
@@ -5492,6 +5474,24 @@
 					)
 				)
 				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -10.16 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21292,6 +21292,61 @@
 			)
 		)
 	)
+	(symbol "0603WAF470KT5E"
+		(extends "R")
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7R,1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF470KT5E/23891.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7Ω ±1% 100mW 厚膜电阻"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C23164"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "0805W8F0000T5E"
 		(extends "R")
 		(property "Reference" "R"
@@ -22133,6 +22188,61 @@
 			)
 		)
 		(property "立创编号" "C272875"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CC0603KRX7R0BB102"
+		(extends "C")
+		(property "Reference" "C"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nF,100V"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0603KRX7R0BB102/107462.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1nF ±10% 100V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "立创编号" "C106247"
 			(at 0 0 0)
 			(effects
 				(font

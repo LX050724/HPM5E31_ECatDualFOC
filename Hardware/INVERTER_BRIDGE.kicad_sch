@@ -849,130 +849,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HPM6280Foc:0402WGF200KTCE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2R,1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "华秋编号" "G3327760"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "立创编号" "C270630"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF200KTCE_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0402WGF200KTCE_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "HPM6280Foc:0402WGF330JTCE"
 			(pin_numbers
 				(hide yes)
@@ -1058,6 +934,121 @@
 				)
 			)
 			(symbol "0402WGF330JTCE_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "HPM6280Foc:0603WAF470KT5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4.7R,1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF470KT5E/23891.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7Ω ±1% 100mW 厚膜电阻"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "立创编号" "C23164"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF470KT5E_0_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603WAF470KT5E_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1408,19 +1399,19 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HPM6280Foc:CC0402KRX7R0BB102"
+		(symbol "HPM6280Foc:CC0402KRX7R7BB104"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 3.81 0)
+				(at -1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "1nF,100V"
+			(property "Value" "100nF,16V"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1446,7 +1437,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1nF ±10% 100V"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1464,7 +1455,7 @@
 					(hide yes)
 				)
 			)
-			(property "立创编号" "C527013"
+			(property "华秋编号" "G0042289"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1473,7 +1464,16 @@
 					(hide yes)
 				)
 			)
-			(property "制造商" ""
+			(property "立创编号" "C60474"
+				(at -3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "制造商" "YAGEO(国巨)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1482,7 +1482,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CC0402KRX7R0BB102_1_0"
+			(symbol "CC0402KRX7R7BB104_1_0"
 				(polyline
 					(pts
 						(xy -0.508 2.286) (xy -0.508 -2.286)
@@ -1570,19 +1570,19 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HPM6280Foc:CC0402KRX7R7BB104"
+		(symbol "HPM6280Foc:CC0603KRX7R0BB102"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at -1.27 2.54 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "100nF,16V"
+			(property "Value" "1nF,100V"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1590,7 +1590,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1599,7 +1599,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0603KRX7R0BB102/107462.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1608,7 +1608,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "1nF ±10% 100V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1626,7 +1626,7 @@
 					(hide yes)
 				)
 			)
-			(property "华秋编号" "G0042289"
+			(property "立创编号" "C106247"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1635,16 +1635,7 @@
 					(hide yes)
 				)
 			)
-			(property "立创编号" "C60474"
-				(at -3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "制造商" "YAGEO(国巨)"
+			(property "制造商" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1653,7 +1644,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CC0402KRX7R7BB104_1_0"
+			(symbol "CC0603KRX7R0BB102_1_0"
 				(polyline
 					(pts
 						(xy -0.508 2.286) (xy -0.508 -2.286)
@@ -4267,6 +4258,12 @@
 		(uuid "33473622-6926-49ad-b20f-e3e1c29ee441")
 	)
 	(junction
+		(at 113.03 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3459f260-1e2b-486b-8b1d-339acd5a6b1b")
+	)
+	(junction
 		(at 95.25 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4301,6 +4298,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46db627f-da2e-4ecd-a61a-9d808343f23e")
+	)
+	(junction
+		(at 113.03 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49104bd7-8f13-492d-b625-649f81cdae0f")
 	)
 	(junction
 		(at 102.87 158.75)
@@ -4525,22 +4528,10 @@
 		(uuid "bc72907a-52aa-4f3f-a7b6-99974ff5099e")
 	)
 	(junction
-		(at 113.03 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf1f13f6-42ff-4ad6-92f7-97993e61bb00")
-	)
-	(junction
 		(at 102.87 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2dc49d4-ca50-4338-8c34-ffcf6e03d805")
-	)
-	(junction
-		(at 113.03 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c830d856-94f5-4ac6-a470-495e0dfe0e72")
 	)
 	(junction
 		(at 113.03 111.76)
@@ -5595,16 +5586,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 123.19) (xy 113.03 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5250f585-3d37-4e4a-a4c7-dbe1b5b5050e")
-	)
-	(wire
-		(pts
 			(xy 144.78 153.67) (xy 153.67 153.67)
 		)
 		(stroke
@@ -6055,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 27.94) (xy 102.87 27.94)
+			(xy 102.87 27.94) (xy 113.03 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6172,16 +6153,6 @@
 			(type default)
 		)
 		(uuid "8690215f-1c9d-4e5e-96db-c71efcf49cfb")
-	)
-	(wire
-		(pts
-			(xy 118.11 27.94) (xy 113.03 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86976e14-17cc-4d3a-abd6-1bd7c2172663")
 	)
 	(wire
 		(pts
@@ -6525,6 +6496,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 123.19) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ecb3ac-c5cf-4411-9d9e-77878c2f8289")
+	)
+	(wire
+		(pts
 			(xy 110.49 187.96) (xy 110.49 186.69)
 		)
 		(stroke
@@ -6695,6 +6676,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 27.94) (xy 118.11 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b662ddda-8cd8-4ea1-9c3d-d516907603fe")
+	)
+	(wire
+		(pts
 			(xy 92.71 58.42) (xy 92.71 53.34)
 		)
 		(stroke
@@ -6735,7 +6726,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 123.19) (xy 102.87 123.19)
+			(xy 102.87 123.19) (xy 113.03 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7669,21 +7660,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 13.97 113.03) (xy 140.97 113.03) (xy 140.97 67.31) (xy 13.97 67.31)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 01e40a28-1761-40fc-b360-a22cd65cd4a3)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 13.97 160.02) (xy 140.97 160.02) (xy 140.97 114.3) (xy 13.97 114.3)
 			)
 			(stroke
@@ -7693,7 +7669,22 @@
 			(fill
 				(type none)
 			)
-			(uuid a64f5355-35ff-4a6b-8e09-3641a22c4ba3)
+			(uuid 25a548db-771b-43f6-85e9-f64fa4a98ccd)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 13.97 113.03) (xy 140.97 113.03) (xy 140.97 67.31) (xy 13.97 67.31)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 86753bcd-e712-4303-9fda-29ecb31191bb)
 		)
 	)
 	(rule_area
@@ -7708,7 +7699,7 @@
 			(fill
 				(type none)
 			)
-			(uuid abcf16d7-8ec5-45a3-af2e-11d95b156bf9)
+			(uuid f9128238-abbf-4ea3-bc1e-34bea0aa9dd3)
 		)
 	)
 	(netclass_flag ""
@@ -9264,8 +9255,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
-		(at 113.03 80.01 90)
+		(lib_id "HPM6280Foc:0603WAF470KT5E")
+		(at 113.03 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9274,7 +9265,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bed4ff1-ea78-4a23-84ae-ef7ecd109239")
 		(property "Reference" "R179"
-			(at 115.57 78.7399 90)
+			(at 115.57 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,8 +9273,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 115.57 81.2799 90)
+		(property "Value" "4.7R,1%"
+			(at 115.57 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,8 +9282,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 113.03 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,8 +9291,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 113.03 80.01 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF470KT5E/23891.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,8 +9300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
-			(at 113.03 80.01 0)
+		(property "Description" "4.7Ω ±1% 100mW 厚膜电阻"
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,7 +9310,7 @@
 			)
 		)
 		(property "华秋编号" "G3327760"
-			(at 113.03 80.01 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,8 +9318,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
-			(at 113.03 80.01 0)
+		(property "立创编号" "C23164"
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9337,7 +9328,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 113.03 80.01 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,8 +9544,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:CC0402KRX7R0BB102")
-		(at 113.03 40.64 90)
+		(lib_id "HPM6280Foc:CC0603KRX7R0BB102")
+		(at 113.03 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9563,7 +9554,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ff74281-7832-4d68-9e89-a8595238cd50")
 		(property "Reference" "C196"
-			(at 116.84 39.3699 90)
+			(at 116.84 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9572,7 +9563,7 @@
 			)
 		)
 		(property "Value" "1nF,100V"
-			(at 116.84 41.9099 90)
+			(at 116.84 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,8 +9571,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.03 40.64 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,8 +9580,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191217/C469624_84C34F492B76C2BCBA39E88472E4BE3D.pdf"
-			(at 113.03 40.64 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0603KRX7R0BB102/107462.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9590,7 @@
 			)
 		)
 		(property "Description" "1nF ±10% 100V"
-			(at 113.03 40.64 0)
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9599,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 113.03 40.64 0)
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +9608,7 @@
 			)
 		)
 		(property "华秋编号" "G4750008"
-			(at 113.03 40.64 0)
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +9617,7 @@
 			)
 		)
 		(property "制造商" ""
-			(at 113.03 40.64 0)
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,8 +9625,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C527013"
-			(at 113.03 40.64 0)
+		(property "立创编号" "C106247"
+			(at 113.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,8 +9926,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
-		(at 113.03 107.95 90)
+		(lib_id "HPM6280Foc:0603WAF470KT5E")
+		(at 113.03 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9945,7 +9936,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ef77caf-d5c6-445a-bb61-b88d6ef205cc")
 		(property "Reference" "R140"
-			(at 115.57 106.6799 90)
+			(at 115.57 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,8 +9944,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 115.57 109.2199 90)
+		(property "Value" "4.7R,1%"
+			(at 115.57 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,8 +9953,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 113.03 107.95 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,8 +9962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 113.03 107.95 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF470KT5E/23891.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9980,8 +9971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
-			(at 113.03 107.95 0)
+		(property "Description" "4.7Ω ±1% 100mW 厚膜电阻"
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,7 +9981,7 @@
 			)
 		)
 		(property "华秋编号" "G3327760"
-			(at 113.03 107.95 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,8 +9989,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
-			(at 113.03 107.95 0)
+		(property "立创编号" "C23164"
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10008,7 +9999,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 113.03 107.95 0)
+			(at 113.03 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10835,8 +10826,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
-		(at 113.03 127 90)
+		(lib_id "HPM6280Foc:0603WAF470KT5E")
+		(at 113.03 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10845,7 +10836,7 @@
 		(fields_autoplaced yes)
 		(uuid "33ad3643-d2b1-4f49-a06f-423a2cb30b2d")
 		(property "Reference" "R177"
-			(at 115.57 125.7299 90)
+			(at 115.57 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,8 +10844,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 115.57 128.2699 90)
+		(property "Value" "4.7R,1%"
+			(at 115.57 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10862,8 +10853,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 113.03 127 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10871,8 +10862,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 113.03 127 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF470KT5E/23891.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10880,8 +10871,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
-			(at 113.03 127 0)
+		(property "Description" "4.7Ω ±1% 100mW 厚膜电阻"
+			(at 113.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,7 +10881,7 @@
 			)
 		)
 		(property "华秋编号" "G3327760"
-			(at 113.03 127 0)
+			(at 113.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10898,8 +10889,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
-			(at 113.03 127 0)
+		(property "立创编号" "C23164"
+			(at 113.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10899,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 113.03 127 0)
+			(at 113.03 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,8 +11718,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
-		(at 113.03 154.94 90)
+		(lib_id "HPM6280Foc:0603WAF470KT5E")
+		(at 113.03 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11737,7 +11728,7 @@
 		(fields_autoplaced yes)
 		(uuid "566e2c67-cd85-4ee8-bfa3-6a4f899f21f2")
 		(property "Reference" "R142"
-			(at 115.57 153.6699 90)
+			(at 115.57 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,8 +11736,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 115.57 156.2099 90)
+		(property "Value" "4.7R,1%"
+			(at 115.57 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,8 +11745,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 113.03 154.94 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11763,8 +11754,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 113.03 154.94 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF470KT5E/23891.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11772,8 +11763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
-			(at 113.03 154.94 0)
+		(property "Description" "4.7Ω ±1% 100mW 厚膜电阻"
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11782,7 +11773,7 @@
 			)
 		)
 		(property "华秋编号" "G3327760"
-			(at 113.03 154.94 0)
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,8 +11781,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
-			(at 113.03 154.94 0)
+		(property "立创编号" "C23164"
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +11791,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 113.03 154.94 0)
+			(at 113.03 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12200,8 +12191,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
-		(at 113.03 31.75 90)
+		(lib_id "HPM6280Foc:0603WAF470KT5E")
+		(at 113.03 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12210,7 +12201,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c4ab43d-a760-4849-bf00-9332406d4b5f")
 		(property "Reference" "R181"
-			(at 115.57 30.4799 90)
+			(at 115.57 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12218,8 +12209,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 115.57 33.0199 90)
+		(property "Value" "4.7R,1%"
+			(at 115.57 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12227,8 +12218,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 113.03 31.75 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12236,8 +12227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 113.03 31.75 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF470KT5E/23891.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,8 +12236,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
-			(at 113.03 31.75 0)
+		(property "Description" "4.7Ω ±1% 100mW 厚膜电阻"
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12255,7 +12246,7 @@
 			)
 		)
 		(property "华秋编号" "G3327760"
-			(at 113.03 31.75 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12263,8 +12254,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
-			(at 113.03 31.75 0)
+		(property "立创编号" "C23164"
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,7 +12264,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 113.03 31.75 0)
+			(at 113.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15155,8 +15146,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:CC0402KRX7R0BB102")
-		(at 113.03 135.89 90)
+		(lib_id "HPM6280Foc:CC0603KRX7R0BB102")
+		(at 113.03 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15165,7 +15156,7 @@
 		(fields_autoplaced yes)
 		(uuid "9750ebd8-7567-46f3-905c-11c33858d0b7")
 		(property "Reference" "C192"
-			(at 116.84 134.6199 90)
+			(at 116.84 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15174,7 +15165,7 @@
 			)
 		)
 		(property "Value" "1nF,100V"
-			(at 116.84 137.1599 90)
+			(at 116.84 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15182,8 +15173,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.03 135.89 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15191,8 +15182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191217/C469624_84C34F492B76C2BCBA39E88472E4BE3D.pdf"
-			(at 113.03 135.89 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0603KRX7R0BB102/107462.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15201,7 +15192,7 @@
 			)
 		)
 		(property "Description" "1nF ±10% 100V"
-			(at 113.03 135.89 0)
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15210,7 +15201,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 113.03 135.89 0)
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15219,7 +15210,7 @@
 			)
 		)
 		(property "华秋编号" "G4750008"
-			(at 113.03 135.89 0)
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15228,7 +15219,7 @@
 			)
 		)
 		(property "制造商" ""
-			(at 113.03 135.89 0)
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15236,8 +15227,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C527013"
-			(at 113.03 135.89 0)
+		(property "立创编号" "C106247"
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16739,8 +16730,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:CC0402KRX7R0BB102")
-		(at 113.03 50.8 90)
+		(lib_id "HPM6280Foc:CC0603KRX7R0BB102")
+		(at 113.03 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16749,7 +16740,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac1c06f3-bb1b-475d-9566-8df0231c426e")
 		(property "Reference" "C172"
-			(at 116.84 49.5299 90)
+			(at 116.84 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16758,7 +16749,7 @@
 			)
 		)
 		(property "Value" "1nF,100V"
-			(at 116.84 52.0699 90)
+			(at 116.84 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16766,8 +16757,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.03 50.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16775,8 +16766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191217/C469624_84C34F492B76C2BCBA39E88472E4BE3D.pdf"
-			(at 113.03 50.8 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0603KRX7R0BB102/107462.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16785,7 +16776,7 @@
 			)
 		)
 		(property "Description" "1nF ±10% 100V"
-			(at 113.03 50.8 0)
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16794,7 +16785,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 113.03 50.8 0)
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16803,7 +16794,7 @@
 			)
 		)
 		(property "华秋编号" "G4750008"
-			(at 113.03 50.8 0)
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16812,7 +16803,7 @@
 			)
 		)
 		(property "制造商" ""
-			(at 113.03 50.8 0)
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16820,8 +16811,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C527013"
-			(at 113.03 50.8 0)
+		(property "立创编号" "C106247"
+			(at 113.03 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18764,8 +18755,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:CC0402KRX7R0BB102")
-		(at 113.03 88.9 90)
+		(lib_id "HPM6280Foc:CC0603KRX7R0BB102")
+		(at 113.03 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18774,7 +18765,7 @@
 		(fields_autoplaced yes)
 		(uuid "c33c4961-4705-48ca-869b-66731fc91f6e")
 		(property "Reference" "C194"
-			(at 116.84 87.6299 90)
+			(at 116.84 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18783,7 +18774,7 @@
 			)
 		)
 		(property "Value" "1nF,100V"
-			(at 116.84 90.1699 90)
+			(at 116.84 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18791,8 +18782,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.03 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18800,8 +18791,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191217/C469624_84C34F492B76C2BCBA39E88472E4BE3D.pdf"
-			(at 113.03 88.9 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0603KRX7R0BB102/107462.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18810,7 +18801,7 @@
 			)
 		)
 		(property "Description" "1nF ±10% 100V"
-			(at 113.03 88.9 0)
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18819,7 +18810,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 113.03 88.9 0)
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18828,7 +18819,7 @@
 			)
 		)
 		(property "华秋编号" "G4750008"
-			(at 113.03 88.9 0)
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18837,7 +18828,7 @@
 			)
 		)
 		(property "制造商" ""
-			(at 113.03 88.9 0)
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18845,8 +18836,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C527013"
-			(at 113.03 88.9 0)
+		(property "立创编号" "C106247"
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19659,8 +19650,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:CC0402KRX7R0BB102")
-		(at 113.03 99.06 90)
+		(lib_id "HPM6280Foc:CC0603KRX7R0BB102")
+		(at 113.03 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19669,7 +19660,7 @@
 		(fields_autoplaced yes)
 		(uuid "d23dd445-f05c-445a-921b-f39f870cf34d")
 		(property "Reference" "C168"
-			(at 116.84 97.7899 90)
+			(at 116.84 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19678,7 +19669,7 @@
 			)
 		)
 		(property "Value" "1nF,100V"
-			(at 116.84 100.3299 90)
+			(at 116.84 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19686,8 +19677,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.03 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19695,8 +19686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191217/C469624_84C34F492B76C2BCBA39E88472E4BE3D.pdf"
-			(at 113.03 99.06 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0603KRX7R0BB102/107462.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19705,7 +19696,7 @@
 			)
 		)
 		(property "Description" "1nF ±10% 100V"
-			(at 113.03 99.06 0)
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19714,7 +19705,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 113.03 99.06 0)
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19723,7 +19714,7 @@
 			)
 		)
 		(property "华秋编号" "G4750008"
-			(at 113.03 99.06 0)
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19732,7 +19723,7 @@
 			)
 		)
 		(property "制造商" ""
-			(at 113.03 99.06 0)
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19740,8 +19731,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C527013"
-			(at 113.03 99.06 0)
+		(property "立创编号" "C106247"
+			(at 113.03 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20814,8 +20805,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:CC0402KRX7R0BB102")
-		(at 113.03 146.05 90)
+		(lib_id "HPM6280Foc:CC0603KRX7R0BB102")
+		(at 113.03 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20824,7 +20815,7 @@
 		(fields_autoplaced yes)
 		(uuid "e238b020-0af9-4aea-ba6f-de366c4df294")
 		(property "Reference" "C170"
-			(at 116.84 144.7799 90)
+			(at 116.84 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20833,7 +20824,7 @@
 			)
 		)
 		(property "Value" "1nF,100V"
-			(at 116.84 147.3199 90)
+			(at 116.84 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20841,8 +20832,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.03 146.05 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.03 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20850,8 +20841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20191217/C469624_84C34F492B76C2BCBA39E88472E4BE3D.pdf"
-			(at 113.03 146.05 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/CC0603KRX7R0BB102/107462.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20860,7 +20851,7 @@
 			)
 		)
 		(property "Description" "1nF ±10% 100V"
-			(at 113.03 146.05 0)
+			(at 113.03 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20869,7 +20860,7 @@
 			)
 		)
 		(property "制造商编号" ""
-			(at 113.03 146.05 0)
+			(at 113.03 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20878,7 +20869,7 @@
 			)
 		)
 		(property "华秋编号" "G4750008"
-			(at 113.03 146.05 0)
+			(at 113.03 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20887,7 +20878,7 @@
 			)
 		)
 		(property "制造商" ""
-			(at 113.03 146.05 0)
+			(at 113.03 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20895,8 +20886,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C527013"
-			(at 113.03 146.05 0)
+		(property "立创编号" "C106247"
+			(at 113.03 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21846,8 +21837,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HPM6280Foc:0402WGF200KTCE")
-		(at 113.03 59.69 90)
+		(lib_id "HPM6280Foc:0603WAF470KT5E")
+		(at 113.03 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21856,7 +21847,7 @@
 		(fields_autoplaced yes)
 		(uuid "f379bea5-cc2c-49f1-8c7f-1b33c8ed3a2b")
 		(property "Reference" "R144"
-			(at 115.57 58.4199 90)
+			(at 115.57 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21864,8 +21855,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2R,1%"
-			(at 115.57 60.9599 90)
+		(property "Value" "4.7R,1%"
+			(at 115.57 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21873,8 +21864,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 113.03 59.69 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21882,8 +21873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/0402WGF200KTCE/260010.html?spm=sc.it.xds.a___sc.cidn.xh1.zy.n&lcsc_vid=RFBZU1BXFlVXXwIAFldZUQYEEwRfUwFQQVdcX1JeQ1cxVlNSTlJYUFxSQ1dWXzsOAxUeFF5JWBIBSRccGwIdBEoFGAxBAAgJFQACSQwSGg0%3D"
-			(at 113.03 59.69 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/0603WAF470KT5E/23891.html?spm=sc.it.xds.a___sc.cidn.xh3.zy.n&lcsc_vid=QwNcXlxQFQcLXlxWEwBbBlMDTgAMBAZTEwNcU1EARVkxVlNTTlhcUVBQRFNdUjtW"
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21891,8 +21882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2Ω ±1% 62.5mW 厚膜电阻"
-			(at 113.03 59.69 0)
+		(property "Description" "4.7Ω ±1% 100mW 厚膜电阻"
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21901,7 +21892,7 @@
 			)
 		)
 		(property "华秋编号" "G3327760"
-			(at 113.03 59.69 0)
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21909,8 +21900,8 @@
 				(hide yes)
 			)
 		)
-		(property "立创编号" "C270630"
-			(at 113.03 59.69 0)
+		(property "立创编号" "C23164"
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21919,7 +21910,7 @@
 			)
 		)
 		(property "供应商编号" ""
-			(at 113.03 59.69 0)
+			(at 113.03 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
