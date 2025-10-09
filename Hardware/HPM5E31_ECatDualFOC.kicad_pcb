@@ -219628,6 +219628,26 @@
 		(layer "F.Mask")
 		(uuid "7f6f46d6-13d7-437a-8a9e-da3aaca292ea")
 	)
+	(gr_line
+		(start 135.6 157.95)
+		(end 135.6 163.15)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "8522c6b3-a674-4064-9230-c5d8bb648092")
+	)
+	(gr_line
+		(start 135.6 142.95)
+		(end 135.6 148.15)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "86c033ad-e913-4c87-bdab-e4d2f85c6a9f")
+	)
 	(gr_rect
 		(start 137.296865 124.306565)
 		(end 144.546865 129.306565)
@@ -219639,6 +219659,36 @@
 		(layer "F.Mask")
 		(uuid "bd73f8d3-8150-4747-afcc-20fb829b5d65")
 	)
+	(gr_line
+		(start 72.9 160.75)
+		(end 72.9 155.55)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.Mask")
+		(uuid "cdae7409-72af-4245-ad8a-2e1c7af0cb0a")
+	)
+	(gr_line
+		(start 135.6 127.95)
+		(end 135.6 133.15)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "dc10803b-fa24-4cfb-a2ad-aeb4e57a21e3")
+	)
+	(gr_line
+		(start 72.9 130.75)
+		(end 72.9 125.55)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "e3cd8bac-5428-40e3-b516-01d357a79ab9")
+	)
 	(gr_rect
 		(start 63.974 129.426145)
 		(end 71.224 134.426145)
@@ -219649,6 +219699,16 @@
 		(fill yes)
 		(layer "F.Mask")
 		(uuid "e5129672-1aac-447b-b4ee-c1b2ccd6e25b")
+	)
+	(gr_line
+		(start 72.9 145.75)
+		(end 72.9 140.55)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "f54fa43f-5514-47ee-bba9-34a6e0d65210")
 	)
 	(gr_poly
 		(pts
