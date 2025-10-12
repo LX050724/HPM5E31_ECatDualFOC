@@ -2,7 +2,7 @@
 
 仓库使用lfs，不能直接下载zip，jlink版本需要v10以上
 
-![img](D:\source\HPM\HPM5E31_ECatDualFOC\README.assets\HPM5E31_ECatDualFOC.jpg)
+![img](./README.assets/HPM5E31_ECatDualFOC.jpg)
 
 ## 产品规格：
 
