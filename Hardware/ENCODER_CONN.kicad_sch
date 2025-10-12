@@ -4826,16 +4826,6 @@
 		)
 		(uuid "a0639bf6-3f1b-453a-9815-42783227527c")
 	)
-	(label "ENC_PWR"
-		(at 85.09 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5a15ad7-2d7f-4675-9dd2-83545d2702a6")
-	)
 	(label "A_P"
 		(at 147.32 36.83 0)
 		(effects
@@ -5065,6 +5055,17 @@
 			(justify left bottom)
 		)
 		(uuid "fcf75a8c-897e-4657-bdba-fb85f5837b63")
+	)
+	(hierarchical_label "ENC_PWR"
+		(shape output)
+		(at 85.09 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afd8cdab-ebd9-4387-8d9e-b0f651d6f80e")
 	)
 	(hierarchical_label "ENC{ENCODER}"
 		(shape output)

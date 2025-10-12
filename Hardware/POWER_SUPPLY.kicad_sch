@@ -5,148 +5,6 @@
 	(uuid "b79efed0-7c0e-4bac-8a68-7538b4ac6d89")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "HPM6280Foc:0402B222K500NT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7622,16 +7480,6 @@
 		)
 		(uuid "a6c68605-1889-4143-855e-701e41b028c6")
 	)
-	(text "风扇"
-		(exclude_from_sim no)
-		(at 86.36 108.458 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af2e6fc7-e888-4cab-9db3-159dcb994bb2")
-	)
 	(text "模拟供电&电压基准"
 		(exclude_from_sim no)
 		(at 35.56 119.634 0)
@@ -7949,18 +7797,6 @@
 		(uuid "c6b56e1a-0b7a-475c-8d05-be5a5b537d21")
 	)
 	(junction
-		(at 95.25 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8842a38-1840-48b1-8ec9-f813b04d379d")
-	)
-	(junction
-		(at 95.25 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cab50d53-0078-4205-aaf8-24de5b4ea623")
-	)
-	(junction
 		(at 148.59 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8065,16 +7901,6 @@
 			(type default)
 		)
 		(uuid "036b4c6d-e088-4caa-a8b9-e81a35a1d709")
-	)
-	(wire
-		(pts
-			(xy 90.17 97.79) (xy 90.17 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f8bbcd-7cd5-48ab-95d5-ea326aa5e1df")
 	)
 	(wire
 		(pts
@@ -8228,16 +8054,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 97.79) (xy 99.06 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16736f83-b5bd-435f-8a68-91640d9146c8")
-	)
-	(wire
-		(pts
 			(xy 83.82 48.26) (xy 107.95 48.26)
 		)
 		(stroke
@@ -8305,16 +8121,6 @@
 			(type default)
 		)
 		(uuid "20dc8c6c-0571-4855-b57b-4cd5ed07f4f1")
-	)
-	(wire
-		(pts
-			(xy 99.06 107.95) (xy 95.25 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25ccfabd-7f63-42ff-b7ce-bcdf91b60cf5")
 	)
 	(wire
 		(pts
@@ -8878,16 +8684,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 107.95) (xy 90.17 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb1bcc1-8094-4fde-96e0-8f065705743e")
-	)
-	(wire
-		(pts
 			(xy 46.99 87.63) (xy 40.64 87.63)
 		)
 		(stroke
@@ -9045,16 +8841,6 @@
 			(type default)
 		)
 		(uuid "d2c0c890-2f54-424a-b712-28f3e52ddcfd")
-	)
-	(wire
-		(pts
-			(xy 90.17 97.79) (xy 95.25 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3601783-89f3-4ee9-9a0c-910df8f2389b")
 	)
 	(wire
 		(pts
@@ -9265,16 +9051,6 @@
 			(type default)
 		)
 		(uuid "f9e1700f-b6c4-4987-b2fd-fb2629720d81")
-	)
-	(wire
-		(pts
-			(xy 90.17 107.95) (xy 90.17 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fecd689b-94f5-4ff1-9ba9-7668f30acc8f")
 	)
 	(image
 		(at 44.45 179.07)
@@ -13342,93 +13118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 85.09 102.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0464cb94-ead3-4238-ad09-f68332a9169c")
-		(property "Reference" "J16"
-			(at 85.09 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 85.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "立创编号" ""
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "华秋编号" ""
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88915a23-181a-4d8d-b798-30c7aaa62a2f")
-		)
-		(pin "2"
-			(uuid "ea1fa187-86d6-4662-b9ac-7add70e6e176")
-		)
-		(instances
-			(project ""
-				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HPM6280Foc:MP1605GTF-Z")
 		(at 222.25 38.1 0)
 		(unit 1)
@@ -16909,74 +16598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 99.06 107.95 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6359f3f5-d809-4f38-b885-b04570c96996")
-		(property "Reference" "#PWR0358"
-			(at 105.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20e985fb-5838-4448-aa91-0193d1bf8535")
-		)
-		(instances
-			(project "HPM5E31_ECatDualFOC"
-				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
-					(reference "#PWR0358")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HPM6280Foc:0805W8F0000T5E")
 		(at 128.27 55.88 0)
 		(unit 1)
@@ -17816,74 +17437,6 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 99.06 97.79 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d0ea607-767f-421f-bc24-eb2feda444b1")
-		(property "Reference" "#PWR0357"
-			(at 95.25 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 102.87 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97234581-3f1b-471b-a249-782b46babae7")
-		)
-		(instances
-			(project "HPM5E31_ECatDualFOC"
-				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
-					(reference "#PWR0357")
 					(unit 1)
 				)
 			)
@@ -19543,121 +19096,6 @@
 			(project "HPM5E31_ECatDualFOC"
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
 					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HPM6280Foc:CL21A226MAYNNNE")
-		(at 95.25 102.87 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba3f059f-9b07-4c44-8500-87bcaa5bedbe")
-		(property "Reference" "C198"
-			(at 96.774 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF,25V"
-			(at 99.06 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "制造商编号" ""
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "制造商" "SAMSUNG(三星)"
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "华秋编号" "G4648622"
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "立创编号" "C602037"
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "供应商编号" ""
-			(at 95.25 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39b3a17e-83f9-4e4c-82f2-bf90dba9d0da")
-		)
-		(pin "2"
-			(uuid "0b692c45-3d69-4acb-b0ab-fc621002e1a8")
-		)
-		(instances
-			(project "HPM5E31_ECatDualFOC"
-				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/aab52010-7bdc-49b3-a03b-980a0054d2d8"
-					(reference "C198")
 					(unit 1)
 				)
 			)

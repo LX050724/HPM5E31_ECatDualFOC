@@ -1500,131 +1500,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2082,6 +1957,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 87.63) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f2767c-3211-4d8e-8792-2121f2177d8b")
+	)
+	(wire
+		(pts
 			(xy 121.92 93.98) (xy 121.92 87.63)
 		)
 		(stroke
@@ -2089,6 +1974,16 @@
 			(type default)
 		)
 		(uuid "dc60fee5-5311-4eb6-a017-6419b3919d7b")
+	)
+	(wire
+		(pts
+			(xy 166.37 82.55) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0506b4-bd67-493a-8099-3fe5a1803956")
 	)
 	(wire
 		(pts
@@ -2190,6 +2085,17 @@
 			(justify right)
 		)
 		(uuid "2d8f713a-a0fc-42c5-a295-5fa43a81f943")
+	)
+	(hierarchical_label "POWER"
+		(shape input)
+		(at 166.37 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae8f490e-b0c3-42dd-9716-a74bb73f8157")
 	)
 	(symbol
 		(lib_id "HPM6280Foc:0603WAF1200T5E")
@@ -3338,80 +3244,6 @@
 				)
 				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/57eb4dc0-5591-401c-9f34-9dedbfbe09cb"
 					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 171.45 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2c37e63-b1cd-47ba-a3f0-120a67b74971")
-		(property "Reference" "#PWR0266"
-			(at 171.45 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 171.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "620cd323-33b2-45b9-858e-9ed38baa9b1e")
-		)
-		(instances
-			(project "HPM5E31_ECatDualFOC"
-				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/0a303857-7f6b-4ab0-b417-2c02e85984ea"
-					(reference "#PWR0278")
-					(unit 1)
-				)
-				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/327c5a00-ae50-48b3-afbf-1a1bb3f19155"
-					(reference "#PWR0266")
-					(unit 1)
-				)
-				(path "/a07e9810-3899-4327-ba8f-f24142a7c70e/57eb4dc0-5591-401c-9f34-9dedbfbe09cb"
-					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
