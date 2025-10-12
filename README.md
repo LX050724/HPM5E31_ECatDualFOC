@@ -28,8 +28,8 @@
 
 ## 电源树：
 
-![image-20251012175056892](D:\source\HPM\HPM5E31_ECatDualFOC\README.assets\image-20251012175056892.png)
+![image-20251012175056892](./README.assets/image-20251012175056892.png)
 
 ## 硬件架构框图：
 
-![image-20251012184609588](D:\source\HPM\HPM5E31_ECatDualFOC\README.assets\image-20251012184609588.png)
+![image-20251012184609588](./README.assets/image-20251012184609588.png)
